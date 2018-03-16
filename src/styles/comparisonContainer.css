@@ -5,8 +5,9 @@
 }
 
 .comparison-card {
-  border: 1px black solid;
+  border: 3px white solid;
   width: 300px;
   margin: 10px;
+  border-radius: 20px;
 }
 

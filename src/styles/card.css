@@ -1,8 +1,12 @@
 .card {
-  border: 1px black solid;
+  border: 3px white solid;
   width: 300px;
   margin: 10px;
+  border-radius: 20px;
+}
 
+.card:hover {
+  background-color: rgba(0, 0, 0, .2);
 }
 
 h2 {
@@ -18,5 +22,5 @@ p {
 }
 
 .clicked {
-  background-color: grey;
+  background-color: rgba(0, 0, 0, .5);
 }
