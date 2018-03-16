@@ -4,9 +4,9 @@ import PropTypes from 'prop-types';
 
 class Card extends Component {  
 
-  yearValues = (data) => {
-    return Object.keys(data).map(year => {
-      let roundedPercent = parseInt((data[year] * 100));
+  yearValues = (stats) => {
+    return Object.keys(stats).map(year => {
+      let roundedPercent = parseInt((stats[year] * 100));
       if (roundedPercent < 50) {
         return <p key={year}>{year}: {roundedPercent}%</p>
       } else {
@@ -23,7 +23,7 @@ class Card extends Component {
     return (
       <div className={this.props.className} onClick={this.handleClick}>
         <h2>{this.props.location}</h2>
-        {this.cleanYears(this.props.stats)}
+        {this.yearValues(this.props.stats)}
       </div>
     );
   }

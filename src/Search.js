@@ -4,9 +4,6 @@ import PropTypes from 'prop-types'
 
 
 class Search extends Component {
-  constructor(props) {
-    super(props);
-  }
 
   handleChange = (event) => {
     this.props.filterData(event.target.value);

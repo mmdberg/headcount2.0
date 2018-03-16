@@ -40,5 +40,12 @@ const ComparisonContainer =
   )
 }
 
+ComparisonContainer.propTypes = {
+  comparison: PropTypes.obj,
+  selectCard: PropTypes.func,
+  deselectCard: PropTypes.func,
+  selectedCards: PropTypes.array
+}
+
 
 export default ComparisonContainer 
