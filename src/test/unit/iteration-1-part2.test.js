@@ -12,7 +12,7 @@ describe('DistrictRepository iteration 1 - part 2', () =>  {
     expect(district.findAllMatches('ColoRado').length).toBe(2);
   });
 
-  test('findAllMatches finds no matches and returns an empty array when given arguments that dont exist within the data', () => {
+  test('findAllMatches returns 0 matches if arguments have 0 matches', () => {
     expect(district.findAllMatches('al;dkfjas;dlkjasdfl;').length).toBe(0);
     expect(district.findAllMatches('packers').length).toBe(0);
     expect(district.findAllMatches('df').length).toBe(0);

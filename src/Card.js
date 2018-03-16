@@ -1,24 +1,24 @@
 import React, { Component } from 'react';
 import './styles/card.css';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 
 class Card extends Component {  
-  cleanYears = (data) => {
-    return Object.keys(data).map(year => {
-      let roundedPerc = parseFloat(data[year].toFixed(2));
+  cleanYears = (stats) => {
+    return Object.keys(stats).map(year => {
+      let roundedPerc = parseFloat(stats[year].toFixed(2));
       if (roundedPerc < 0.5) {
-        return <p key={year}>{year}: {roundedPerc}</p>
+        return <p key={year}>{year}: {roundedPerc}</p>;
       } else {
-        return <p key={year} className="goodSchool">{year}: {roundedPerc}</p>
+        return <p key={year} className="goodSchool">{year}: {roundedPerc}</p>;
       }       
-    })
+    });
   }
 
-  handleClick = (event) => {
-    if(this.props.className.includes('clicked')) {
-      this.props.deselectCard(this.props)
+  handleClick = () => {
+    if (this.props.className.includes('clicked')) {
+      this.props.deselectCard(this.props);
     } else {
-      this.props.selectCard(this.props)
+      this.props.selectCard(this.props);
     }
   }
 
@@ -26,17 +26,19 @@ class Card extends Component {
     return (
       <div className={this.props.className} onClick={this.handleClick}>
         <h2>{this.props.location}</h2>
-        {this.cleanYears(this.props.data)}
+        {this.cleanYears(this.props.stats)}
       </div>
-    )
+    );
   }
 }
 
 
 Card.propTypes = {
-  data: PropTypes.object.isRequired,
+  stats: PropTypes.object.isRequired,
   location: PropTypes.string.isRequired,
-  selectCard: PropTypes.func
-}
+  selectCard: PropTypes.func,
+  deselectCard: PropTypes.func,
+  className: PropTypes.string
+};
 
-export default Card
+export default Card;
