@@ -12,7 +12,14 @@ class App extends Component {
     this.state={
       stats: [],
       selectedCards: []
+<<<<<<< HEAD
     };
+=======
+    }
+
+    this.district = '';
+    this.comparison = '';
+>>>>>>> master
   }
 
   getStats = (newStats) => {
@@ -33,11 +40,11 @@ class App extends Component {
   }
 
   selectCard = (card) => {
-    const clickedCards = [...this.state.selectedCards];
-    { clickedCards.length < 2 ? clickedCards.push(card) : clickedCards[1] = card };
-    this.setState({selectedCards: clickedCards});
+    const clickedCards = [ ...this.state.selectedCards ]
+    { clickedCards.length < 2 ? clickedCards.push(card) : clickedCards[1] = card }
+    this.setState({selectedCards: clickedCards})
     if (clickedCards.length === 2) {
-      this.compareCards(clickedCards[0].location, clickedCards[1].location);
+       this.comparison = this.district.compareDistrictAverages(clickedCards[0].location, clickedCards[1].location)
     }
   }
 
@@ -49,10 +56,6 @@ class App extends Component {
       }
     });
     this.setState({selectedCards: clickedCards});
-  }
-
-  compareCards = (district1, district2) => {
-    this.comparison = this.district.compareDistrictAverages(district1, district2);
   }
 
   render() {
