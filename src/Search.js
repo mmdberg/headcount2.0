@@ -11,10 +11,10 @@ class Search extends Component {
 
   render() {
     return (
-      <input  type="search"
-        placeholder="Search for a district"
-        onChange={this.handleChange}
-      />
+        <input  type="text"
+                placeholder="Search for a district"
+                onChange={this.handleChange}
+        />
     );
   }
 }
