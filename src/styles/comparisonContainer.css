@@ -2,11 +2,18 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 20px 50px;
 }
 
 .comparison-card {
-  border: 1px black solid;
+  border: 3px white solid;
   width: 300px;
   margin: 10px;
+  border-radius: 20px;
+}
+
+.comparison-container .card:hover {
+  background-color: rgba(0, 0, 0, .5);
+  border: 3px solid black;
 }
 
