@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import './styles/search.css';
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 
 
 class Search extends Component {
+  constructor(props) {
+    super(props);
+  }
 
   handleChange = (event) => {
     this.props.filterData(event.target.value);
@@ -21,6 +24,6 @@ class Search extends Component {
 
 Search.propTypes = {
   filterData: PropTypes.func
-};
+}
 
 export default Search;

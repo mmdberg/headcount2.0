@@ -16,11 +16,7 @@ class Card extends Component {
   }
 
   handleClick = () => {
-    if (this.props.className.includes('clicked')) {
-      this.props.deselectCard(this.props);
-    } else {
-      this.props.selectCard(this.props);
-    }
+    this.props.selectCard(this.props);
   }
 
   render() {

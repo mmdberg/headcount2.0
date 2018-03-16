@@ -6,7 +6,7 @@ module.exports = {
     "Location": "Colorado",
     "TimeFrame": 2010,
     "DataFormat": "Percent",
-    "Data": 0.724
+    "Data": 0.72x 4
   },
   {
     "Location": "Colorado",

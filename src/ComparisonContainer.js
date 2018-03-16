@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 import PropTypes from 'prop-types';
-import './styles/comparisonContainer.css';
+import './styles/comparisonContainer.css'
 
 const ComparisonContainer = 
   ({selectedCards, comparison, selectCard, deselectCard}) => {
@@ -40,4 +40,5 @@ const ComparisonContainer =
   )
 }
 
-export default ComparisonContainer;
+
+export default ComparisonContainer 

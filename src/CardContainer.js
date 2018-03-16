@@ -1,41 +1,40 @@
 import React from 'react';
 import Card from './Card';
 import './styles/cardContainer.css';
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 
-export const CardContainer = 
-  ({stats, selectCard, deselectCard, selectedCards}) => {
+export const CardContainer = ({data, selectCard, deselectCard, selectedCards}) => {
 
-    const cardInfo = stats.map(district => {
-      let result = 'card';
+  const cardInfo = data.map(district => {
+    let result = 'card';
     
-      selectedCards.forEach(card =>  {
-        if ( district.location === card.location) {
-          result = 'card clicked';
-        } 
-      });
+    selectedCards.forEach(card =>  {
+       if( district.location === card.location) {
+        result = 'card clicked'
+      } 
+    })
 
 
-      return (
-        <Card location={district.location} 
-          stats={district.stats} 
-          key={district.location} 
-          selectCard={selectCard}
-          deselectCard={deselectCard}
-          className={result}
-        />);
-    });
-  
     return (
-      <div className="card-container">
-        {cardInfo}
-      </div>
-    );
-  };
+      <Card location={district.location} 
+            data={district.data} 
+            key={district.location} 
+            selectCard={selectCard}
+            deselectCard={deselectCard}
+            className={result}
+      />)
+  })
+  
+  return (
+    <div className="card-container">
+      {cardInfo}
+    </div>
+  )
+}
 
 CardContainer.propTypes = {
-  stats: PropTypes.array,
+  data: PropTypes.array,
   selectCard: PropTypes.func,
   deselectCard: PropTypes.func,
   selectedCards: PropTypes.array
-};
+}

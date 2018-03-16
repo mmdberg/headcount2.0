@@ -10,18 +10,18 @@ describe('Search', () => {
 
     wrapper = shallow(<Search />);
 
-  });
+  })
 
   it('should match the snapshot', () => {
     expect(wrapper).toMatchSnapshot();
-  });
+  })
 
-  it('should call filterStats function on handleChange', () => {
+  it('should call filterData function on handleChange', () => {
     const mockFilterData = jest.fn();
     const mockEvent = { target: { value: 'C'} };
-    const wrapper = shallow(<Search filterStats={mockFilterData} />);
+    const wrapper = shallow(<Search filterData={mockFilterData} />)
     wrapper.instance().handleChange(mockEvent);
-    expect(mockFilterData).toHaveBeenCalled();
-  });
+    expect(mockFilterData).toHaveBeenCalled()
+  })
 
-});
+})

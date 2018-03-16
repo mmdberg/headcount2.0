@@ -13,7 +13,6 @@ class App extends Component {
       stats: [],
       selectedCards: []
     };
-
     this.district = '';
     this.comparison = '';
   }
@@ -36,26 +35,24 @@ class App extends Component {
   }
 
   selectCard = (card) => {
-    const clickedCards = [...this.state.selectedCards];
-    clickedCards.length < 2 ? 
-      clickedCards.push(card) : 
-      clickedCards[1] = card;
-    this.setState({selectedCards: clickedCards});
-    if (clickedCards.length === 2) {
-      this.comparison = 
-        this.district.compareDistrictAverages(
-          clickedCards[0].location, clickedCards[1].location);
-    }
-  }
-
-  deselectCard = (card) => {
     let clickedCards = [...this.state.selectedCards];
-    this.state.selectedCards.forEach( (selectedCard, index) => {
-      if (card.location === selectedCard.location) {
-        clickedCards.splice(index, 1);
-      }
-    });
-    this.setState({selectedCards: clickedCards});
+
+    if (card.className.includes("clicked")) {
+      this.state.selectedCards.forEach((selectedCard, index) => {
+        card.location === selectedCard.location && 
+          clickedCards.splice(index, 1);
+      });
+    } else { //not clicked
+      clickedCards.length < 2 ? 
+        clickedCards.push(card) : 
+        clickedCards[1] = card;
+    }
+    this.setState({ selectedCards: clickedCards });
+    if (clickedCards.length === 2) {
+      this.comparison =  this.district.compareDistrictAverages(
+        clickedCards[0].location, clickedCards[1].location
+      );
+    }
   }
 
   render() {
