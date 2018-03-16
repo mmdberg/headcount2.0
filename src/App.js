@@ -57,10 +57,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <header>
-          <h1>Welcome To Headcount 2.0</h1>
-          <Search filterStats={this.filterStats}/>
-        </header>
+        <h1>Welcome To Headcount 2.0</h1>
+        <Search filterData={this.filterStats}/>
         {
           this.state.selectedCards.length > 0 && 
             <ComparisonContainer  

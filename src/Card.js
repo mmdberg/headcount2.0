@@ -3,13 +3,14 @@ import './styles/card.css';
 import PropTypes from 'prop-types';
 
 class Card extends Component {  
-  cleanYears = (stats) => {
-    return Object.keys(stats).map(year => {
-      let roundedPerc = parseFloat(stats[year].toFixed(2));
-      if (roundedPerc < 0.5) {
-        return <p key={year}>{year}: {roundedPerc}</p>;
+
+  yearValues = (data) => {
+    return Object.keys(data).map(year => {
+      let roundedPercent = parseInt((data[year] * 100));
+      if (roundedPercent < 50) {
+        return <p key={year}>{year}: {roundedPercent}%</p>
       } else {
-        return <p key={year} className="goodSchool">{year}: {roundedPerc}</p>;
+        return <p key={year} className="higher-achievment">{year}: {roundedPercent}%</p>
       }       
     });
   }
@@ -27,7 +28,6 @@ class Card extends Component {
     );
   }
 }
-
 
 Card.propTypes = {
   stats: PropTypes.object.isRequired,
