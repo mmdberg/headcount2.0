@@ -3,7 +3,7 @@ import './styles/card.css';
 import PropTypes from 'prop-types'
 
 class Card extends Component {  
-  cleanYears = (data) => {
+  yearValues = (data) => {
     return Object.keys(data).map(year => {
       let roundedPerc = parseFloat(data[year].toFixed(2));
       if (roundedPerc < 0.5) {
@@ -14,7 +14,8 @@ class Card extends Component {
     })
   }
 
-  handleClick = (event) => {
+
+  handleClick = () => {
     if(this.props.className.includes('clicked')) {
       this.props.deselectCard(this.props)
     } else {
@@ -26,7 +27,7 @@ class Card extends Component {
     return (
       <div className={this.props.className} onClick={this.handleClick}>
         <h2>{this.props.location}</h2>
-        {this.cleanYears(this.props.data)}
+        {this.yearValues(this.props.data)}
       </div>
     )
   }
