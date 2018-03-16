@@ -27,13 +27,23 @@ describe('Card', () => {
   });
 
   it('should call selectCard on click if not selected', () => {
-    wrapper = shallow(<Card className='card' data={mockData} selectCard={mockFunction}/>);
+    wrapper = shallow(
+      <Card 
+        className='card' 
+        data={mockData} 
+        selectCard={mockFunction}/>
+    );
     wrapper.instance().handleClick();
     expect(mockFunction).toHaveBeenCalled();
   });
 
   it('should call deselectCard on click if selected', () => {
-    wrapper = shallow(<Card className='card clicked' data={mockData} deselectCard={mockFunction}/>);
+    wrapper = shallow(
+      <Card 
+        className='card clicked' 
+        data={mockData} 
+        deselectCard={mockFunction}/>
+    );
     wrapper.instance().handleClick();
     expect(mockFunction).toHaveBeenCalled();
   });

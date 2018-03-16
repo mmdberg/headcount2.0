@@ -37,10 +37,14 @@ class App extends Component {
 
   selectCard = (card) => {
     const clickedCards = [...this.state.selectedCards];
-    { clickedCards.length < 2 ? clickedCards.push(card) : clickedCards[1] = card };
+    clickedCards.length < 2 ? 
+      clickedCards.push(card) : 
+      clickedCards[1] = card;
     this.setState({selectedCards: clickedCards});
     if (clickedCards.length === 2) {
-      this.comparison = this.district.compareDistrictAverages(clickedCards[0].location, clickedCards[1].location);
+      this.comparison = 
+        this.district.compareDistrictAverages(
+          clickedCards[0].location, clickedCards[1].location);
     }
   }
 
@@ -63,13 +67,15 @@ class App extends Component {
         </header>
         {
           this.state.selectedCards.length > 0 && 
-            <ComparisonContainer  selectedCards={this.state.selectedCards} 
+            <ComparisonContainer  
+              selectedCards={this.state.selectedCards} 
               selectCard={this.selectCard} 
               deselectCard={this.deselectCard} 
               comparison={this.comparison} 
             />
         }
-        <CardContainer  stats={this.state.stats} 
+        <CardContainer  
+          stats={this.state.stats} 
           selectCard={this.selectCard}
           deselectCard={this.deselectCard} 
           selectedCards={this.state.selectedCards} 
