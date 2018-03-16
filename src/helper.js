@@ -1,27 +1,27 @@
 export default class DistrictRepository {
-  constructor(data) {
-    this.stats = this.summarizeStats(data);
+  constructor(stats) {
+    this.stats = this.summarizeStats(stats);
   }
 
-  summarizeStats(data) {
-    return data.reduce((obj, enrollment) => {
+  summarizeStats(stats) {
+    return stats.reduce((obj, enrollment) => {
       if (!obj[enrollment.Location]){
-        obj[enrollment.Location] = { location: '', data: {}} 
+        obj[enrollment.Location] = { location: '', stats: {}} 
       } 
 
       obj[enrollment.Location].location = enrollment.Location.toUpperCase();
-      obj[enrollment.Location].data[enrollment.TimeFrame] = this.cleanData(enrollment.Data)
+      obj[enrollment.Location].stats[enrollment.TimeFrame] = this.cleanStats(enrollment.Data)
 
       return obj;
     }, {});
   }
 
-  cleanData(data) {
-    if (typeof data === 'string') {
-      data = 0;
+  cleanStats(stats) {
+    if (typeof stats === 'string') {
+      stats = 0;
     }
 
-    return parseFloat(data.toFixed(3))
+    return parseFloat(stats.toFixed(3))
   }
 
   findByName(name) {
@@ -48,7 +48,7 @@ export default class DistrictRepository {
 
   findAverage(name) {
     const district = this.findByName(name)
-    const percentagesList = Object.values(district.data)
+    const percentagesList = Object.values(district.stats)
     const sum = percentagesList.reduce((sum, percentage) => sum + percentage, 0)
     return parseFloat((sum / percentagesList.length).toFixed(3))
   }

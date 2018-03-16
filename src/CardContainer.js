@@ -3,9 +3,9 @@ import Card from './Card';
 import './styles/cardContainer.css';
 import PropTypes from 'prop-types'
 
-export const CardContainer = ({data, selectCard, deselectCard, selectedCards}) => {
+export const CardContainer = ({stats, selectCard, deselectCard, selectedCards}) => {
 
-  const cardInfo = data.map(district => {
+  const cardInfo = stats.map(district => {
     let result = 'card';
     
     selectedCards.forEach(card =>  {
@@ -17,7 +17,7 @@ export const CardContainer = ({data, selectCard, deselectCard, selectedCards}) =
 
     return (
       <Card location={district.location} 
-            data={district.data} 
+            stats={district.stats} 
             key={district.location} 
             selectCard={selectCard}
             deselectCard={deselectCard}
