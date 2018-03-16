@@ -12,7 +12,9 @@ class App extends Component {
     this.state={
       data: [],
       selectedCards: []
-    }
+    };
+    this.district = '';
+    this.comparison = '';
   }
 
   getData = (newData) => {
@@ -33,27 +35,40 @@ class App extends Component {
   }
 
   selectCard = (card) => {
-    const clickedCards = [...this.state.selectedCards ]
-    { clickedCards.length < 2 ? clickedCards.push(card) : clickedCards[1] = card }
-    this.setState({selectedCards: clickedCards})
-    if(clickedCards.length === 2) {
-      this.compareCards(clickedCards[0].location, clickedCards[1].location)
+    let clickedCards = [...this.state.selectedCards];
+
+    if(card.className.includes("clicked")) {
+      this.state.selectedCards.forEach((selectedCard, index) => {
+        card.location === selectedCard.location && clickedCards.splice(index, 1);
+      });
+    } else {
+      clickedCards.length < 2 ? clickedCards.push(card) : clickedCards[1] = card;
     }
+    this.setState({ selectedCards: clickedCards })
+    this.comparison = clickedCards.length === 2 ? this.district.compareDistrictAverages(clickedCards[0].location, clickedCards[1].location) : '';
   }
+  // oldSelectCard = (card) => {
+  //   const clickedCards = [...this.state.selectedCards ]
+  //   { clickedCards.length < 2 ? clickedCards.push(card) : clickedCards[1] = card }
+  //   this.setState({selectedCards: clickedCards})
+  //   if(clickedCards.length === 2) {
+  //     this.compareCards(clickedCards[0].location, clickedCards[1].location)
+  //   }
+  // }
 
-  deselectCard = (card) => {
-    let clickedCards = [...this.state.selectedCards]
-    this.state.selectedCards.forEach( (selectedCard, index) => {
-      if(card.location === selectedCard.location) {
-        clickedCards.splice(index, 1)
-      }
-    });
-    this.setState({selectedCards: clickedCards})
-  }
+  // deselectCard = (card) => {
+  //   let clickedCards = [...this.state.selectedCards]
+  //   this.state.selectedCards.forEach( (selectedCard, index) => {
+  //     if(card.location === selectedCard.location) {
+  //       clickedCards.splice(index, 1)
+  //     }
+  //   });
+  //   this.setState({selectedCards: clickedCards})
+  // }
 
-  compareCards = (district1, district2) => {
-    this.comparison = this.district.compareDistrictAverages(district1, district2)
-  }
+  // compareCards = (district1, district2) => {
+  //   this.comparison = this.district.compareDistrictAverages(district1, district2)
+  // }
 
   render() {
     return (
