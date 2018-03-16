@@ -8,7 +8,7 @@ describe('DistrictRepository iteration 1 - part 1', () =>  {
     expect(district.findByName()).toBe(undefined);
   });
 
-  test('findByName returns undefined when there are no matching arguments', () => {
+  test('findByName returns undefined when no matching arguments', () => {
     expect(district.findByName('Vikings')).toBe(undefined);
   });
 
@@ -23,7 +23,7 @@ describe('DistrictRepository iteration 1 - part 1', () =>  {
     expect(district.findByName('ACADEmY 20').location).toEqual('ACADEMY 20');
   });
 
-  test('each district has a data object containing each year and its data as key value pairs.', () => {
+  test('each district has a data object containing year and data', () => {
     const academy = district.findByName('ACADEmY 20');
 
     expect(academy.location).toEqual('ACADEMY 20');
@@ -49,7 +49,19 @@ describe('DistrictRepository iteration 1 - part 1', () =>  {
 
   test('district data is sanitized and defaults to 0', () => {
     const academy = district.findByName('ARICKAREE R-2');
-    const result = {"2004": 1, "2005": 0, "2006": 0.125, "2007": 0, "2008": 1, "2009": 1, "2010": 1, "2011": 1, "2012": 1, "2013": 1, "2014": 1};
+    const result = {
+      "2004": 1, 
+      "2005": 0, 
+      "2006": 0.125, 
+      "2007": 0, 
+      "2008": 1, 
+      "2009": 1, 
+      "2010": 1, 
+      "2011": 1, 
+      "2012": 1, 
+      "2013": 1, 
+      "2014": 1
+    };
 
     expect(academy.data).toEqual(result);
   });
