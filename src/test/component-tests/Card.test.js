@@ -1,7 +1,7 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
-import mockCardData from '../../data/mock_card_data'
-import Card from '../../Card'
+import { shallow } from 'enzyme';
+import mockCardData from '../../data/mock_card_data';
+import Card from '../../Card';
 
 
 describe('Card', () => {
@@ -15,8 +15,8 @@ describe('Card', () => {
   })
 
   it('should match a snapshot', () => {
-    expect(wrapper).toMatchSnapshot()
-  })
+    expect(wrapper).toMatchSnapshot();
+  });
 
   it('should add class goodSchool to values over .5', () => {
     wrapper.instance().yearValues(mockCardData);
@@ -33,5 +33,5 @@ describe('Card', () => {
     wrapper = shallow(<Card className='card clicked' data={mockCardData} deselectCard={mockFunction}/>)
     wrapper.instance().handleClick();
     expect(mockFunction).toHaveBeenCalled();
-  })
-})
+  });
+});
