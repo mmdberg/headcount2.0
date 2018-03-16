@@ -8,7 +8,16 @@ ShallowWrapper {
     data={
         Object {
             "2004": 0.24,
-            "2005": 0.578,
+            "2005": 0.278,
+            "2006": 0.337,
+            "2007": 0.395,
+            "2008": 0.536,
+            "2009": 0.598,
+            "2010": 0.64,
+            "2011": 0.672,
+            "2012": 0.695,
+            "2013": 0.703,
+            "2014": 0.741,
           }
     }
 />,
@@ -32,12 +41,69 @@ ShallowWrapper {
             : 
             0.24
 </p>,
+          <p>
+            2005
+            : 
+            0.28
+</p>,
+          <p>
+            2006
+            : 
+            0.34
+</p>,
+          <p>
+            2007
+            : 
+            0.4
+</p>,
           <p
             className="goodSchool"
 >
-            2005
+            2008
             : 
-            0.58
+            0.54
+</p>,
+          <p
+            className="goodSchool"
+>
+            2009
+            : 
+            0.6
+</p>,
+          <p
+            className="goodSchool"
+>
+            2010
+            : 
+            0.64
+</p>,
+          <p
+            className="goodSchool"
+>
+            2011
+            : 
+            0.67
+</p>,
+          <p
+            className="goodSchool"
+>
+            2012
+            : 
+            0.69
+</p>,
+          <p
+            className="goodSchool"
+>
+            2013
+            : 
+            0.7
+</p>,
+          <p
+            className="goodSchool"
+>
+            2014
+            : 
+            0.74
 </p>,
         ],
       ],
@@ -84,15 +150,192 @@ ShallowWrapper {
           "children": Array [
             "2005",
             ": ",
-            0.58,
+            0.28,
           ],
-          "className": "goodSchool",
         },
         "ref": null,
         "rendered": Array [
           "2005",
           ": ",
-          0.58,
+          0.28,
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2006",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2006",
+            ": ",
+            0.34,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "2006",
+          ": ",
+          0.34,
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2007",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2007",
+            ": ",
+            0.4,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "2007",
+          ": ",
+          0.4,
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2008",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2008",
+            ": ",
+            0.54,
+          ],
+          "className": "goodSchool",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2008",
+          ": ",
+          0.54,
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2009",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2009",
+            ": ",
+            0.6,
+          ],
+          "className": "goodSchool",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2009",
+          ": ",
+          0.6,
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2010",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2010",
+            ": ",
+            0.64,
+          ],
+          "className": "goodSchool",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2010",
+          ": ",
+          0.64,
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2011",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2011",
+            ": ",
+            0.67,
+          ],
+          "className": "goodSchool",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2011",
+          ": ",
+          0.67,
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2012",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2012",
+            ": ",
+            0.69,
+          ],
+          "className": "goodSchool",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2012",
+          ": ",
+          0.69,
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2013",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2013",
+            ": ",
+            0.7,
+          ],
+          "className": "goodSchool",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2013",
+          ": ",
+          0.7,
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2014",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2014",
+            ": ",
+            0.74,
+          ],
+          "className": "goodSchool",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2014",
+          ": ",
+          0.74,
         ],
         "type": "p",
       },
@@ -113,12 +356,69 @@ ShallowWrapper {
               : 
               0.24
 </p>,
+            <p>
+              2005
+              : 
+              0.28
+</p>,
+            <p>
+              2006
+              : 
+              0.34
+</p>,
+            <p>
+              2007
+              : 
+              0.4
+</p>,
             <p
               className="goodSchool"
 >
-              2005
+              2008
               : 
-              0.58
+              0.54
+</p>,
+            <p
+              className="goodSchool"
+>
+              2009
+              : 
+              0.6
+</p>,
+            <p
+              className="goodSchool"
+>
+              2010
+              : 
+              0.64
+</p>,
+            <p
+              className="goodSchool"
+>
+              2011
+              : 
+              0.67
+</p>,
+            <p
+              className="goodSchool"
+>
+              2012
+              : 
+              0.69
+</p>,
+            <p
+              className="goodSchool"
+>
+              2013
+              : 
+              0.7
+</p>,
+            <p
+              className="goodSchool"
+>
+              2014
+              : 
+              0.74
 </p>,
           ],
         ],
@@ -165,15 +465,192 @@ ShallowWrapper {
             "children": Array [
               "2005",
               ": ",
-              0.58,
+              0.28,
             ],
-            "className": "goodSchool",
           },
           "ref": null,
           "rendered": Array [
             "2005",
             ": ",
-            0.58,
+            0.28,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2006",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2006",
+              ": ",
+              0.34,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "2006",
+            ": ",
+            0.34,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2007",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2007",
+              ": ",
+              0.4,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "2007",
+            ": ",
+            0.4,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2008",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2008",
+              ": ",
+              0.54,
+            ],
+            "className": "goodSchool",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2008",
+            ": ",
+            0.54,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2009",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2009",
+              ": ",
+              0.6,
+            ],
+            "className": "goodSchool",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2009",
+            ": ",
+            0.6,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2010",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2010",
+              ": ",
+              0.64,
+            ],
+            "className": "goodSchool",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2010",
+            ": ",
+            0.64,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2011",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2011",
+              ": ",
+              0.67,
+            ],
+            "className": "goodSchool",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2011",
+            ": ",
+            0.67,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2012",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2012",
+              ": ",
+              0.69,
+            ],
+            "className": "goodSchool",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2012",
+            ": ",
+            0.69,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2013",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2013",
+              ": ",
+              0.7,
+            ],
+            "className": "goodSchool",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2013",
+            ": ",
+            0.7,
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2014",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2014",
+              ": ",
+              0.74,
+            ],
+            "className": "goodSchool",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2014",
+            ": ",
+            0.74,
           ],
           "type": "p",
         },

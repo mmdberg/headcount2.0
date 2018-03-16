@@ -1,15 +1,15 @@
 import React from 'react';
 import { shallow, mount } from 'enzyme';
+import mockCardContainerData from '../../data/mock_card_container_data'
 import { CardContainer } from '../../CardContainer';
 
 describe('CardContainer', () => {
   
   it('should match the snapshot', () => {
-    let mockData = [{
-      '2004': 0.24,
-      '2005': 0.278
-    }]
-    let wrapper = shallow(<CardContainer data={mockData} selectedCards={mockData}/>)
+
+    let wrapper = shallow(<CardContainer  data={mockCardContainerData} 
+                                          selectedCards={mockCardContainerData}
+                          />)
 
     expect(wrapper).toMatchSnapshot();
   })
