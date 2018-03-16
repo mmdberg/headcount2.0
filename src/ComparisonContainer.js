@@ -21,31 +21,23 @@ const ComparisonContainer =
           className="card clicked"
         />);
     });
+    
     return (
       <div className="comparison-container">
         {comparisonCards[0]}
-  
         {selectedCards.length === 2 &&
-          <div className="comparison-card">
-            <h2>{newDistricts[0]}</h2>
-            <p>{newDistrictValues[0]}</p>
-            <h2>{newDistricts[2]}</h2>
-            <p>{newDistrictValues[2]}</p>          
-            <h2>{newDistricts[1]}</h2>
-            <p>{newDistrictValues[1]}</p>
-          </div>
-        }
-        {comparisonCards[1]}
-      </div>
-    );
-  };
-
-ComparisonContainer.propTypes = {
-  selectedCards: PropTypes.array,
-  comparison: PropTypes.array,
-  selectCard: PropTypes.func,
-  deselectCard: PropTypes.func
-};
-
+        <div className="comparison-card">
+          <h2>{newDistricts[0]}</h2>
+          <p>{parseInt(newDistrictValues[0] * 100)}%</p>
+          <h2>Comparision</h2>
+          <p>{parseInt(newDistrictValues[2] * 100)}%</p>          
+          <h2>{newDistricts[1]}</h2>
+          <p>{parseInt(newDistrictValues[1] * 100)}%</p>
+        </div>
+      }
+      {comparisonCards[1]}
+    </div>
+  )
+}
 
 export default ComparisonContainer;
