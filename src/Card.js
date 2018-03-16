@@ -10,7 +10,7 @@ class Card extends Component {
       if (roundedPercent < 50) {
         return <p key={year}>{year}: {roundedPercent}%</p>
       } else {
-        return <p key={year} className="higher-achievment">{year}: {roundedPercent}%</p>
+        return <p key={year} className="higher-achievement">{year}: {roundedPercent}%</p>
       }       
     });
   }
@@ -33,7 +33,6 @@ Card.propTypes = {
   stats: PropTypes.object.isRequired,
   location: PropTypes.string.isRequired,
   selectCard: PropTypes.func,
-  deselectCard: PropTypes.func,
   className: PropTypes.string
 };
 

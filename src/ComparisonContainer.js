@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import './styles/comparisonContainer.css'
 
 const ComparisonContainer = 
-  ({selectedCards, comparison, selectCard, deselectCard}) => {
+  ({selectedCards, comparison, selectCard}) => {
     let newDistricts = [];
     let newDistrictValues = [];
     if (comparison) {
@@ -17,7 +17,6 @@ const ComparisonContainer =
           stats={district.stats}
           key={district.location}
           selectCard={selectCard}
-          deselectCard={deselectCard}
           className="card clicked"
         />);
     });
@@ -43,9 +42,7 @@ const ComparisonContainer =
 ComparisonContainer.propTypes = {
   comparison: PropTypes.obj,
   selectCard: PropTypes.func,
-  deselectCard: PropTypes.func,
   selectedCards: PropTypes.array
 }
-
 
 export default ComparisonContainer 

@@ -3,7 +3,7 @@ import Card from './Card';
 import './styles/cardContainer.css';
 import PropTypes from 'prop-types'
 
-export const CardContainer = ({stats, selectCard, deselectCard, selectedCards}) => {
+export const CardContainer = ({stats, selectCard, selectedCards}) => {
 
   const cardInfo = stats.map(district => {
     let result = 'card';
@@ -20,7 +20,6 @@ export const CardContainer = ({stats, selectCard, deselectCard, selectedCards}) 
             stats={district.stats} 
             key={district.location} 
             selectCard={selectCard}
-            deselectCard={deselectCard}
             className={result}
       />)
   })
@@ -35,6 +34,5 @@ export const CardContainer = ({stats, selectCard, deselectCard, selectedCards}) 
 CardContainer.propTypes = {
   data: PropTypes.array,
   selectCard: PropTypes.func,
-  deselectCard: PropTypes.func,
   selectedCards: PropTypes.array
 }

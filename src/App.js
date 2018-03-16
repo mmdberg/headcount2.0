@@ -65,14 +65,12 @@ class App extends Component {
             <ComparisonContainer  
               selectedCards={this.state.selectedCards} 
               selectCard={this.selectCard} 
-              deselectCard={this.deselectCard} 
               comparison={this.comparison} 
             />
         }
         <CardContainer  
           stats={this.state.stats} 
           selectCard={this.selectCard}
-          deselectCard={this.deselectCard} 
           selectedCards={this.state.selectedCards} 
         />
       </div>

@@ -1,0 +1,735 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should match a snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Card
+    stats={
+        Object {
+            "2004": 0.24,
+            "2005": 0.278,
+            "2006": 0.337,
+            "2007": 0.395,
+            "2008": 0.536,
+            "2009": 0.598,
+            "2010": 0.64,
+            "2011": 0.672,
+            "2012": 0.695,
+            "2013": 0.703,
+            "2014": 0.741,
+          }
+    }
+/>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h2 />,
+        Array [
+          <p>
+            2004
+            : 
+            24
+            %
+</p>,
+          <p>
+            2005
+            : 
+            27
+            %
+</p>,
+          <p>
+            2006
+            : 
+            33
+            %
+</p>,
+          <p>
+            2007
+            : 
+            39
+            %
+</p>,
+          <p
+            className="higher-achievement"
+>
+            2008
+            : 
+            53
+            %
+</p>,
+          <p
+            className="higher-achievement"
+>
+            2009
+            : 
+            59
+            %
+</p>,
+          <p
+            className="higher-achievement"
+>
+            2010
+            : 
+            64
+            %
+</p>,
+          <p
+            className="higher-achievement"
+>
+            2011
+            : 
+            67
+            %
+</p>,
+          <p
+            className="higher-achievement"
+>
+            2012
+            : 
+            69
+            %
+</p>,
+          <p
+            className="higher-achievement"
+>
+            2013
+            : 
+            70
+            %
+</p>,
+          <p
+            className="higher-achievement"
+>
+            2014
+            : 
+            74
+            %
+</p>,
+        ],
+      ],
+      "className": undefined,
+      "onClick": [Function],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "h2",
+      },
+      Object {
+        "instance": null,
+        "key": "2004",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2004",
+            ": ",
+            24,
+            "%",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "2004",
+          ": ",
+          24,
+          "%",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2005",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2005",
+            ": ",
+            27,
+            "%",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "2005",
+          ": ",
+          27,
+          "%",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2006",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2006",
+            ": ",
+            33,
+            "%",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "2006",
+          ": ",
+          33,
+          "%",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2007",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2007",
+            ": ",
+            39,
+            "%",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "2007",
+          ": ",
+          39,
+          "%",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2008",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2008",
+            ": ",
+            53,
+            "%",
+          ],
+          "className": "higher-achievement",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2008",
+          ": ",
+          53,
+          "%",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2009",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2009",
+            ": ",
+            59,
+            "%",
+          ],
+          "className": "higher-achievement",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2009",
+          ": ",
+          59,
+          "%",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2010",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2010",
+            ": ",
+            64,
+            "%",
+          ],
+          "className": "higher-achievement",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2010",
+          ": ",
+          64,
+          "%",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2011",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2011",
+            ": ",
+            67,
+            "%",
+          ],
+          "className": "higher-achievement",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2011",
+          ": ",
+          67,
+          "%",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2012",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2012",
+            ": ",
+            69,
+            "%",
+          ],
+          "className": "higher-achievement",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2012",
+          ": ",
+          69,
+          "%",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2013",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2013",
+            ": ",
+            70,
+            "%",
+          ],
+          "className": "higher-achievement",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2013",
+          ": ",
+          70,
+          "%",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": "2014",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "2014",
+            ": ",
+            74,
+            "%",
+          ],
+          "className": "higher-achievement",
+        },
+        "ref": null,
+        "rendered": Array [
+          "2014",
+          ": ",
+          74,
+          "%",
+        ],
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h2 />,
+          Array [
+            <p>
+              2004
+              : 
+              24
+              %
+</p>,
+            <p>
+              2005
+              : 
+              27
+              %
+</p>,
+            <p>
+              2006
+              : 
+              33
+              %
+</p>,
+            <p>
+              2007
+              : 
+              39
+              %
+</p>,
+            <p
+              className="higher-achievement"
+>
+              2008
+              : 
+              53
+              %
+</p>,
+            <p
+              className="higher-achievement"
+>
+              2009
+              : 
+              59
+              %
+</p>,
+            <p
+              className="higher-achievement"
+>
+              2010
+              : 
+              64
+              %
+</p>,
+            <p
+              className="higher-achievement"
+>
+              2011
+              : 
+              67
+              %
+</p>,
+            <p
+              className="higher-achievement"
+>
+              2012
+              : 
+              69
+              %
+</p>,
+            <p
+              className="higher-achievement"
+>
+              2013
+              : 
+              70
+              %
+</p>,
+            <p
+              className="higher-achievement"
+>
+              2014
+              : 
+              74
+              %
+</p>,
+          ],
+        ],
+        "className": undefined,
+        "onClick": [Function],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "h2",
+        },
+        Object {
+          "instance": null,
+          "key": "2004",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2004",
+              ": ",
+              24,
+              "%",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "2004",
+            ": ",
+            24,
+            "%",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2005",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2005",
+              ": ",
+              27,
+              "%",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "2005",
+            ": ",
+            27,
+            "%",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2006",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2006",
+              ": ",
+              33,
+              "%",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "2006",
+            ": ",
+            33,
+            "%",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2007",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2007",
+              ": ",
+              39,
+              "%",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "2007",
+            ": ",
+            39,
+            "%",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2008",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2008",
+              ": ",
+              53,
+              "%",
+            ],
+            "className": "higher-achievement",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2008",
+            ": ",
+            53,
+            "%",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2009",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2009",
+              ": ",
+              59,
+              "%",
+            ],
+            "className": "higher-achievement",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2009",
+            ": ",
+            59,
+            "%",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2010",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2010",
+              ": ",
+              64,
+              "%",
+            ],
+            "className": "higher-achievement",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2010",
+            ": ",
+            64,
+            "%",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2011",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2011",
+              ": ",
+              67,
+              "%",
+            ],
+            "className": "higher-achievement",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2011",
+            ": ",
+            67,
+            "%",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2012",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2012",
+              ": ",
+              69,
+              "%",
+            ],
+            "className": "higher-achievement",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2012",
+            ": ",
+            69,
+            "%",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2013",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2013",
+              ": ",
+              70,
+              "%",
+            ],
+            "className": "higher-achievement",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2013",
+            ": ",
+            70,
+            "%",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": "2014",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "2014",
+              ": ",
+              74,
+              "%",
+            ],
+            "className": "higher-achievement",
+          },
+          "ref": null,
+          "rendered": Array [
+            "2014",
+            ": ",
+            74,
+            "%",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

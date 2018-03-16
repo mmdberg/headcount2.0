@@ -19,7 +19,7 @@ describe('App', () => {
   })
 
   it('getData method should change state with data from district', () => {
-    const before = {...wrapper.state('data')}
+    const before = {...wrapper.state('stats')}
     const mockData = [
       {
         "Location": "Colorado",
@@ -27,13 +27,13 @@ describe('App', () => {
         "DataFormat": "Percent",
         "Data": 0.39465
       }]
-    wrapper.instance().getData(mockData)
-    expect(wrapper.state('data')).not.toEqual(before)
+    wrapper.instance().getStats(mockData)
+    expect(wrapper.state('stats')).not.toEqual(before)
   })
 
   it('should update state with all districts that match user input', () => {
-    wrapper.instance().filterData('COL');
-    expect(wrapper.state('data').length).toEqual(2);
+    wrapper.instance().filterStats('COL');
+    expect(wrapper.state('stats').length).toEqual(2);
   })
 
 })

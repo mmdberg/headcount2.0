@@ -19,7 +19,7 @@ ShallowWrapper {
     "props": Object {
       "onChange": [Function],
       "placeholder": "Search for a district",
-      "type": "search",
+      "type": "text",
     },
     "ref": null,
     "rendered": null,
@@ -33,7 +33,7 @@ ShallowWrapper {
       "props": Object {
         "onChange": [Function],
         "placeholder": "Search for a district",
-        "type": "search",
+        "type": "text",
       },
       "ref": null,
       "rendered": null,
