@@ -8,32 +8,32 @@ describe('App', () => {
 
   beforeEach(() => {
     wrapper = shallow(<App />);
-  })
+  });
 
   it('should instantiate our good friend App', () => {
     expect(wrapper).toBeDefined();
   });
 
   it('should match snapshot', () => {
-    expect(wrapper).toMatchSnapshot()
-  })
+    expect(wrapper).toMatchSnapshot();
+  });
 
-  it('getData method should change state with data from district', () => {
-    const before = {...wrapper.state('data')}
+  it('getStats method should change state with stats from district', () => {
+    const before = {...wrapper.state('stats')};
     const mockData = [
       {
         "Location": "Colorado",
         "TimeFrame": 2007,
         "DataFormat": "Percent",
         "Data": 0.39465
-      }]
-    wrapper.instance().getData(mockData)
-    expect(wrapper.state('data')).not.toEqual(before)
-  })
+      }];
+    wrapper.instance().getStats(mockData);
+    expect(wrapper.state('stats')).not.toEqual(before);
+  });
 
   it('should update state with all districts that match user input', () => {
-    wrapper.instance().filterData('COL');
-    expect(wrapper.state('data').length).toEqual(2);
-  })
+    wrapper.instance().filterStats('COL');
+    expect(wrapper.state('stats').length).toEqual(2);
+  });
 
-})
+});

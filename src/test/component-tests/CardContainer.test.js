@@ -8,10 +8,11 @@ describe('CardContainer', () => {
     let mockData = [{
       '2004': 0.24,
       '2005': 0.278
-    }]
-    let wrapper = shallow(<CardContainer data={mockData} selectedCards={mockData}/>)
+    }];
+    let wrapper = 
+      shallow(<CardContainer stats={mockData} selectedCards={mockData}/>);
 
     expect(wrapper).toMatchSnapshot();
-  })
+  });
 
-})
+});

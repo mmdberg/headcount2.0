@@ -1,26 +1,26 @@
 import React from 'react';
 import Card from './Card';
 import PropTypes from 'prop-types';
-import './styles/comparisonContainer.css'
+import './styles/comparisonContainer.css';
 
 const ComparisonContainer = ({selectedCards, comparison, selectCard, deselectCard}) => {
-  let newDistricts = []
-  let newDistrictValues = []
+  let newDistricts = [];
+  let newDistrictValues = [];
   if (comparison) {
-    newDistricts = Object.keys(comparison)
-    newDistrictValues = Object.values(comparison)
+    newDistricts = Object.keys(comparison);
+    newDistrictValues = Object.values(comparison);
   }
-  const comparisonCards = selectedCards.map((district, index) => {
+  const comparisonCards = selectedCards.map((district) => {
     return (
       <Card location={district.location}
-        data={district.data}
+        stats={district.stats}
         key={district.location}
         selectCard={selectCard}
         deselectCard={deselectCard}
         className="card clicked"
-    />)
-  })
-  return(
+      />);
+  });
+  return (
     <div className="comparison-container">
       {comparisonCards[0]}
 
@@ -36,9 +36,15 @@ const ComparisonContainer = ({selectedCards, comparison, selectCard, deselectCar
       }
       {comparisonCards[1]}
     </div>
-  )
-}
+  );
+};
+
+ComparisonContainer.propTypes = {
+  selectedCards: PropTypes.array,
+  comparison: PropTypes.array,
+  selectCard: PropTypes.func,
+  deselectCard: PropTypes.func
+};
 
 
-
-export default ComparisonContainer 
+export default ComparisonContainer;

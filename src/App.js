@@ -10,74 +10,69 @@ class App extends Component {
   constructor(props) {
     super(props);
     this.state={
-      data: [],
+      stats: [],
       selectedCards: []
-    }
+    };
 
     this.district = '';
     this.comparison = '';
   }
 
-  getData = (newData) => {
-    this.district = new DistrictRepository(newData);
-    const data = this.district.findAllMatches()
+  getStats = (newStats) => {
+    this.district = new DistrictRepository(newStats);
+    const stats = this.district.findAllMatches();
     this.setState({
-      data
-    })
+      stats
+    });
   }
 
-  filterData = (userInput) => {
-    const matchedData = this.district.findAllMatches(userInput)
-    this.setState({data: matchedData})
+  filterStats = (userInput) => {
+    const matchedStats = this.district.findAllMatches(userInput);
+    this.setState({stats: matchedStats});
   }
 
   componentDidMount() {
-    this.getData(kinderData)
+    this.getStats(kinderData);
   }
 
   selectCard = (card) => {
-    const clickedCards = [ ...this.state.selectedCards ]
-    { clickedCards.length < 2 ? clickedCards.push(card) : clickedCards[1] = card }
-    this.setState({selectedCards: clickedCards})
-    if(clickedCards.length === 2) {
-       this.comparison = this.district.compareDistrictAverages(clickedCards[0].location, clickedCards[1].location)
-      // this.compareCards(clickedCards[0].location, clickedCards[1].location)
+    const clickedCards = [...this.state.selectedCards];
+    { clickedCards.length < 2 ? clickedCards.push(card) : clickedCards[1] = card };
+    this.setState({selectedCards: clickedCards});
+    if (clickedCards.length === 2) {
+      this.comparison = this.district.compareDistrictAverages(clickedCards[0].location, clickedCards[1].location);
     }
   }
 
   deselectCard = (card) => {
-    let clickedCards = [...this.state.selectedCards]
+    let clickedCards = [...this.state.selectedCards];
     this.state.selectedCards.forEach( (selectedCard, index) => {
-      if(card.location === selectedCard.location) {
-        clickedCards.splice(index, 1)
+      if (card.location === selectedCard.location) {
+        clickedCards.splice(index, 1);
       }
     });
-    this.setState({selectedCards: clickedCards})
+    this.setState({selectedCards: clickedCards});
   }
-
-  // compareCards = (district1, district2) => {
-  //   // this.comparison = this.district.compareDistrictAverages(district1, district2)
-  // }
 
   render() {
     return (
       <div>
         <header>
           <h1>Welcome To Headcount 2.0</h1>
-          <Search filterData={this.filterData}/>
+          <Search filterStats={this.filterStats}/>
         </header>
         {
           this.state.selectedCards.length > 0 && 
             <ComparisonContainer  selectedCards={this.state.selectedCards} 
-                                  selectCard={this.selectCard} 
-                                  deselectCard={this.deselectCard} 
-                                  comparison={this.comparison} 
+              selectCard={this.selectCard} 
+              deselectCard={this.deselectCard} 
+              comparison={this.comparison} 
             />
         }
-        <CardContainer  data={this.state.data} 
-                        selectCard={this.selectCard}
-                        deselectCard={this.deselectCard} 
-                        selectedCards={this.state.selectedCards} 
+        <CardContainer  stats={this.state.stats} 
+          selectCard={this.selectCard}
+          deselectCard={this.deselectCard} 
+          selectedCards={this.state.selectedCards} 
         />
       </div>
 
