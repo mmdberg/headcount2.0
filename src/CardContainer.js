@@ -7,7 +7,6 @@ export const CardContainer = ({data, selectCard, deselectCard, selectedCards}) =
 
   const cardInfo = data.map(district => {
     let result = 'card';
-    
     selectedCards.forEach(card =>  {
        if( district.location === card.location) {
         result = 'card clicked'

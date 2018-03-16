@@ -6,7 +6,6 @@ import { CardContainer } from '../../CardContainer';
 describe('CardContainer', () => {
   
   it('should match the snapshot', () => {
-
     let wrapper = shallow(<CardContainer  data={mockCardContainerData} 
                                           selectedCards={mockCardContainerData}
                           />)

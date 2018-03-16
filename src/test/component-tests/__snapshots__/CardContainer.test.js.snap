@@ -7,32 +7,170 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Unknown
     data={
         Array [
-            2004,
-            2005,
-            2006,
-            2007,
-            2008,
-            2009,
-            2010,
-            2011,
-            2012,
-            2013,
-            2014,
+            Object {
+              "data": Object {
+                "2004": 0.24,
+                "2005": 0.278,
+                "2006": 0.337,
+                "2007": 0.395,
+                "2008": 0.536,
+                "2009": 0.598,
+                "2010": 0.64,
+                "2011": 0.672,
+                "2012": 0.695,
+                "2013": 0.703,
+                "2014": 0.741,
+              },
+              "location": "COLORADO",
+            },
+            Object {
+              "data": Object {
+                "2004": 0.24,
+                "2005": 0.278,
+                "2006": 0.337,
+                "2007": 0.395,
+                "2008": 0.536,
+                "2009": 0.598,
+                "2010": 0.64,
+                "2011": 0.672,
+                "2012": 0.695,
+                "2013": 0.703,
+                "2014": 0.741,
+              },
+              "location": "ACADEMY 20",
+            },
+            Object {
+              "data": Object {
+                "2004": 0.24,
+                "2005": 0.278,
+                "2006": 0.337,
+                "2007": 0.395,
+                "2008": 0.536,
+                "2009": 0.598,
+                "2010": 0.64,
+                "2011": 0.672,
+                "2012": 0.695,
+                "2013": 0.703,
+                "2014": 0.741,
+              },
+              "location": "ADAMS COUNTY 14",
+            },
+            Object {
+              "data": Object {
+                "2004": 0.24,
+                "2005": 0.278,
+                "2006": 0.337,
+                "2007": 0.395,
+                "2008": 0.536,
+                "2009": 0.598,
+                "2010": 0.64,
+                "2011": 0.672,
+                "2012": 0.695,
+                "2013": 0.703,
+                "2014": 0.741,
+              },
+              "location": "ADAMS-ARAPAHOE 28J",
+            },
+            Object {
+              "data": Object {
+                "2004": 0.24,
+                "2005": 0.278,
+                "2006": 0.337,
+                "2007": 0.395,
+                "2008": 0.536,
+                "2009": 0.598,
+                "2010": 0.64,
+                "2011": 0.672,
+                "2012": 0.695,
+                "2013": 0.703,
+                "2014": 0.741,
+              },
+              "location": "AGATE 300",
+            },
           ]
     }
     selectedCards={
         Array [
-            2004,
-            2005,
-            2006,
-            2007,
-            2008,
-            2009,
-            2010,
-            2011,
-            2012,
-            2013,
-            2014,
+            Object {
+              "data": Object {
+                "2004": 0.24,
+                "2005": 0.278,
+                "2006": 0.337,
+                "2007": 0.395,
+                "2008": 0.536,
+                "2009": 0.598,
+                "2010": 0.64,
+                "2011": 0.672,
+                "2012": 0.695,
+                "2013": 0.703,
+                "2014": 0.741,
+              },
+              "location": "COLORADO",
+            },
+            Object {
+              "data": Object {
+                "2004": 0.24,
+                "2005": 0.278,
+                "2006": 0.337,
+                "2007": 0.395,
+                "2008": 0.536,
+                "2009": 0.598,
+                "2010": 0.64,
+                "2011": 0.672,
+                "2012": 0.695,
+                "2013": 0.703,
+                "2014": 0.741,
+              },
+              "location": "ACADEMY 20",
+            },
+            Object {
+              "data": Object {
+                "2004": 0.24,
+                "2005": 0.278,
+                "2006": 0.337,
+                "2007": 0.395,
+                "2008": 0.536,
+                "2009": 0.598,
+                "2010": 0.64,
+                "2011": 0.672,
+                "2012": 0.695,
+                "2013": 0.703,
+                "2014": 0.741,
+              },
+              "location": "ADAMS COUNTY 14",
+            },
+            Object {
+              "data": Object {
+                "2004": 0.24,
+                "2005": 0.278,
+                "2006": 0.337,
+                "2007": 0.395,
+                "2008": 0.536,
+                "2009": 0.598,
+                "2010": 0.64,
+                "2011": 0.672,
+                "2012": 0.695,
+                "2013": 0.703,
+                "2014": 0.741,
+              },
+              "location": "ADAMS-ARAPAHOE 28J",
+            },
+            Object {
+              "data": Object {
+                "2004": 0.24,
+                "2005": 0.278,
+                "2006": 0.337,
+                "2007": 0.395,
+                "2008": 0.536,
+                "2009": 0.598,
+                "2010": 0.64,
+                "2011": 0.672,
+                "2012": 0.695,
+                "2013": 0.703,
+                "2014": 0.741,
+              },
+              "location": "AGATE 300",
+            },
           ]
     }
 />,
@@ -51,79 +189,107 @@ ShallowWrapper {
       "children": Array [
         <Card
           className="card clicked"
-          data={undefined}
+          data={
+                    Object {
+                              "2004": 0.24,
+                              "2005": 0.278,
+                              "2006": 0.337,
+                              "2007": 0.395,
+                              "2008": 0.536,
+                              "2009": 0.598,
+                              "2010": 0.64,
+                              "2011": 0.672,
+                              "2012": 0.695,
+                              "2013": 0.703,
+                              "2014": 0.741,
+                            }
+          }
           deselectCard={undefined}
-          location={undefined}
+          location="COLORADO"
           selectCard={undefined}
 />,
         <Card
           className="card clicked"
-          data={undefined}
+          data={
+                    Object {
+                              "2004": 0.24,
+                              "2005": 0.278,
+                              "2006": 0.337,
+                              "2007": 0.395,
+                              "2008": 0.536,
+                              "2009": 0.598,
+                              "2010": 0.64,
+                              "2011": 0.672,
+                              "2012": 0.695,
+                              "2013": 0.703,
+                              "2014": 0.741,
+                            }
+          }
           deselectCard={undefined}
-          location={undefined}
+          location="ACADEMY 20"
           selectCard={undefined}
 />,
         <Card
           className="card clicked"
-          data={undefined}
+          data={
+                    Object {
+                              "2004": 0.24,
+                              "2005": 0.278,
+                              "2006": 0.337,
+                              "2007": 0.395,
+                              "2008": 0.536,
+                              "2009": 0.598,
+                              "2010": 0.64,
+                              "2011": 0.672,
+                              "2012": 0.695,
+                              "2013": 0.703,
+                              "2014": 0.741,
+                            }
+          }
           deselectCard={undefined}
-          location={undefined}
+          location="ADAMS COUNTY 14"
           selectCard={undefined}
 />,
         <Card
           className="card clicked"
-          data={undefined}
+          data={
+                    Object {
+                              "2004": 0.24,
+                              "2005": 0.278,
+                              "2006": 0.337,
+                              "2007": 0.395,
+                              "2008": 0.536,
+                              "2009": 0.598,
+                              "2010": 0.64,
+                              "2011": 0.672,
+                              "2012": 0.695,
+                              "2013": 0.703,
+                              "2014": 0.741,
+                            }
+          }
           deselectCard={undefined}
-          location={undefined}
+          location="ADAMS-ARAPAHOE 28J"
           selectCard={undefined}
 />,
         <Card
           className="card clicked"
-          data={undefined}
+          data={
+                    Object {
+                              "2004": 0.24,
+                              "2005": 0.278,
+                              "2006": 0.337,
+                              "2007": 0.395,
+                              "2008": 0.536,
+                              "2009": 0.598,
+                              "2010": 0.64,
+                              "2011": 0.672,
+                              "2012": 0.695,
+                              "2013": 0.703,
+                              "2014": 0.741,
+                            }
+          }
           deselectCard={undefined}
-          location={undefined}
-          selectCard={undefined}
-/>,
-        <Card
-          className="card clicked"
-          data={undefined}
-          deselectCard={undefined}
-          location={undefined}
-          selectCard={undefined}
-/>,
-        <Card
-          className="card clicked"
-          data={undefined}
-          deselectCard={undefined}
-          location={undefined}
-          selectCard={undefined}
-/>,
-        <Card
-          className="card clicked"
-          data={undefined}
-          deselectCard={undefined}
-          location={undefined}
-          selectCard={undefined}
-/>,
-        <Card
-          className="card clicked"
-          data={undefined}
-          deselectCard={undefined}
-          location={undefined}
-          selectCard={undefined}
-/>,
-        <Card
-          className="card clicked"
-          data={undefined}
-          deselectCard={undefined}
-          location={undefined}
-          selectCard={undefined}
-/>,
-        <Card
-          className="card clicked"
-          data={undefined}
-          deselectCard={undefined}
-          location={undefined}
+          location="AGATE 300"
           selectCard={undefined}
 />,
       ],
@@ -133,13 +299,25 @@ ShallowWrapper {
     "rendered": Array [
       Object {
         "instance": null,
-        "key": undefined,
+        "key": "COLORADO",
         "nodeType": "class",
         "props": Object {
           "className": "card clicked",
-          "data": undefined,
+          "data": Object {
+            "2004": 0.24,
+            "2005": 0.278,
+            "2006": 0.337,
+            "2007": 0.395,
+            "2008": 0.536,
+            "2009": 0.598,
+            "2010": 0.64,
+            "2011": 0.672,
+            "2012": 0.695,
+            "2013": 0.703,
+            "2014": 0.741,
+          },
           "deselectCard": undefined,
-          "location": undefined,
+          "location": "COLORADO",
           "selectCard": undefined,
         },
         "ref": null,
@@ -148,13 +326,25 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": undefined,
+        "key": "ACADEMY 20",
         "nodeType": "class",
         "props": Object {
           "className": "card clicked",
-          "data": undefined,
+          "data": Object {
+            "2004": 0.24,
+            "2005": 0.278,
+            "2006": 0.337,
+            "2007": 0.395,
+            "2008": 0.536,
+            "2009": 0.598,
+            "2010": 0.64,
+            "2011": 0.672,
+            "2012": 0.695,
+            "2013": 0.703,
+            "2014": 0.741,
+          },
           "deselectCard": undefined,
-          "location": undefined,
+          "location": "ACADEMY 20",
           "selectCard": undefined,
         },
         "ref": null,
@@ -163,13 +353,25 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": undefined,
+        "key": "ADAMS COUNTY 14",
         "nodeType": "class",
         "props": Object {
           "className": "card clicked",
-          "data": undefined,
+          "data": Object {
+            "2004": 0.24,
+            "2005": 0.278,
+            "2006": 0.337,
+            "2007": 0.395,
+            "2008": 0.536,
+            "2009": 0.598,
+            "2010": 0.64,
+            "2011": 0.672,
+            "2012": 0.695,
+            "2013": 0.703,
+            "2014": 0.741,
+          },
           "deselectCard": undefined,
-          "location": undefined,
+          "location": "ADAMS COUNTY 14",
           "selectCard": undefined,
         },
         "ref": null,
@@ -178,13 +380,25 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": undefined,
+        "key": "ADAMS-ARAPAHOE 28J",
         "nodeType": "class",
         "props": Object {
           "className": "card clicked",
-          "data": undefined,
+          "data": Object {
+            "2004": 0.24,
+            "2005": 0.278,
+            "2006": 0.337,
+            "2007": 0.395,
+            "2008": 0.536,
+            "2009": 0.598,
+            "2010": 0.64,
+            "2011": 0.672,
+            "2012": 0.695,
+            "2013": 0.703,
+            "2014": 0.741,
+          },
           "deselectCard": undefined,
-          "location": undefined,
+          "location": "ADAMS-ARAPAHOE 28J",
           "selectCard": undefined,
         },
         "ref": null,
@@ -193,103 +407,25 @@ ShallowWrapper {
       },
       Object {
         "instance": null,
-        "key": undefined,
+        "key": "AGATE 300",
         "nodeType": "class",
         "props": Object {
           "className": "card clicked",
-          "data": undefined,
+          "data": Object {
+            "2004": 0.24,
+            "2005": 0.278,
+            "2006": 0.337,
+            "2007": 0.395,
+            "2008": 0.536,
+            "2009": 0.598,
+            "2010": 0.64,
+            "2011": 0.672,
+            "2012": 0.695,
+            "2013": 0.703,
+            "2014": 0.741,
+          },
           "deselectCard": undefined,
-          "location": undefined,
-          "selectCard": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "className": "card clicked",
-          "data": undefined,
-          "deselectCard": undefined,
-          "location": undefined,
-          "selectCard": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "className": "card clicked",
-          "data": undefined,
-          "deselectCard": undefined,
-          "location": undefined,
-          "selectCard": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "className": "card clicked",
-          "data": undefined,
-          "deselectCard": undefined,
-          "location": undefined,
-          "selectCard": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "className": "card clicked",
-          "data": undefined,
-          "deselectCard": undefined,
-          "location": undefined,
-          "selectCard": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "className": "card clicked",
-          "data": undefined,
-          "deselectCard": undefined,
-          "location": undefined,
-          "selectCard": undefined,
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
-          "className": "card clicked",
-          "data": undefined,
-          "deselectCard": undefined,
-          "location": undefined,
+          "location": "AGATE 300",
           "selectCard": undefined,
         },
         "ref": null,
@@ -308,79 +444,107 @@ ShallowWrapper {
         "children": Array [
           <Card
             className="card clicked"
-            data={undefined}
+            data={
+                        Object {
+                                    "2004": 0.24,
+                                    "2005": 0.278,
+                                    "2006": 0.337,
+                                    "2007": 0.395,
+                                    "2008": 0.536,
+                                    "2009": 0.598,
+                                    "2010": 0.64,
+                                    "2011": 0.672,
+                                    "2012": 0.695,
+                                    "2013": 0.703,
+                                    "2014": 0.741,
+                                  }
+            }
             deselectCard={undefined}
-            location={undefined}
+            location="COLORADO"
             selectCard={undefined}
 />,
           <Card
             className="card clicked"
-            data={undefined}
+            data={
+                        Object {
+                                    "2004": 0.24,
+                                    "2005": 0.278,
+                                    "2006": 0.337,
+                                    "2007": 0.395,
+                                    "2008": 0.536,
+                                    "2009": 0.598,
+                                    "2010": 0.64,
+                                    "2011": 0.672,
+                                    "2012": 0.695,
+                                    "2013": 0.703,
+                                    "2014": 0.741,
+                                  }
+            }
             deselectCard={undefined}
-            location={undefined}
+            location="ACADEMY 20"
             selectCard={undefined}
 />,
           <Card
             className="card clicked"
-            data={undefined}
+            data={
+                        Object {
+                                    "2004": 0.24,
+                                    "2005": 0.278,
+                                    "2006": 0.337,
+                                    "2007": 0.395,
+                                    "2008": 0.536,
+                                    "2009": 0.598,
+                                    "2010": 0.64,
+                                    "2011": 0.672,
+                                    "2012": 0.695,
+                                    "2013": 0.703,
+                                    "2014": 0.741,
+                                  }
+            }
             deselectCard={undefined}
-            location={undefined}
+            location="ADAMS COUNTY 14"
             selectCard={undefined}
 />,
           <Card
             className="card clicked"
-            data={undefined}
+            data={
+                        Object {
+                                    "2004": 0.24,
+                                    "2005": 0.278,
+                                    "2006": 0.337,
+                                    "2007": 0.395,
+                                    "2008": 0.536,
+                                    "2009": 0.598,
+                                    "2010": 0.64,
+                                    "2011": 0.672,
+                                    "2012": 0.695,
+                                    "2013": 0.703,
+                                    "2014": 0.741,
+                                  }
+            }
             deselectCard={undefined}
-            location={undefined}
+            location="ADAMS-ARAPAHOE 28J"
             selectCard={undefined}
 />,
           <Card
             className="card clicked"
-            data={undefined}
+            data={
+                        Object {
+                                    "2004": 0.24,
+                                    "2005": 0.278,
+                                    "2006": 0.337,
+                                    "2007": 0.395,
+                                    "2008": 0.536,
+                                    "2009": 0.598,
+                                    "2010": 0.64,
+                                    "2011": 0.672,
+                                    "2012": 0.695,
+                                    "2013": 0.703,
+                                    "2014": 0.741,
+                                  }
+            }
             deselectCard={undefined}
-            location={undefined}
-            selectCard={undefined}
-/>,
-          <Card
-            className="card clicked"
-            data={undefined}
-            deselectCard={undefined}
-            location={undefined}
-            selectCard={undefined}
-/>,
-          <Card
-            className="card clicked"
-            data={undefined}
-            deselectCard={undefined}
-            location={undefined}
-            selectCard={undefined}
-/>,
-          <Card
-            className="card clicked"
-            data={undefined}
-            deselectCard={undefined}
-            location={undefined}
-            selectCard={undefined}
-/>,
-          <Card
-            className="card clicked"
-            data={undefined}
-            deselectCard={undefined}
-            location={undefined}
-            selectCard={undefined}
-/>,
-          <Card
-            className="card clicked"
-            data={undefined}
-            deselectCard={undefined}
-            location={undefined}
-            selectCard={undefined}
-/>,
-          <Card
-            className="card clicked"
-            data={undefined}
-            deselectCard={undefined}
-            location={undefined}
+            location="AGATE 300"
             selectCard={undefined}
 />,
         ],
@@ -390,13 +554,25 @@ ShallowWrapper {
       "rendered": Array [
         Object {
           "instance": null,
-          "key": undefined,
+          "key": "COLORADO",
           "nodeType": "class",
           "props": Object {
             "className": "card clicked",
-            "data": undefined,
+            "data": Object {
+              "2004": 0.24,
+              "2005": 0.278,
+              "2006": 0.337,
+              "2007": 0.395,
+              "2008": 0.536,
+              "2009": 0.598,
+              "2010": 0.64,
+              "2011": 0.672,
+              "2012": 0.695,
+              "2013": 0.703,
+              "2014": 0.741,
+            },
             "deselectCard": undefined,
-            "location": undefined,
+            "location": "COLORADO",
             "selectCard": undefined,
           },
           "ref": null,
@@ -405,13 +581,25 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": undefined,
+          "key": "ACADEMY 20",
           "nodeType": "class",
           "props": Object {
             "className": "card clicked",
-            "data": undefined,
+            "data": Object {
+              "2004": 0.24,
+              "2005": 0.278,
+              "2006": 0.337,
+              "2007": 0.395,
+              "2008": 0.536,
+              "2009": 0.598,
+              "2010": 0.64,
+              "2011": 0.672,
+              "2012": 0.695,
+              "2013": 0.703,
+              "2014": 0.741,
+            },
             "deselectCard": undefined,
-            "location": undefined,
+            "location": "ACADEMY 20",
             "selectCard": undefined,
           },
           "ref": null,
@@ -420,13 +608,25 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": undefined,
+          "key": "ADAMS COUNTY 14",
           "nodeType": "class",
           "props": Object {
             "className": "card clicked",
-            "data": undefined,
+            "data": Object {
+              "2004": 0.24,
+              "2005": 0.278,
+              "2006": 0.337,
+              "2007": 0.395,
+              "2008": 0.536,
+              "2009": 0.598,
+              "2010": 0.64,
+              "2011": 0.672,
+              "2012": 0.695,
+              "2013": 0.703,
+              "2014": 0.741,
+            },
             "deselectCard": undefined,
-            "location": undefined,
+            "location": "ADAMS COUNTY 14",
             "selectCard": undefined,
           },
           "ref": null,
@@ -435,13 +635,25 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": undefined,
+          "key": "ADAMS-ARAPAHOE 28J",
           "nodeType": "class",
           "props": Object {
             "className": "card clicked",
-            "data": undefined,
+            "data": Object {
+              "2004": 0.24,
+              "2005": 0.278,
+              "2006": 0.337,
+              "2007": 0.395,
+              "2008": 0.536,
+              "2009": 0.598,
+              "2010": 0.64,
+              "2011": 0.672,
+              "2012": 0.695,
+              "2013": 0.703,
+              "2014": 0.741,
+            },
             "deselectCard": undefined,
-            "location": undefined,
+            "location": "ADAMS-ARAPAHOE 28J",
             "selectCard": undefined,
           },
           "ref": null,
@@ -450,103 +662,25 @@ ShallowWrapper {
         },
         Object {
           "instance": null,
-          "key": undefined,
+          "key": "AGATE 300",
           "nodeType": "class",
           "props": Object {
             "className": "card clicked",
-            "data": undefined,
+            "data": Object {
+              "2004": 0.24,
+              "2005": 0.278,
+              "2006": 0.337,
+              "2007": 0.395,
+              "2008": 0.536,
+              "2009": 0.598,
+              "2010": 0.64,
+              "2011": 0.672,
+              "2012": 0.695,
+              "2013": 0.703,
+              "2014": 0.741,
+            },
             "deselectCard": undefined,
-            "location": undefined,
-            "selectCard": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "className": "card clicked",
-            "data": undefined,
-            "deselectCard": undefined,
-            "location": undefined,
-            "selectCard": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "className": "card clicked",
-            "data": undefined,
-            "deselectCard": undefined,
-            "location": undefined,
-            "selectCard": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "className": "card clicked",
-            "data": undefined,
-            "deselectCard": undefined,
-            "location": undefined,
-            "selectCard": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "className": "card clicked",
-            "data": undefined,
-            "deselectCard": undefined,
-            "location": undefined,
-            "selectCard": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "className": "card clicked",
-            "data": undefined,
-            "deselectCard": undefined,
-            "location": undefined,
-            "selectCard": undefined,
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
-            "className": "card clicked",
-            "data": undefined,
-            "deselectCard": undefined,
-            "location": undefined,
+            "location": "AGATE 300",
             "selectCard": undefined,
           },
           "ref": null,
