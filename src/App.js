@@ -48,10 +48,11 @@ class App extends Component {
         clickedCards[1] = card;
     }
     this.setState({ selectedCards: clickedCards });
-    this.comparison = clickedCards.length === 2 ? 
-      this.district.compareDistrictAverages(
+    if (clickedCards.length === 2) {
+      this.comparison =  this.district.compareDistrictAverages(
         clickedCards[0].location, clickedCards[1].location
-      ) : '';
+      );
+    }
   }
 
   render() {
