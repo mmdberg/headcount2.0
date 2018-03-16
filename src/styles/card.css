@@ -17,8 +17,10 @@ p {
   padding-left: 20px;
 }
 
-.goodSchool {
-  background-color: magenta;
+.higher-achievment {
+  font-weight: bolder;
+  font-style: italic;
+  color: magenta;
 }
 
 .clicked {
