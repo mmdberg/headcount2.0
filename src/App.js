@@ -5,6 +5,7 @@ import kinderData from './data/kindergartners_in_full_day_program.js';
 import { CardContainer } from './CardContainer';
 import Search from './Search';
 import ComparisonContainer from './ComparisonContainer';
+import ButtonContainer from './ButtonContainer'
 
 class App extends Component {
   constructor(props) {
@@ -60,6 +61,7 @@ class App extends Component {
     return (
       <div>
         <h1>Welcome To Headcount 2.0</h1>
+        <ButtonContainer getStats={this.getStats}/>
         <Search filterData={this.filterStats}/>
         {
           this.state.selectedCards.length > 0 && 
