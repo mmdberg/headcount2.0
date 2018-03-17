@@ -9,7 +9,7 @@ import ComparisonContainer from './ComparisonContainer';
 class App extends Component {
   constructor(props) {
     super(props);
-    this.state={
+    this.state = {
       stats: [],
       selectedCards: []
     };
@@ -42,13 +42,14 @@ class App extends Component {
         card.location === selectedCard.location && 
           clickedCards.splice(index, 1);
       });
-    } else { //not clicked
+    } else {
       clickedCards.length < 2 ? 
         clickedCards.push(card) : 
         clickedCards[1] = card;
     }
     this.setState({ selectedCards: clickedCards });
     if (clickedCards.length === 2) {
+      console.log(clickedCards[0].location)
       this.comparison =  this.district.compareDistrictAverages(
         clickedCards[0].location, clickedCards[1].location
       );
@@ -65,14 +66,12 @@ class App extends Component {
             <ComparisonContainer  
               selectedCards={this.state.selectedCards} 
               selectCard={this.selectCard} 
-              deselectCard={this.deselectCard} 
               comparison={this.comparison} 
             />
         }
         <CardContainer  
           stats={this.state.stats} 
           selectCard={this.selectCard}
-          deselectCard={this.deselectCard} 
           selectedCards={this.state.selectedCards} 
         />
       </div>
