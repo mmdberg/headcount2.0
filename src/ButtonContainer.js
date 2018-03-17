@@ -11,28 +11,63 @@ class ButtonContainer extends Component  {
   constructor(props) {
     super(props),
     this.state = {
-      title: 'Percent of Kindergartners in Full Day Programs'
+      selected: 'Select a data set',
+      educationData: [
+      { name: 'kinderData',
+        text: 'Kindergarteners in Full Day Programs',
+        url: kinderData
+      }, 
+      { name: 'HighSchool',
+        text: 'High school data',
+        url: HighSchool 
+      }, 
+      { name: 'MedianIncome',
+        text: 'median income data',
+        url: MedianIncome
+      }]
     }
+
+    this.dropDown = this.state.educationData.map(dataSet => {
+      return ( <option value={dataSet.other}>{dataSet.name}</option>
+        // <Button 
+        // changeTitle={this.changeTitle} 
+        // getStats={this.props.getStats} 
+        // name={dataSet.name} 
+        // category={dataSet.text}
+        // onChange={this.handleChange} />
+    )
+  })
   }
 
-  changeTitle = (category) => {
-    this.setState({
-      title: category
-    })
-  }
+  // changeTitle = (category) => {
+  //   this.setState({
+  //     title: category
+  //   })
+  // }
 
+
+  handleChange = (event) => {
+    console.log(event.target.value)
+    // let dataSet = (event.target.value).shift()
+    // // dataSet.shift()
+    // console.log(dataSet)
+    // this.setState({
+    //   selected: event.target.value
+
+    // })
+    this.props.getStats(event.target.value)
+  }
   
 
   render() {
     return (
       <div className='button-container'>
         <h3>Choose enrollment categories to compare districts:</h3>
-        <Button changeTitle={this.changeTitle} getStats={this.props.getStats} data={kinderData} category='Kindergarteners in Full Day Programs'/>
-        <Button changeTitle={this.changeTitle} getStats={this.props.getStats} data={HighSchool} category='High School Graduation Rates'/>
-        <Button changeTitle={this.changeTitle} getStats={this.props.getStats} data={SpecialEd} category='Special Education'/>
-        <Button changeTitle={this.changeTitle} getStats={this.props.getStats} data={Titlei} category='Title I'/>
-        <Button changeTitle={this.changeTitle} getStats={this.props.getStats} data={MedianIncome} category='Median Household Income'/>
-        <h2 className="category-title">{this.state.title}</h2>
+        <select onChange={this.handleChange}>
+         {this.dropDown}
+        </select>
+
+        <h2 className="category-title">{this.state.selected}</h2>
       </div>
     )
   }

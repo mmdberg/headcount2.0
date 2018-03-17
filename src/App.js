@@ -5,7 +5,10 @@ import kinderData from './data/kindergartners_in_full_day_program.js';
 import { CardContainer } from './CardContainer';
 import Search from './Search';
 import ComparisonContainer from './ComparisonContainer';
-import ButtonContainer from './ButtonContainer'
+import ButtonContainer from './ButtonContainer';
+import HighSchool from './data/high_school_graduation_rates.js';
+import MedianIncome from './data/median_household_income.js'
+
 
 class App extends Component {
   constructor(props) {
