@@ -1,26 +1,65 @@
 .card {
   border: 3px white solid;
-  width: 300px;
+  width: 200px;
   margin: 10px;
   border-radius: 20px;
+  padding: 0px;
 }
 
 .card:hover {
   background-color: rgba(0, 0, 0, .2);
 }
 
-h2 {
-  padding-left: 10px;
+header {
+  position: relative;
+  height: 60px;
+  padding: 10px 10px;
+  border-radius: 20px 20px 0px 0px;
+  background-color: rgba(0, 0, 0, .5);
 }
 
-p {
-  padding-left: 20px;
+.district-title {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  padding: 0 10px;
+  margin-top: -25px;
+}
+
+ul {
+  padding: 0 25px;
+  margin-top: 10px;
+}
+
+ul li {
+  display: flex;
+  justify-content: left;
+  list-style: none;
+  text-align: left;
+  height: 20px;
+  margin: 0 15px;
+}
+
+.check {
+  flex: 0 0 20px;
+  padding: 0;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.year {
+  flex: 0 0 50px;
+  margin: 0px;
+}
+
+.percent {
+  margin: 0px;
+  text-align: right;
 }
 
 .higher-achievement {
   font-weight: bolder;
   font-style: italic;
-  color: magenta;
 }
 
 .clicked {
