@@ -21,6 +21,9 @@ ShallowWrapper {
         <h1>
           Welcome To Headcount 2.0
 </h1>,
+        <ButtonContainer
+          getStats={[Function]}
+/>,
         <Search
           filterData={[Function]}
 />,
@@ -2943,6 +2946,17 @@ ShallowWrapper {
         "ref": null,
         "rendered": "Welcome To Headcount 2.0",
         "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "getStats": [Function],
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
       },
       Object {
         "instance": null,
@@ -5879,6 +5893,9 @@ ShallowWrapper {
           <h1>
             Welcome To Headcount 2.0
 </h1>,
+          <ButtonContainer
+            getStats={[Function]}
+/>,
           <Search
             filterData={[Function]}
 />,
@@ -8801,6 +8818,17 @@ ShallowWrapper {
           "ref": null,
           "rendered": "Welcome To Headcount 2.0",
           "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "getStats": [Function],
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,

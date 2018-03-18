@@ -111,29 +111,33 @@ describe('App', () => {
     expect(wrapper.state('selectedCards')).toEqual(expectedState);
   })
   
-  // it('should compare stats if two cards are selected ', () => {
-  //   const mockState = {
-  //     stats: [],
-  //     selectedCards: [{
-  //       location: "COLORADO",
-  //       className: "card"
-  //     },
-  //     {
-  //       location: "COLORADO SPRINGS",
-  //       className: "card"
-  //     }]
-  //   }
-  //   const mockData = {
-  //     location: "AKRON R-1",
-  //     className: "card"
-  //   }
-  //   const expectedComparison = { 
-  //     "className": "card", 
-  //     "location": "AKRON R-1" }
-      
-  //     wrapper.setState(mockState);
-  //     wrapper.instance().selectCard(mockData);
-  //     expect(wrapper.comparison).toEqual()
-  //   })
+  it('should make comparison when second card is selected', () => {
+    const mockState = {
+      stats: [],
+      selectedCards: [{
+        location: "COLORADO",
+        className: "card"
+      }]
+    }
+
+    const mockData = {
+      location: "AKRON R-1",
+      className: "card"
+    }
+
+    wrapper.setState(mockState);
+    wrapper.instance().selectCard(mockData);
+    expect(wrapper.state('comparison')).toBeTruthy()
+  })
+
+  it('should not create comparison when one card is selected', () => {
+    const mockData = {
+      location: "AKRON R-1",
+      className: "card"
+    }
+
+    wrapper.instance().selectCard(mockData);
+    expect(wrapper.state('comparison')).toBeFalsy()
+  })
     
 })
