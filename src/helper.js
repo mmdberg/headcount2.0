@@ -27,7 +27,6 @@ export default class DistrictRepository {
       stats = 0;
     }
 
-
     return parseFloat(stats.toFixed(3))
   }
 
@@ -57,8 +56,6 @@ export default class DistrictRepository {
     const district = this.findByName(name)
     const percentagesList = Object.values(district.stats)
     const sum = percentagesList.reduce((sum, percentage) => sum + percentage, 0)
-    console.log(sum)
-    console.log(percentagesList)
     return parseFloat((sum / percentagesList.length).toFixed(3))
   }
 

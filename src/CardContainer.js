@@ -14,7 +14,6 @@ export const CardContainer = ({stats, selectCard, selectedCards}) => {
       } 
     })
 
-
     return (
       <Card location={district.location} 
             stats={district.stats} 
