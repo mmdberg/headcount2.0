@@ -1,4 +1,4 @@
-h3 {
+h4 {
   margin: 0;
 }
 
@@ -18,7 +18,7 @@ h3 {
     "comparison comparison";
   grid-template-columns: 50%;
   grid-template-rows: 60px 120px 1fr 2fr;
-  border: 3px solid rgba(0, 0, 0, 1);  
+  border: 3px solid rgba(255, 255, 255, 1);  
   border-radius: 20px;
   margin: 10px;
   padding: 0px;
@@ -26,9 +26,14 @@ h3 {
   text-align: center;
 }
 
+.comparison-container .card {
+  flex: 0 0 auto;
+  border: 3px solid rgba(255, 255, 255, 1)
+}
+
 .comparison-container .card:hover {
-  background-color: rgba(0, 0, 0, .5);
-  border: 3px solid black;
+  background-color: none;
+  border: 3px solid rgba(0, 0, 0, 1);
 }
 
 .header-left, .header-right {
@@ -85,7 +90,6 @@ h3 {
 .district-percent-text {
   position: relative;
   top: -5px;
-  /* left: 100px; */
   font-size: 18px;
   font-style: italic;
   margin: -20px;
@@ -96,7 +100,6 @@ h3 {
 .comparison-header {
   grid-area: header;
   margin-bottom: 0;
-  /* background-color: none; */
 }
 
 .comparison-title {
@@ -107,7 +110,7 @@ h3 {
 .comparison-text {
   grid-area: comparison;
   margin: 0;
-  padding: 15px;
+  padding: 10px 10px;
   font-size: 20px;
   background-color: transparent;
 }
@@ -117,4 +120,68 @@ h3 {
   font-weight: bolder;
 }
 
+@media screen and (max-width: 920px){
 
+  .comparison-container .card {
+    flex: 0 1 auto;
+  }
+
+  .comparison-container ul {
+    padding: 0 10px;
+  }
+
+  .comparison-container .district-title {
+    font-size: 18px;
+    padding: 0 5px;
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (max-width: 760px){
+
+  .comparison-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .comparison-container ul {
+    padding: 0 25px;
+    margin-top: 10px;
+  }
+
+  .comparison-container .card {
+    order: 2;
+    flex: 0 1 auto%;
+  }
+
+  .comparison-card {
+]   order: 1;
+    flex: 0 1 100%;
+  }
+
+}
+
+@media screen and (max-width: 420px){
+
+  .comparison-card {
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .header-right,
+  .header-left,
+  .comparison-text {
+    height: auto;
+  }
+
+  .comparison-text {
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  .district-comparison {
+    font-size: 24px;
+  }
+
+}

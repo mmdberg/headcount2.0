@@ -6,3 +6,15 @@
   overflow: auto;
   max-height: 100vh;
 }
+
+.result {
+  flex: 0 0 auto;
+}
+
+/* @media screen and (max-width: 900px){
+
+  .result {
+    flex: 0 1 auto;
+  }
+
+} */

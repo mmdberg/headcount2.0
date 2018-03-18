@@ -27,10 +27,10 @@ const ComparisonContainer =
         {selectedCards.length === 2 &&
         <div className="comparison-card">
           <header className="header-left">
-            <h3 className="district-name-left">{newDistricts[0]}</h3>
+            <h4 className="district-name-left">{newDistricts[0]}</h4>
           </header>
           <header className="header-right">
-            <h3 className="district-name-right">{newDistricts[1]}</h3>
+            <h4 className="district-name-right">{newDistricts[1]}</h4>
           </header>
           <p className="district-percent-left">{parseInt(newDistrictValues[0] * 100)}%</p>
           <p className="district-percent-right">{parseInt(newDistrictValues[1] * 100)}%</p>
@@ -42,8 +42,8 @@ const ComparisonContainer =
             <span className="district-comparison">{parseInt(newDistrictValues[2] * 100)}%&nbsp;</span>
             {newDistrictValues[2] >= 1 ? "more" : "less"} when compared to {newDistricts[1]}.</p>
         </div>
-      }
-      {comparisonCards[1]}
+        }
+        {comparisonCards[1]}
     </div>
   )
 }
