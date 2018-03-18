@@ -1,32 +1,10 @@
-.card {
-  flex: 0 0 auto;
-  border: 3px solid rgba(0, 0, 0, 1);  
-  width: 200px;
-  margin: 10px;
-  border-radius: 20px;
-  padding: 0px;
-  cursor: pointer;
-}
-
-.card:hover {
-  background-color: rgba(0, 0, 0, .2);
-  border: 3px solid rgba(255, 255, 255, 1);  
-}
-
 header {
   position: relative;
-  height: 60px;
-  padding: 10px 10px;
   border-radius: 20px 20px 0px 0px;
   background-color: rgba(0, 0, 0, .5);
-}
-
-.district-title {
-  position: absolute;
-  padding: 0 5px;
-  margin-top: 5px;
-  font-size: 22px;
-}
+  height: 60px;
+  padding: 10px 10px;
+}  
 
 ul {
   padding: 0 25px;
@@ -36,16 +14,38 @@ ul {
 ul li {
   display: flex;
   justify-content: left;
-  list-style: none;
-  text-align: left;
   height: 20px;
   margin: 0 15px;
+  list-style: none;
+  text-align: left;
 }
+
+.card {
+  flex: 0 0 auto;
+  border: 3px solid rgba(0, 0, 0, 1);  
+  border-radius: 20px;
+  width: 200px;
+  padding: 0px;
+  margin: 10px;
+  cursor: pointer;
+}    
+
+.card:hover {
+  border: 3px solid rgba(255, 255, 255, 1);  
+  background-color: rgba(0, 0, 0, .2);
+}    
+
+.district-title {
+  position: absolute;
+  padding: 0 5px;
+  margin-top: 5px;
+  font-size: 22px;
+}  
 
 .check {
   flex: 0 0 20px;
-  padding: 0;
   height: 20px;
+  padding: 0;
   margin-right: 5px;
 }
 
