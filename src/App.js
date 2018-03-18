@@ -62,7 +62,7 @@ class App extends Component {
       <div>
         <h1>Welcome To Headcount 2.0</h1>
         <ButtonContainer getStats={this.getStats}/>
-        <Search filterData={this.filterStats}/>
+        <Search filterStats={this.filterStats}/>
         {
           this.state.selectedCards.length > 0 && 
             <ComparisonContainer  
