@@ -1,19 +1,187 @@
+h4 {
+  margin: 0;
+}
+
 .comparison-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   margin: 20px 50px;
 }
 
 .comparison-card {
-  border: 3px white solid;
-  width: 300px;
-  margin: 10px;
+  flex: 1 1 410px;
+  display: grid;
+  grid-template-areas:
+    "name-left name-right"
+    "percent-left percent-right"
+    "header header"
+    "comparison comparison";
+  grid-template-columns: 50%;
+  grid-template-rows: 60px 120px 1fr 2fr;
+  border: 3px solid rgba(255, 255, 255, 1);  
   border-radius: 20px;
+  margin: 10px;
+  padding: 0px;
+  max-width: 410px;
+  text-align: center;
+}
+
+.comparison-container .card {
+  flex: 0 0 auto;
+  border: 3px solid rgba(255, 255, 255, 1)
 }
 
 .comparison-container .card:hover {
-  background-color: rgba(0, 0, 0, .5);
-  border: 3px solid black;
+  background-color: none;
+  border: 3px solid rgba(0, 0, 0, 1);
 }
 
+.header-left, .header-right {
+  position: relative;
+  height: 40px;
+  padding: 10px 10px;
+  background-color: rgba(0, 0, 0, .75);
+}
+
+.header-left {
+  border-radius: 20px 0px 0px 0px;
+  border-right: 1px solid rgba(0, 0, 0, 1);
+
+}
+
+.header-right {
+  border-radius: 0px 20px 0px 0px;
+}
+
+.district-name-left, 
+.district-name-right, {
+  position: absolute;
+  padding: 0 10px;
+  margin-top: 5px;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.district-name-left {
+  grid-area: name-left;
+}
+
+.district-name-right {
+  grid-area: name-right;
+}
+
+.district-percent-left,
+.district-percent-right {
+  margin: 0;
+  padding: 35px 0;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid rgba(0, 0, 0, 1);
+}
+
+.district-percent-left {
+  grid-area: percent-left;
+  border-right: 1px solid rgba(0, 0, 0, 1);
+}
+
+.district-percent-right {
+  grid-area: percent-right;
+}
+
+.district-percent-text {
+  position: relative;
+  top: -5px;
+  font-size: 18px;
+  font-style: italic;
+  margin: -20px;
+  padding: 0;
+  text-align: center;
+}
+
+.comparison-header {
+  grid-area: header;
+  margin-bottom: 0;
+}
+
+.comparison-title {
+  margin: 35px 10px 0 10px;
+  text-decoration: underline;
+}
+
+.comparison-text {
+  grid-area: comparison;
+  margin: 0;
+  padding: 10px 10px;
+  font-size: 20px;
+  background-color: transparent;
+}
+
+.district-comparison {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+@media screen and (max-width: 920px){
+
+  .comparison-container .card {
+    flex: 0 1 auto;
+  }
+
+  .comparison-container ul {
+    padding: 0 10px;
+  }
+
+  .comparison-container .district-title {
+    font-size: 18px;
+    padding: 0 5px;
+    margin-top: 0;
+  }
+
+}
+
+@media screen and (max-width: 760px){
+
+  .comparison-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .comparison-container ul {
+    padding: 0 25px;
+    margin-top: 10px;
+  }
+
+  .comparison-container .card {
+    order: 2;
+    flex: 0 1 auto%;
+  }
+
+  .comparison-card {
+]   order: 1;
+    flex: 0 1 100%;
+  }
+
+}
+
+@media screen and (max-width: 420px){
+
+  .comparison-card {
+    grid-template-rows: auto auto auto auto;
+  }
+
+  .header-right,
+  .header-left,
+  .comparison-text {
+    height: auto;
+  }
+
+  .comparison-text {
+    font-size: 18px;
+    margin: 10px;
+  }
+
+  .district-comparison {
+    font-size: 24px;
+  }
+
+}
