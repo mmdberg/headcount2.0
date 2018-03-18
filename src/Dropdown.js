@@ -12,7 +12,7 @@ class Dropdown extends Component  {
   render() {
     return (
       <div className='dropdown-container'>
-        <h3>Choose an enrollment category to compare districts:</h3>
+        <h3>Choose a category to compare districts:</h3>
         <select onChange={this.handleChange}>
           {
             dataList.map(dataSet => <option>{dataSet.type}</option>)
