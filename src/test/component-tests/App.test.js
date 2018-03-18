@@ -27,7 +27,7 @@ describe('App', () => {
     expect(wrapper).toMatchSnapshot()
   })    
   
-  it('getData method should change state with data from district', () => {
+  it('getStats method should change state with data from district', () => {
     const before = {...wrapper.state('stats')}
     const mockData = [
       {
