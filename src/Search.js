@@ -6,7 +6,7 @@ import PropTypes from 'prop-types'
 class Search extends Component {
 
   handleChange = (event) => {
-    this.props.filterData(event.target.value);
+    this.props.filterStats(event.target.value);
   }
 
   render() {
@@ -20,7 +20,7 @@ class Search extends Component {
 }
 
 Search.propTypes = {
-  filterData: PropTypes.func
+  filterStats: PropTypes.func
 }
 
 export default Search;

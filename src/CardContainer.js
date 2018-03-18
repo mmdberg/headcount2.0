@@ -32,7 +32,7 @@ export const CardContainer = ({stats, selectCard, selectedCards}) => {
 }
 
 CardContainer.propTypes = {
-  data: PropTypes.array,
+  stats: PropTypes.array,
   selectCard: PropTypes.func,
   selectedCards: PropTypes.array
 }
