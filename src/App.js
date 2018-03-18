@@ -5,9 +5,8 @@ import kinderData from './data/kindergartners_in_full_day_program.js';
 import { CardContainer } from './CardContainer';
 import Search from './Search';
 import ComparisonContainer from './ComparisonContainer';
-import ButtonContainer from './ButtonContainer';
-import HighSchool from './data/high_school_graduation_rates.js';
-import MedianIncome from './data/median_household_income.js'
+import Dropdown from './Dropdown';
+
 
 
 class App extends Component {
@@ -15,17 +14,17 @@ class App extends Component {
     super(props);
     this.state = {
       stats: [],
-      selectedCards: []
+      selectedCards: [],
     };
     this.district = '';
-    this.comparison = '';
   }
 
   getStats = (newStats) => {
     this.district = new DistrictRepository(newStats);
     const stats = this.district.findAllMatches();
     this.setState({
-      stats
+      stats,
+      selectedCards: []
     });
   }
 
@@ -52,11 +51,17 @@ class App extends Component {
         clickedCards[1] = card;
     }
     this.setState({ selectedCards: clickedCards });
+    this.compareCards(clickedCards);
+  }
+
+  compareCards = (clickedCards) => {
     if (clickedCards.length === 2) {
-      console.log(clickedCards[0].location)
-      this.comparison =  this.district.compareDistrictAverages(
+      const comparison =  this.district.compareDistrictAverages(
         clickedCards[0].location, clickedCards[1].location
       );
+      this.setState({
+        comparison
+      })
     }
   }
 
@@ -64,14 +69,14 @@ class App extends Component {
     return (
       <div>
         <h1>Welcome To Headcount 2.0</h1>
-        <ButtonContainer getStats={this.getStats}/>
+        <Dropdown getStats={this.getStats}/>
         <Search filterData={this.filterStats}/>
         {
           this.state.selectedCards.length > 0 && 
             <ComparisonContainer  
               selectedCards={this.state.selectedCards} 
               selectCard={this.selectCard} 
-              comparison={this.comparison} 
+              comparison={this.state.comparison} 
             />
         }
         <CardContainer  

@@ -1,13 +1,7 @@
-.button-container {
-  /*display: block;*/
+.dropdown-container {
   margin: 20px auto;
   text-align: center;
 }
-
-/*.button-container h2 {
-  font-size: 30px;
-  text-decoration: underline;
-}*/
 
 h3 {
   display: inline-block;
