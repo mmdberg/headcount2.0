@@ -48,8 +48,8 @@ class Card extends Component {
 }
 
 Card.propTypes = {
-  stats: PropTypes.object.isRequired,
-  location: PropTypes.string.isRequired,
+  stats: PropTypes.object,
+  location: PropTypes.string,
   selectCard: PropTypes.func,
   className: PropTypes.string
 };

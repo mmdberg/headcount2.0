@@ -5,11 +5,9 @@ import './styles/comparisonContainer.css'
 
 const ComparisonContainer = 
   ({selectedCards, comparison, selectCard}) => {
-    let newDistricts = [];
-    let newDistrictValues = [];
     if (comparison) {
-      newDistricts = Object.keys(comparison);
-      newDistrictValues = Object.values(comparison);
+      var newDistricts = Object.keys(comparison);
+      var newDistrictValues = Object.values(comparison);
     }
     const comparisonCards = selectedCards.map((district) => {
 
@@ -24,17 +22,16 @@ const ComparisonContainer =
     });
 
     const cleanPercent = (stat) => {
-      console.log(comparisonCards[0].props.statType)
       if (comparisonCards[0].props.statType === 'Percent'){
-        console.log(stat)
-        return parseInt(stat * 100)
-      } else if (comparisonCards[0].props.statType === 'Number')
-        return stat
+        return parseInt(stat * 100) + '%';
+      } else {
+        return stat.toFixed(0)
+      }
     }
 
     const cleanComparison = (stat) => {
-      if (stat && stat != 'Infinity') {
-        return parseInt(newDistrictValues[2] * 100) + '%' 
+      if (stat > 0 && stat !== Infinity) {
+        return parseInt(stat * 100) + '%' 
       } else {
         return 'not comparable to'
       }
@@ -51,8 +48,8 @@ const ComparisonContainer =
           <header className="header-right">
             <h4 className="district-name-right">{newDistricts[1]}</h4>
           </header>
-          <p className="district-percent-left">{cleanPercent(newDistrictValues[0])}%</p>
-          <p className="district-percent-right">{cleanPercent(newDistrictValues[1])}%</p>
+          <p className="district-percent-left">{cleanPercent(newDistrictValues[0])}</p>
+          <p className="district-percent-right">{cleanPercent(newDistrictValues[1])}</p>
           <div className="comparison-header">
             <p className="district-percent-text">*Average across all years</p>
             <h2 className="comparison-title">Comparision</h2>
@@ -68,7 +65,7 @@ const ComparisonContainer =
 }
 
 ComparisonContainer.propTypes = {
-  comparison: PropTypes.obj,
+  comparison: PropTypes.object,
   selectCard: PropTypes.func,
   selectedCards: PropTypes.array
 }
