@@ -9,7 +9,7 @@ class Card extends Component {
   yearValues = (stats) => {
     return Object.keys(stats).map(year => {
       let roundedPercent = parseInt((stats[year] * 100));
-      let higherAchievement = roundedPercent >= 50;
+      let higherAchievement = roundedPercent > 50;
       return (
         <li key={year} className="cardStats">
           <img className="check" src={higherAchievement ? check : none} />
@@ -26,11 +26,11 @@ class Card extends Component {
 
   render() {
     return (
-      <div className={this.props.className} onClick={this.handleClick}>
+      <div className={this.props.className} onClick={this.handleClick} >
         <header>
           <h2 className="district-title">{this.props.location}</h2>   
         </header>
-        <ul>
+        <ul title="A checkmark indicates a value greater than 50%.">
         {this.yearValues(this.props.stats)}
         </ul>
       </div>

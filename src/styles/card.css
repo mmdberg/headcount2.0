@@ -1,13 +1,15 @@
 .card {
-  border: 3px white solid;
+  border: 3px solid rgba(0, 0, 0, 1);  
   width: 200px;
   margin: 10px;
   border-radius: 20px;
   padding: 0px;
+  cursor: pointer;
 }
 
 .card:hover {
   background-color: rgba(0, 0, 0, .2);
+  border: 3px solid rgba(255, 255, 255, 1);  
 }
 
 header {
@@ -20,10 +22,9 @@ header {
 
 .district-title {
   position: absolute;
-  top: 50%;
-  bottom: 50%;
-  padding: 0 10px;
-  margin-top: -25px;
+  padding: 0 5px;
+  margin-top: 5px;
+  font-size: 22px;
 }
 
 ul {
@@ -58,8 +59,8 @@ ul li {
 }
 
 .higher-achievement {
+  font-size: 17px;
   font-weight: bolder;
-  font-style: italic;
 }
 
 .clicked {
