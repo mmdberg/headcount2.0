@@ -5,7 +5,8 @@ import kinderData from './data/kindergartners_in_full_day_program.js';
 import HighSchool from './data/high_school_graduation_rates.js';
 import SpecialEd from './data/special_education.js';
 import Titlei from './data/title_i_students.js';
-import MedianIncome from './data/median_household_income.js'
+import OnlinePupil from './data/online_pupil_enrollment.js'
+
 
 class ButtonContainer extends Component  {
   constructor(props) {
@@ -31,7 +32,7 @@ class ButtonContainer extends Component  {
         <Button changeTitle={this.changeTitle} getStats={this.props.getStats} data={HighSchool} category='High School Graduation Rates'/>
         <Button changeTitle={this.changeTitle} getStats={this.props.getStats} data={SpecialEd} category='Special Education'/>
         <Button changeTitle={this.changeTitle} getStats={this.props.getStats} data={Titlei} category='Title I'/>
-        <Button changeTitle={this.changeTitle} getStats={this.props.getStats} data={MedianIncome} category='Median Household Income'/>
+        <Button changeTitle={this.changeTitle} getStats={this.props.getStats} data={OnlinePupil} category='Online Pupil Enrollment'/>
         <h2 className="category-title">{this.state.title}</h2>
       </div>
     )

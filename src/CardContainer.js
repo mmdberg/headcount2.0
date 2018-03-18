@@ -18,6 +18,7 @@ export const CardContainer = ({stats, selectCard, selectedCards}) => {
     return (
       <Card location={district.location} 
             stats={district.stats} 
+            statType={district.statType}
             key={district.location} 
             selectCard={selectCard}
             className={result}

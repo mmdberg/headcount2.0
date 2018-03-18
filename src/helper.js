@@ -10,7 +10,13 @@ export default class DistrictRepository {
       } 
 
       obj[enrollment.Location].location = enrollment.Location.toUpperCase();
-      obj[enrollment.Location].stats[enrollment.TimeFrame] = this.cleanStats(enrollment.Data)
+      obj[enrollment.Location].statType = enrollment.DataFormat
+
+      if (enrollment.DataFormat === 'Percent') {
+        obj[enrollment.Location].stats[enrollment.TimeFrame] = this.cleanStats(enrollment.Data)
+      } else if (enrollment.DataFormat === 'Number') {
+        obj[enrollment.Location].stats[enrollment.TimeFrame] = enrollment.Data
+      }
 
       return obj;
     }, {});
@@ -20,6 +26,7 @@ export default class DistrictRepository {
     if (typeof stats === 'string') {
       stats = 0;
     }
+
 
     return parseFloat(stats.toFixed(3))
   }
@@ -50,6 +57,8 @@ export default class DistrictRepository {
     const district = this.findByName(name)
     const percentagesList = Object.values(district.stats)
     const sum = percentagesList.reduce((sum, percentage) => sum + percentage, 0)
+    console.log(sum)
+    console.log(percentagesList)
     return parseFloat((sum / percentagesList.length).toFixed(3))
   }
 
