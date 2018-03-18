@@ -38,9 +38,9 @@ const ComparisonContainer =
             <p className="district-percent-text">*Average across all years</p>
             <h2 className="comparison-title">Comparision</h2>
           </div>
-          <p className="comparison-text">{newDistricts[0]}&nbsp;has&nbsp;
-            <span className="district-comparison">{parseInt(newDistrictValues[2] * 100)}%&nbsp;</span>
-            {newDistrictValues[2] >= 1 ? "more" : "less"} when compared to {newDistricts[1]}.</p>
+          <p className="comparison-text">The average of {newDistricts[0]} is &nbsp;
+            <span className="district-comparison">{parseInt(newDistrictValues[2] * 100)}%</span> of the average of &nbsp;
+            {newDistricts[1]}.</p>
         </div>
         }
         {comparisonCards[1]}
