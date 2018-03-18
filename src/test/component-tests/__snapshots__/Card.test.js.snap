@@ -47,6 +47,7 @@ ShallowWrapper {
                     className="cardStats"
           >
                     <img
+                              alt="checkmark"
                               className="check"
                               src="none.gif"
                     />
@@ -66,6 +67,7 @@ ShallowWrapper {
                     className="cardStats"
           >
                     <img
+                              alt="checkmark"
                               className="check"
                               src="none.gif"
                     />
@@ -78,13 +80,14 @@ ShallowWrapper {
                     <p
                               className="percent"
                     >
-                              27%
+                              28%
                     </p>
           </li>
           <li
                     className="cardStats"
           >
                     <img
+                              alt="checkmark"
                               className="check"
                               src="none.gif"
                     />
@@ -97,13 +100,14 @@ ShallowWrapper {
                     <p
                               className="percent"
                     >
-                              33%
+                              34%
                     </p>
           </li>
           <li
                     className="cardStats"
           >
                     <img
+                              alt="checkmark"
                               className="check"
                               src="none.gif"
                     />
@@ -116,13 +120,14 @@ ShallowWrapper {
                     <p
                               className="percent"
                     >
-                              39%
+                              40%
                     </p>
           </li>
           <li
                     className="cardStats"
           >
                     <img
+                              alt="checkmark"
                               className="check"
                               src="check.png"
                     />
@@ -135,13 +140,14 @@ ShallowWrapper {
                     <p
                               className="year higher-achievement"
                     >
-                              53%
+                              54%
                     </p>
           </li>
           <li
                     className="cardStats"
           >
                     <img
+                              alt="checkmark"
                               className="check"
                               src="check.png"
                     />
@@ -154,13 +160,14 @@ ShallowWrapper {
                     <p
                               className="year higher-achievement"
                     >
-                              59%
+                              60%
                     </p>
           </li>
           <li
                     className="cardStats"
           >
                     <img
+                              alt="checkmark"
                               className="check"
                               src="check.png"
                     />
@@ -180,6 +187,7 @@ ShallowWrapper {
                     className="cardStats"
           >
                     <img
+                              alt="checkmark"
                               className="check"
                               src="check.png"
                     />
@@ -199,6 +207,7 @@ ShallowWrapper {
                     className="cardStats"
           >
                     <img
+                              alt="checkmark"
                               className="check"
                               src="check.png"
                     />
@@ -211,13 +220,14 @@ ShallowWrapper {
                     <p
                               className="year higher-achievement"
                     >
-                              69%
+                              70%
                     </p>
           </li>
           <li
                     className="cardStats"
           >
                     <img
+                              alt="checkmark"
                               className="check"
                               src="check.png"
                     />
@@ -237,6 +247,7 @@ ShallowWrapper {
                     className="cardStats"
           >
                     <img
+                              alt="checkmark"
                               className="check"
                               src="check.png"
                     />
@@ -293,6 +304,7 @@ ShallowWrapper {
               className="cardStats"
 >
               <img
+                            alt="checkmark"
                             className="check"
                             src="none.gif"
               />
@@ -312,6 +324,7 @@ ShallowWrapper {
               className="cardStats"
 >
               <img
+                            alt="checkmark"
                             className="check"
                             src="none.gif"
               />
@@ -324,13 +337,14 @@ ShallowWrapper {
               <p
                             className="percent"
               >
-                            27%
+                            28%
               </p>
 </li>,
             <li
               className="cardStats"
 >
               <img
+                            alt="checkmark"
                             className="check"
                             src="none.gif"
               />
@@ -343,13 +357,14 @@ ShallowWrapper {
               <p
                             className="percent"
               >
-                            33%
+                            34%
               </p>
 </li>,
             <li
               className="cardStats"
 >
               <img
+                            alt="checkmark"
                             className="check"
                             src="none.gif"
               />
@@ -362,13 +377,14 @@ ShallowWrapper {
               <p
                             className="percent"
               >
-                            39%
+                            40%
               </p>
 </li>,
             <li
               className="cardStats"
 >
               <img
+                            alt="checkmark"
                             className="check"
                             src="check.png"
               />
@@ -381,13 +397,14 @@ ShallowWrapper {
               <p
                             className="year higher-achievement"
               >
-                            53%
+                            54%
               </p>
 </li>,
             <li
               className="cardStats"
 >
               <img
+                            alt="checkmark"
                             className="check"
                             src="check.png"
               />
@@ -400,13 +417,14 @@ ShallowWrapper {
               <p
                             className="year higher-achievement"
               >
-                            59%
+                            60%
               </p>
 </li>,
             <li
               className="cardStats"
 >
               <img
+                            alt="checkmark"
                             className="check"
                             src="check.png"
               />
@@ -426,6 +444,7 @@ ShallowWrapper {
               className="cardStats"
 >
               <img
+                            alt="checkmark"
                             className="check"
                             src="check.png"
               />
@@ -445,6 +464,7 @@ ShallowWrapper {
               className="cardStats"
 >
               <img
+                            alt="checkmark"
                             className="check"
                             src="check.png"
               />
@@ -457,13 +477,14 @@ ShallowWrapper {
               <p
                             className="year higher-achievement"
               >
-                            69%
+                            70%
               </p>
 </li>,
             <li
               className="cardStats"
 >
               <img
+                            alt="checkmark"
                             className="check"
                             src="check.png"
               />
@@ -483,6 +504,7 @@ ShallowWrapper {
               className="cardStats"
 >
               <img
+                            alt="checkmark"
                             className="check"
                             src="check.png"
               />
@@ -510,6 +532,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <img
+                  alt="checkmark"
                   className="check"
                   src="none.gif"
 />,
@@ -534,6 +557,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "alt": "checkmark",
                   "className": "check",
                   "src": "none.gif",
                 },
@@ -581,6 +605,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <img
+                  alt="checkmark"
                   className="check"
                   src="none.gif"
 />,
@@ -593,7 +618,7 @@ ShallowWrapper {
                 <p
                   className="percent"
 >
-                  27%
+                  28%
 </p>,
               ],
               "className": "cardStats",
@@ -605,6 +630,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "alt": "checkmark",
                   "className": "check",
                   "src": "none.gif",
                 },
@@ -635,11 +661,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "27%",
+                  "children": "28%",
                   "className": "percent",
                 },
                 "ref": null,
-                "rendered": "27%",
+                "rendered": "28%",
                 "type": "p",
               },
             ],
@@ -652,6 +678,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <img
+                  alt="checkmark"
                   className="check"
                   src="none.gif"
 />,
@@ -664,7 +691,7 @@ ShallowWrapper {
                 <p
                   className="percent"
 >
-                  33%
+                  34%
 </p>,
               ],
               "className": "cardStats",
@@ -676,6 +703,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "alt": "checkmark",
                   "className": "check",
                   "src": "none.gif",
                 },
@@ -706,11 +734,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "33%",
+                  "children": "34%",
                   "className": "percent",
                 },
                 "ref": null,
-                "rendered": "33%",
+                "rendered": "34%",
                 "type": "p",
               },
             ],
@@ -723,6 +751,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <img
+                  alt="checkmark"
                   className="check"
                   src="none.gif"
 />,
@@ -735,7 +764,7 @@ ShallowWrapper {
                 <p
                   className="percent"
 >
-                  39%
+                  40%
 </p>,
               ],
               "className": "cardStats",
@@ -747,6 +776,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "alt": "checkmark",
                   "className": "check",
                   "src": "none.gif",
                 },
@@ -777,11 +807,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "39%",
+                  "children": "40%",
                   "className": "percent",
                 },
                 "ref": null,
-                "rendered": "39%",
+                "rendered": "40%",
                 "type": "p",
               },
             ],
@@ -794,6 +824,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <img
+                  alt="checkmark"
                   className="check"
                   src="check.png"
 />,
@@ -806,7 +837,7 @@ ShallowWrapper {
                 <p
                   className="year higher-achievement"
 >
-                  53%
+                  54%
 </p>,
               ],
               "className": "cardStats",
@@ -818,6 +849,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "alt": "checkmark",
                   "className": "check",
                   "src": "check.png",
                 },
@@ -848,11 +880,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "53%",
+                  "children": "54%",
                   "className": "year higher-achievement",
                 },
                 "ref": null,
-                "rendered": "53%",
+                "rendered": "54%",
                 "type": "p",
               },
             ],
@@ -865,6 +897,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <img
+                  alt="checkmark"
                   className="check"
                   src="check.png"
 />,
@@ -877,7 +910,7 @@ ShallowWrapper {
                 <p
                   className="year higher-achievement"
 >
-                  59%
+                  60%
 </p>,
               ],
               "className": "cardStats",
@@ -889,6 +922,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "alt": "checkmark",
                   "className": "check",
                   "src": "check.png",
                 },
@@ -919,11 +953,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "59%",
+                  "children": "60%",
                   "className": "year higher-achievement",
                 },
                 "ref": null,
-                "rendered": "59%",
+                "rendered": "60%",
                 "type": "p",
               },
             ],
@@ -936,6 +970,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <img
+                  alt="checkmark"
                   className="check"
                   src="check.png"
 />,
@@ -960,6 +995,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "alt": "checkmark",
                   "className": "check",
                   "src": "check.png",
                 },
@@ -1007,6 +1043,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <img
+                  alt="checkmark"
                   className="check"
                   src="check.png"
 />,
@@ -1031,6 +1068,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "alt": "checkmark",
                   "className": "check",
                   "src": "check.png",
                 },
@@ -1078,6 +1116,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <img
+                  alt="checkmark"
                   className="check"
                   src="check.png"
 />,
@@ -1090,7 +1129,7 @@ ShallowWrapper {
                 <p
                   className="year higher-achievement"
 >
-                  69%
+                  70%
 </p>,
               ],
               "className": "cardStats",
@@ -1102,6 +1141,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "alt": "checkmark",
                   "className": "check",
                   "src": "check.png",
                 },
@@ -1132,11 +1172,11 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "69%",
+                  "children": "70%",
                   "className": "year higher-achievement",
                 },
                 "ref": null,
-                "rendered": "69%",
+                "rendered": "70%",
                 "type": "p",
               },
             ],
@@ -1149,6 +1189,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <img
+                  alt="checkmark"
                   className="check"
                   src="check.png"
 />,
@@ -1173,6 +1214,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "alt": "checkmark",
                   "className": "check",
                   "src": "check.png",
                 },
@@ -1220,6 +1262,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <img
+                  alt="checkmark"
                   className="check"
                   src="check.png"
 />,
@@ -1244,6 +1287,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
+                  "alt": "checkmark",
                   "className": "check",
                   "src": "check.png",
                 },
@@ -1309,6 +1353,7 @@ ShallowWrapper {
                         className="cardStats"
             >
                         <img
+                                    alt="checkmark"
                                     className="check"
                                     src="none.gif"
                         />
@@ -1328,6 +1373,7 @@ ShallowWrapper {
                         className="cardStats"
             >
                         <img
+                                    alt="checkmark"
                                     className="check"
                                     src="none.gif"
                         />
@@ -1340,13 +1386,14 @@ ShallowWrapper {
                         <p
                                     className="percent"
                         >
-                                    27%
+                                    28%
                         </p>
             </li>
             <li
                         className="cardStats"
             >
                         <img
+                                    alt="checkmark"
                                     className="check"
                                     src="none.gif"
                         />
@@ -1359,13 +1406,14 @@ ShallowWrapper {
                         <p
                                     className="percent"
                         >
-                                    33%
+                                    34%
                         </p>
             </li>
             <li
                         className="cardStats"
             >
                         <img
+                                    alt="checkmark"
                                     className="check"
                                     src="none.gif"
                         />
@@ -1378,13 +1426,14 @@ ShallowWrapper {
                         <p
                                     className="percent"
                         >
-                                    39%
+                                    40%
                         </p>
             </li>
             <li
                         className="cardStats"
             >
                         <img
+                                    alt="checkmark"
                                     className="check"
                                     src="check.png"
                         />
@@ -1397,13 +1446,14 @@ ShallowWrapper {
                         <p
                                     className="year higher-achievement"
                         >
-                                    53%
+                                    54%
                         </p>
             </li>
             <li
                         className="cardStats"
             >
                         <img
+                                    alt="checkmark"
                                     className="check"
                                     src="check.png"
                         />
@@ -1416,13 +1466,14 @@ ShallowWrapper {
                         <p
                                     className="year higher-achievement"
                         >
-                                    59%
+                                    60%
                         </p>
             </li>
             <li
                         className="cardStats"
             >
                         <img
+                                    alt="checkmark"
                                     className="check"
                                     src="check.png"
                         />
@@ -1442,6 +1493,7 @@ ShallowWrapper {
                         className="cardStats"
             >
                         <img
+                                    alt="checkmark"
                                     className="check"
                                     src="check.png"
                         />
@@ -1461,6 +1513,7 @@ ShallowWrapper {
                         className="cardStats"
             >
                         <img
+                                    alt="checkmark"
                                     className="check"
                                     src="check.png"
                         />
@@ -1473,13 +1526,14 @@ ShallowWrapper {
                         <p
                                     className="year higher-achievement"
                         >
-                                    69%
+                                    70%
                         </p>
             </li>
             <li
                         className="cardStats"
             >
                         <img
+                                    alt="checkmark"
                                     className="check"
                                     src="check.png"
                         />
@@ -1499,6 +1553,7 @@ ShallowWrapper {
                         className="cardStats"
             >
                         <img
+                                    alt="checkmark"
                                     className="check"
                                     src="check.png"
                         />
@@ -1555,6 +1610,7 @@ ShallowWrapper {
                 className="cardStats"
 >
                 <img
+                                alt="checkmark"
                                 className="check"
                                 src="none.gif"
                 />
@@ -1574,6 +1630,7 @@ ShallowWrapper {
                 className="cardStats"
 >
                 <img
+                                alt="checkmark"
                                 className="check"
                                 src="none.gif"
                 />
@@ -1586,13 +1643,14 @@ ShallowWrapper {
                 <p
                                 className="percent"
                 >
-                                27%
+                                28%
                 </p>
 </li>,
               <li
                 className="cardStats"
 >
                 <img
+                                alt="checkmark"
                                 className="check"
                                 src="none.gif"
                 />
@@ -1605,13 +1663,14 @@ ShallowWrapper {
                 <p
                                 className="percent"
                 >
-                                33%
+                                34%
                 </p>
 </li>,
               <li
                 className="cardStats"
 >
                 <img
+                                alt="checkmark"
                                 className="check"
                                 src="none.gif"
                 />
@@ -1624,13 +1683,14 @@ ShallowWrapper {
                 <p
                                 className="percent"
                 >
-                                39%
+                                40%
                 </p>
 </li>,
               <li
                 className="cardStats"
 >
                 <img
+                                alt="checkmark"
                                 className="check"
                                 src="check.png"
                 />
@@ -1643,13 +1703,14 @@ ShallowWrapper {
                 <p
                                 className="year higher-achievement"
                 >
-                                53%
+                                54%
                 </p>
 </li>,
               <li
                 className="cardStats"
 >
                 <img
+                                alt="checkmark"
                                 className="check"
                                 src="check.png"
                 />
@@ -1662,13 +1723,14 @@ ShallowWrapper {
                 <p
                                 className="year higher-achievement"
                 >
-                                59%
+                                60%
                 </p>
 </li>,
               <li
                 className="cardStats"
 >
                 <img
+                                alt="checkmark"
                                 className="check"
                                 src="check.png"
                 />
@@ -1688,6 +1750,7 @@ ShallowWrapper {
                 className="cardStats"
 >
                 <img
+                                alt="checkmark"
                                 className="check"
                                 src="check.png"
                 />
@@ -1707,6 +1770,7 @@ ShallowWrapper {
                 className="cardStats"
 >
                 <img
+                                alt="checkmark"
                                 className="check"
                                 src="check.png"
                 />
@@ -1719,13 +1783,14 @@ ShallowWrapper {
                 <p
                                 className="year higher-achievement"
                 >
-                                69%
+                                70%
                 </p>
 </li>,
               <li
                 className="cardStats"
 >
                 <img
+                                alt="checkmark"
                                 className="check"
                                 src="check.png"
                 />
@@ -1745,6 +1810,7 @@ ShallowWrapper {
                 className="cardStats"
 >
                 <img
+                                alt="checkmark"
                                 className="check"
                                 src="check.png"
                 />
@@ -1772,6 +1838,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <img
+                    alt="checkmark"
                     className="check"
                     src="none.gif"
 />,
@@ -1796,6 +1863,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "alt": "checkmark",
                     "className": "check",
                     "src": "none.gif",
                   },
@@ -1843,6 +1911,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <img
+                    alt="checkmark"
                     className="check"
                     src="none.gif"
 />,
@@ -1855,7 +1924,7 @@ ShallowWrapper {
                   <p
                     className="percent"
 >
-                    27%
+                    28%
 </p>,
                 ],
                 "className": "cardStats",
@@ -1867,6 +1936,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "alt": "checkmark",
                     "className": "check",
                     "src": "none.gif",
                   },
@@ -1897,11 +1967,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "27%",
+                    "children": "28%",
                     "className": "percent",
                   },
                   "ref": null,
-                  "rendered": "27%",
+                  "rendered": "28%",
                   "type": "p",
                 },
               ],
@@ -1914,6 +1984,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <img
+                    alt="checkmark"
                     className="check"
                     src="none.gif"
 />,
@@ -1926,7 +1997,7 @@ ShallowWrapper {
                   <p
                     className="percent"
 >
-                    33%
+                    34%
 </p>,
                 ],
                 "className": "cardStats",
@@ -1938,6 +2009,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "alt": "checkmark",
                     "className": "check",
                     "src": "none.gif",
                   },
@@ -1968,11 +2040,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "33%",
+                    "children": "34%",
                     "className": "percent",
                   },
                   "ref": null,
-                  "rendered": "33%",
+                  "rendered": "34%",
                   "type": "p",
                 },
               ],
@@ -1985,6 +2057,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <img
+                    alt="checkmark"
                     className="check"
                     src="none.gif"
 />,
@@ -1997,7 +2070,7 @@ ShallowWrapper {
                   <p
                     className="percent"
 >
-                    39%
+                    40%
 </p>,
                 ],
                 "className": "cardStats",
@@ -2009,6 +2082,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "alt": "checkmark",
                     "className": "check",
                     "src": "none.gif",
                   },
@@ -2039,11 +2113,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "39%",
+                    "children": "40%",
                     "className": "percent",
                   },
                   "ref": null,
-                  "rendered": "39%",
+                  "rendered": "40%",
                   "type": "p",
                 },
               ],
@@ -2056,6 +2130,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <img
+                    alt="checkmark"
                     className="check"
                     src="check.png"
 />,
@@ -2068,7 +2143,7 @@ ShallowWrapper {
                   <p
                     className="year higher-achievement"
 >
-                    53%
+                    54%
 </p>,
                 ],
                 "className": "cardStats",
@@ -2080,6 +2155,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "alt": "checkmark",
                     "className": "check",
                     "src": "check.png",
                   },
@@ -2110,11 +2186,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "53%",
+                    "children": "54%",
                     "className": "year higher-achievement",
                   },
                   "ref": null,
-                  "rendered": "53%",
+                  "rendered": "54%",
                   "type": "p",
                 },
               ],
@@ -2127,6 +2203,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <img
+                    alt="checkmark"
                     className="check"
                     src="check.png"
 />,
@@ -2139,7 +2216,7 @@ ShallowWrapper {
                   <p
                     className="year higher-achievement"
 >
-                    59%
+                    60%
 </p>,
                 ],
                 "className": "cardStats",
@@ -2151,6 +2228,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "alt": "checkmark",
                     "className": "check",
                     "src": "check.png",
                   },
@@ -2181,11 +2259,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "59%",
+                    "children": "60%",
                     "className": "year higher-achievement",
                   },
                   "ref": null,
-                  "rendered": "59%",
+                  "rendered": "60%",
                   "type": "p",
                 },
               ],
@@ -2198,6 +2276,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <img
+                    alt="checkmark"
                     className="check"
                     src="check.png"
 />,
@@ -2222,6 +2301,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "alt": "checkmark",
                     "className": "check",
                     "src": "check.png",
                   },
@@ -2269,6 +2349,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <img
+                    alt="checkmark"
                     className="check"
                     src="check.png"
 />,
@@ -2293,6 +2374,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "alt": "checkmark",
                     "className": "check",
                     "src": "check.png",
                   },
@@ -2340,6 +2422,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <img
+                    alt="checkmark"
                     className="check"
                     src="check.png"
 />,
@@ -2352,7 +2435,7 @@ ShallowWrapper {
                   <p
                     className="year higher-achievement"
 >
-                    69%
+                    70%
 </p>,
                 ],
                 "className": "cardStats",
@@ -2364,6 +2447,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "alt": "checkmark",
                     "className": "check",
                     "src": "check.png",
                   },
@@ -2394,11 +2478,11 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "69%",
+                    "children": "70%",
                     "className": "year higher-achievement",
                   },
                   "ref": null,
-                  "rendered": "69%",
+                  "rendered": "70%",
                   "type": "p",
                 },
               ],
@@ -2411,6 +2495,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <img
+                    alt="checkmark"
                     className="check"
                     src="check.png"
 />,
@@ -2435,6 +2520,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "alt": "checkmark",
                     "className": "check",
                     "src": "check.png",
                   },
@@ -2482,6 +2568,7 @@ ShallowWrapper {
               "props": Object {
                 "children": Array [
                   <img
+                    alt="checkmark"
                     className="check"
                     src="check.png"
 />,
@@ -2506,6 +2593,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
+                    "alt": "checkmark",
                     "className": "check",
                     "src": "check.png",
                   },

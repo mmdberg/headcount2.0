@@ -39,19 +39,19 @@ describe('ComparisonContainer', () => {
         comparison={mockComparison}
       />);
     
-    expect(wrapper.find('.district-percent-left').text()).toEqual('40%');
+    expect(wrapper.find('.district-percent-left').text()).toEqual('41%');
   });
 
   it('should not turn numbers into percentages', () => {
     let mockData = [
       { statType : "Number",
         stats: { 
-          2004: 174,
-          2005 : 202  } },
+          '2004': 174,
+          '2005': 202  } },
       { statType : "Number",
         stats: { 
-          2004: 474,
-          2005 : 602  
+          '2004': 474,
+          '2005': 602  
         } }];
     let mockComparison = {
       'ACADEMY 20': 136.333,
@@ -74,7 +74,7 @@ describe('ComparisonContainer', () => {
         comparison={mockComparison}
       />);
     
-    expect(wrapper.find('.district-comparison').text()).toEqual('161%');
+    expect(wrapper.find('.district-comparison').text()).toEqual(' 161% of ');
   });
 
   it('should not do a comparison if stat is not a number', () => {
@@ -90,7 +90,7 @@ describe('ComparisonContainer', () => {
       />);
     
     expect(wrapper.find('.district-comparison').text())
-      .toEqual('not comparable to');
+      .toEqual(' not comparable to ');
   });
 
 

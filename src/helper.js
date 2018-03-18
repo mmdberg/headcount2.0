@@ -15,22 +15,26 @@ export default class DistrictRepository {
 
       if (enrollment.DataFormat === 'Percent') {
         statsObj[enrollment.Location].stats[enrollment.TimeFrame] = 
-          this.cleanStats(enrollment.Data);
+          this.cleanStats(enrollment.Data, 'Percent');
       } else if (enrollment.DataFormat === 'Number') {
         statsObj[enrollment.Location].stats[enrollment.TimeFrame] = 
-          enrollment.Data;
+          this.cleanStats(enrollment.Data, 'Number');
       }
 
       return statsObj;
     }, {});
   }
 
-  cleanStats(stats) {
+  cleanStats(stats, dataType) {
     if (typeof stats === 'string') {
       stats = 0;
     }
 
-    return parseFloat(stats.toFixed(3));
+    if (dataType === 'Percent') {
+      return parseFloat(stats.toFixed(3));
+    } else {
+      return stats;
+    }
   }
 
   findByName(name) {

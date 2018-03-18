@@ -39,6 +39,7 @@ ShallowWrapper {
           className="card clicked"
           location={undefined}
           selectCard={undefined}
+          statType={undefined}
           stats={undefined}
 />,
       ],
@@ -48,12 +49,13 @@ ShallowWrapper {
     "rendered": Array [
       Object {
         "instance": null,
-        "key": undefined,
+        "key": "0",
         "nodeType": "class",
         "props": Object {
           "className": "card clicked",
           "location": undefined,
           "selectCard": undefined,
+          "statType": undefined,
           "stats": undefined,
         },
         "ref": null,
@@ -74,6 +76,7 @@ ShallowWrapper {
             className="card clicked"
             location={undefined}
             selectCard={undefined}
+            statType={undefined}
             stats={undefined}
 />,
         ],
@@ -83,12 +86,13 @@ ShallowWrapper {
       "rendered": Array [
         Object {
           "instance": null,
-          "key": undefined,
+          "key": "0",
           "nodeType": "class",
           "props": Object {
             "className": "card clicked",
             "location": undefined,
             "selectCard": undefined,
+            "statType": undefined,
             "stats": undefined,
           },
           "ref": null,

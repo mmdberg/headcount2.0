@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 export const CardContainer = ({stats, selectCard, selectedCards}) => {
 
-  const cardInfo = stats.map(district => {
+  const cardInfo = stats.map((district, index) => {
     let result = 'card';
     
     selectedCards.forEach(card =>  {
@@ -19,7 +19,7 @@ export const CardContainer = ({stats, selectCard, selectedCards}) => {
         location={district.location} 
         stats={district.stats} 
         statType={district.statType}
-        key={district.location} 
+        key={index} 
         selectCard={selectCard}
         className={result}
       />);

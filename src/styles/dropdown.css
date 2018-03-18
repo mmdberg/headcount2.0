@@ -1,19 +1,20 @@
-.dropdown-container {
-  margin: 20px auto;
-  text-align: center;
-}
-
-h3 {
+.dropdown-container h3 {
   display: inline-block;
   font-size: 20px;
   margin-right: 20px;
+  text-align: center
 }
 
 select {
+  outline: none;
   height: 35px;
-  font-size: 16px;
   width: 300px;
   margin: auto;
+  font-size: 16px;
   color: #3A4F3B;
-  outline: none;
+}
+
+.dropdown-container {
+  margin: 20px auto;
+  text-align: center;
 }

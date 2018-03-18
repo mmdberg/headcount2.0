@@ -23,7 +23,7 @@ const ComparisonContainer =
 
     const cleanPercent = (stat) => {
       if (comparisonCards[0].props.statType === 'Percent'){
-        return parseInt(stat * 100) + '%';
+        return (stat * 100).toFixed(0) + '%';
       } else {
         return stat.toFixed(0);
       }
@@ -31,9 +31,10 @@ const ComparisonContainer =
 
     const cleanComparison = (stat) => {
       if (stat > 0 && stat !== Infinity) {
-        return parseInt(stat * 100) + '%'; 
+        let cleanStat = (stat * 100).toFixed(0) + '%';
+        return <span> {cleanStat} of </span>; 
       } else {
-        return 'not comparable to';
+        return ' not comparable to ';
       }
     };
     
@@ -59,10 +60,10 @@ const ComparisonContainer =
             <h2 className="comparison-title">Comparision</h2>
           </div>
           <p className="comparison-text">
-            The average of {newDistricts[0]} is &nbsp;
-            <span className="district-comparison">
-              {cleanComparison(newDistrictValues[2])}
-            </span> of the average of &nbsp;
+            The average of {newDistricts[0]} is
+            <span className='district-comparison'> 
+              {cleanComparison(newDistrictValues[2])}</span>
+            the average of &nbsp;
             {newDistricts[1]}.
           </p>
         </div>

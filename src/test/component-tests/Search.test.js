@@ -14,10 +14,10 @@ describe('Search', () => {
     expect(wrapper).toMatchSnapshot();
   });
 
-  it('should call filterData function when user types', () => {
+  it('should call filterStats function when user types', () => {
     const mockFilterData = jest.fn();
     const mockEvent = { target: { value: 'C'} };
-    const wrapper = shallow(<Search filterData={mockFilterData} />);
+    const wrapper = shallow(<Search filterStats={mockFilterData} />);
     wrapper.instance().handleChange(mockEvent);
     expect(mockFilterData).toHaveBeenCalled();
   });

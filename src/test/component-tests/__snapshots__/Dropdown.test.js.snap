@@ -19,7 +19,7 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <h3>
-          Choose an enrollment category to compare districts:
+          Choose a category to compare districts:
 </h3>,
         <select
           onChange={[Function]}
@@ -45,6 +45,9 @@ ShallowWrapper {
           <option>
                     Online Pupil Enrollment
           </option>
+          <option>
+                    Pupil Enrollment
+          </option>
 </select>,
       ],
       "className": "dropdown-container",
@@ -56,10 +59,10 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Choose an enrollment category to compare districts:",
+          "children": "Choose a category to compare districts:",
         },
         "ref": null,
-        "rendered": "Choose an enrollment category to compare districts:",
+        "rendered": "Choose a category to compare districts:",
         "type": "h3",
       },
       Object {
@@ -88,6 +91,9 @@ ShallowWrapper {
 </option>,
             <option>
               Online Pupil Enrollment
+</option>,
+            <option>
+              Pupil Enrollment
 </option>,
           ],
           "onChange": [Function],
@@ -171,6 +177,17 @@ ShallowWrapper {
             "rendered": "Online Pupil Enrollment",
             "type": "option",
           },
+          Object {
+            "instance": null,
+            "key": "7",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Pupil Enrollment",
+            },
+            "ref": null,
+            "rendered": "Pupil Enrollment",
+            "type": "option",
+          },
         ],
         "type": "select",
       },
@@ -185,7 +202,7 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <h3>
-            Choose an enrollment category to compare districts:
+            Choose a category to compare districts:
 </h3>,
           <select
             onChange={[Function]}
@@ -211,6 +228,9 @@ ShallowWrapper {
             <option>
                         Online Pupil Enrollment
             </option>
+            <option>
+                        Pupil Enrollment
+            </option>
 </select>,
         ],
         "className": "dropdown-container",
@@ -222,10 +242,10 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": "Choose an enrollment category to compare districts:",
+            "children": "Choose a category to compare districts:",
           },
           "ref": null,
-          "rendered": "Choose an enrollment category to compare districts:",
+          "rendered": "Choose a category to compare districts:",
           "type": "h3",
         },
         Object {
@@ -254,6 +274,9 @@ ShallowWrapper {
 </option>,
               <option>
                 Online Pupil Enrollment
+</option>,
+              <option>
+                Pupil Enrollment
 </option>,
             ],
             "onChange": [Function],
@@ -335,6 +358,17 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": "Online Pupil Enrollment",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Pupil Enrollment",
+              },
+              "ref": null,
+              "rendered": "Pupil Enrollment",
               "type": "option",
             },
           ],

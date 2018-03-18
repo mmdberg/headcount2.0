@@ -80,12 +80,12 @@ ShallowWrapper {
           <p
                     className="district-percent-left"
           >
-                    40%
+                    41%
           </p>
           <p
                     className="district-percent-right"
           >
-                    65%
+                    66%
           </p>
           <div
                     className="comparison-header"
@@ -106,13 +106,17 @@ ShallowWrapper {
           >
                     The average of 
                     ACADEMY 20
-                     is  
+                     is
                     <span
                               className="district-comparison"
                     >
-                              161%
+                              <span>
+                                         
+                                        161%
+                                         of 
+                              </span>
                     </span>
-                     of the average of  
+                    the average of  
                     ADAMS-ARAPAHOE 28J
                     .
           </p>
@@ -179,12 +183,12 @@ ShallowWrapper {
             <p
               className="district-percent-left"
 >
-              40%
+              41%
 </p>,
             <p
               className="district-percent-right"
 >
-              65%
+              66%
 </p>,
             <div
               className="comparison-header"
@@ -205,13 +209,17 @@ ShallowWrapper {
 >
               The average of 
               ACADEMY 20
-               is  
+               is
               <span
                             className="district-comparison"
               >
-                            161%
+                            <span>
+                                           
+                                          161%
+                                           of 
+                            </span>
               </span>
-               of the average of  
+              the average of  
               ADAMS-ARAPAHOE 28J
               .
 </p>,
@@ -279,11 +287,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "40%",
+              "children": "41%",
               "className": "district-percent-left",
             },
             "ref": null,
-            "rendered": "40%",
+            "rendered": "41%",
             "type": "p",
           },
           Object {
@@ -291,11 +299,11 @@ ShallowWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": "65%",
+              "children": "66%",
               "className": "district-percent-right",
             },
             "ref": null,
-            "rendered": "65%",
+            "rendered": "66%",
             "type": "p",
           },
           Object {
@@ -354,13 +362,17 @@ ShallowWrapper {
               "children": Array [
                 "The average of ",
                 "ACADEMY 20",
-                " is  ",
+                " is",
                 <span
                   className="district-comparison"
 >
-                  161%
+                  <span>
+                                     
+                                    161%
+                                     of 
+                  </span>
 </span>,
-                " of the average of  ",
+                "the average of  ",
                 "ADAMS-ARAPAHOE 28J",
                 ".",
               ],
@@ -370,20 +382,42 @@ ShallowWrapper {
             "rendered": Array [
               "The average of ",
               "ACADEMY 20",
-              " is  ",
+              " is",
               Object {
                 "instance": null,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
-                  "children": "161%",
+                  "children": <span>
+                     
+                    161%
+                     of 
+</span>,
                   "className": "district-comparison",
                 },
                 "ref": null,
-                "rendered": "161%",
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "161%",
+                      " of ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "161%",
+                    " of ",
+                  ],
+                  "type": "span",
+                },
                 "type": "span",
               },
-              " of the average of  ",
+              "the average of  ",
               "ADAMS-ARAPAHOE 28J",
               ".",
             ],
@@ -456,12 +490,12 @@ ShallowWrapper {
             <p
                         className="district-percent-left"
             >
-                        40%
+                        41%
             </p>
             <p
                         className="district-percent-right"
             >
-                        65%
+                        66%
             </p>
             <div
                         className="comparison-header"
@@ -482,13 +516,17 @@ ShallowWrapper {
             >
                         The average of 
                         ACADEMY 20
-                         is  
+                         is
                         <span
                                     className="district-comparison"
                         >
-                                    161%
+                                    <span>
+                                                 
+                                                161%
+                                                 of 
+                                    </span>
                         </span>
-                         of the average of  
+                        the average of  
                         ADAMS-ARAPAHOE 28J
                         .
             </p>
@@ -555,12 +593,12 @@ ShallowWrapper {
               <p
                 className="district-percent-left"
 >
-                40%
+                41%
 </p>,
               <p
                 className="district-percent-right"
 >
-                65%
+                66%
 </p>,
               <div
                 className="comparison-header"
@@ -581,13 +619,17 @@ ShallowWrapper {
 >
                 The average of 
                 ACADEMY 20
-                 is  
+                 is
                 <span
                                 className="district-comparison"
                 >
-                                161%
+                                <span>
+                                                 
+                                                161%
+                                                 of 
+                                </span>
                 </span>
-                 of the average of  
+                the average of  
                 ADAMS-ARAPAHOE 28J
                 .
 </p>,
@@ -655,11 +697,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "40%",
+                "children": "41%",
                 "className": "district-percent-left",
               },
               "ref": null,
-              "rendered": "40%",
+              "rendered": "41%",
               "type": "p",
             },
             Object {
@@ -667,11 +709,11 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": "65%",
+                "children": "66%",
                 "className": "district-percent-right",
               },
               "ref": null,
-              "rendered": "65%",
+              "rendered": "66%",
               "type": "p",
             },
             Object {
@@ -730,13 +772,17 @@ ShallowWrapper {
                 "children": Array [
                   "The average of ",
                   "ACADEMY 20",
-                  " is  ",
+                  " is",
                   <span
                     className="district-comparison"
 >
-                    161%
+                    <span>
+                                         
+                                        161%
+                                         of 
+                    </span>
 </span>,
-                  " of the average of  ",
+                  "the average of  ",
                   "ADAMS-ARAPAHOE 28J",
                   ".",
                 ],
@@ -746,20 +792,42 @@ ShallowWrapper {
               "rendered": Array [
                 "The average of ",
                 "ACADEMY 20",
-                " is  ",
+                " is",
                 Object {
                   "instance": null,
                   "key": undefined,
                   "nodeType": "host",
                   "props": Object {
-                    "children": "161%",
+                    "children": <span>
+                       
+                      161%
+                       of 
+</span>,
                     "className": "district-comparison",
                   },
                   "ref": null,
-                  "rendered": "161%",
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        " ",
+                        "161%",
+                        " of ",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " ",
+                      "161%",
+                      " of ",
+                    ],
+                    "type": "span",
+                  },
                   "type": "span",
                 },
-                " of the average of  ",
+                "the average of  ",
                 "ADAMS-ARAPAHOE 28J",
                 ".",
               ],

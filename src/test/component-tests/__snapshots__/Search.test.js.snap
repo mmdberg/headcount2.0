@@ -17,13 +17,46 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
-      "onChange": [Function],
-      "placeholder": "Search for a district",
-      "type": "text",
+      "children": Array [
+        <input
+          onChange={[Function]}
+          placeholder="Search for a district"
+          type="search"
+/>,
+        <h2>
+          Click on two cards below to compare their data.
+</h2>,
+      ],
+      "className": "search",
     },
     "ref": null,
-    "rendered": null,
-    "type": "input",
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "onChange": [Function],
+          "placeholder": "Search for a district",
+          "type": "search",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": "input",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Click on two cards below to compare their data.",
+        },
+        "ref": null,
+        "rendered": "Click on two cards below to compare their data.",
+        "type": "h2",
+      },
+    ],
+    "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
@@ -31,13 +64,46 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "onChange": [Function],
-        "placeholder": "Search for a district",
-        "type": "text",
+        "children": Array [
+          <input
+            onChange={[Function]}
+            placeholder="Search for a district"
+            type="search"
+/>,
+          <h2>
+            Click on two cards below to compare their data.
+</h2>,
+        ],
+        "className": "search",
       },
       "ref": null,
-      "rendered": null,
-      "type": "input",
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "onChange": [Function],
+            "placeholder": "Search for a district",
+            "type": "search",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "input",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Click on two cards below to compare their data.",
+          },
+          "ref": null,
+          "rendered": "Click on two cards below to compare their data.",
+          "type": "h2",
+        },
+      ],
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {

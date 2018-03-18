@@ -5,6 +5,7 @@ import titleI from './data/title_i_students.js';
 import medianIncome from './data/median_household_income.js';
 import remediation from './data/remediation_in_higher_education.js';
 import online from './data/online_pupil_enrollment.js';
+import pupil from './data/pupil_enrollment.js';
 
 export const dataList = [
   { type: 'Kindergarteners in Full Day Programs'}, 
@@ -13,7 +14,8 @@ export const dataList = [
   { type: 'Special Education'},
   { type: 'Title I Students'},
   { type: 'Remediation In Higher Education'},
-  { type: 'Online Pupil Enrollment'}
+  { type: 'Online Pupil Enrollment'},
+  { type: 'Pupil Enrollment'}
 ];
 
 export const getProgram = (program) => {
@@ -39,6 +41,9 @@ export const getProgram = (program) => {
 
   case 'Online Pupil Enrollment':
     return online;
+
+  case 'Pupil Enrollment':
+    return pupil;
 
   default: return kinderData;
   }
