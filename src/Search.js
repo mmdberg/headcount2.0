@@ -11,10 +11,13 @@ class Search extends Component {
 
   render() {
     return (
+      <div>
         <input  type="text"
                 placeholder="Search for a district"
                 onChange={this.handleChange}
         />
+        <h2>Click on two cards below to compare their data.</h2>
+      </div>
     );
   }
 }

@@ -68,7 +68,7 @@ const ComparisonContainer =
 }
 
 ComparisonContainer.propTypes = {
-  comparison: PropTypes.obj,
+  comparison: PropTypes.object,
   selectCard: PropTypes.func,
   selectedCards: PropTypes.array
 }
