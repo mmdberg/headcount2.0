@@ -10,7 +10,13 @@ export default class DistrictRepository {
       } 
 
       obj[enrollment.Location].location = enrollment.Location.toUpperCase();
-      obj[enrollment.Location].stats[enrollment.TimeFrame] = this.cleanStats(enrollment.Data)
+      obj[enrollment.Location].statType = enrollment.DataFormat
+
+      if (enrollment.DataFormat === 'Percent') {
+        obj[enrollment.Location].stats[enrollment.TimeFrame] = this.cleanStats(enrollment.Data)
+      } else if (enrollment.DataFormat === 'Number') {
+        obj[enrollment.Location].stats[enrollment.TimeFrame] = enrollment.Data
+      }
 
       return obj;
     }, {});
