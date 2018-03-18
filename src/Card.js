@@ -8,11 +8,11 @@ class Card extends Component {
 
   yearValues = (stats) => {
     return Object.keys(stats).map(year => {
-      let roundedPercent = parseInt((stats[year] * 100));
+      let roundedPercent = (stats[year] * 100).toFixed(0);
       let higherAchievement = roundedPercent > 50;
       return (
         <li key={year} className="cardStats">
-          <img className="check" src={higherAchievement ? check : none} />
+          <img className="check" src={higherAchievement ? check : none} alt="checkmark" />
           <p className={higherAchievement ? "year higher-achievement" : "year"}>{year}: </p>
           <p className={higherAchievement ? "year higher-achievement" : "percent"}>{roundedPercent}%</p>
         </li>

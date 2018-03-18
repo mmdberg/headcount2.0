@@ -15,7 +15,7 @@ class App extends Component {
       selectedCards: []
     };
     this.district = '';
-    this.comparison = '';
+    this.comparison = {};
   }
 
   getStats = (newStats) => {

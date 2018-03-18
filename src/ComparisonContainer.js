@@ -32,14 +32,14 @@ const ComparisonContainer =
           <header className="header-right">
             <h4 className="district-name-right">{newDistricts[1]}</h4>
           </header>
-          <p className="district-percent-left">{parseInt(newDistrictValues[0] * 100)}%</p>
-          <p className="district-percent-right">{parseInt(newDistrictValues[1] * 100)}%</p>
+          <p className="district-percent-left">{(newDistrictValues[0] * 100).toFixed(0)}%</p>
+          <p className="district-percent-right">{(newDistrictValues[1] * 100).toFixed(0)}%</p>
           <div className="comparison-header">
             <p className="district-percent-text">*Average across all years</p>
             <h2 className="comparison-title">Comparision</h2>
           </div>
           <p className="comparison-text">The average of {newDistricts[0]} is &nbsp;
-            <span className="district-comparison">{parseInt(newDistrictValues[2] * 100)}%</span> of the average of &nbsp;
+            <span className="district-comparison">{(newDistrictValues[2] * 100).toFixed(0)}%</span> of the average of &nbsp;
             {newDistricts[1]}.</p>
         </div>
         }
@@ -49,7 +49,7 @@ const ComparisonContainer =
 }
 
 ComparisonContainer.propTypes = {
-  comparison: PropTypes.obj,
+  comparison: PropTypes.object,
   selectCard: PropTypes.func,
   selectedCards: PropTypes.array
 }
