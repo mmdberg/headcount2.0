@@ -14,39 +14,32 @@ export const dataList = [
   { type: 'Title I Students'},
   { type: 'Remediation In Higher Education'},
   { type: 'Online Pupil Enrollment'}
-]
+];
 
 export const getProgram = (program) => {
 
-  switch(program) {
-    case 'Kindergarteners in Full Day Programs':
-      return kinderData
-      break;
+  switch (program) {
+  case 'Kindergarteners in Full Day Programs':
+    return kinderData;
 
-    case 'High School Graduation Rates':
-      return highSchool
-      break;
+  case 'High School Graduation Rates':
+    return highSchool;
 
-    case 'Median Household Income':
-      return medianIncome
-      break;
+  case 'Median Household Income':
+    return medianIncome;
 
-    case 'Special Education':
-      return specialEd
-      break;
+  case 'Special Education':
+    return specialEd;
 
-    case 'Title I Students':
-      return titleI
-      break;
+  case 'Title I Students':
+    return titleI;
 
-    case 'Remediation In Higher Education':
-      return remediation
-      break;
+  case 'Remediation In Higher Education':
+    return remediation;
 
-    case 'Online Pupil Enrollment':
-      return online
-      break;
+  case 'Online Pupil Enrollment':
+    return online;
 
-    default: console.log('error');
+  default: return kinderData;
   }
-}
+};

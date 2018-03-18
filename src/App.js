@@ -7,14 +7,12 @@ import Search from './Search';
 import ComparisonContainer from './ComparisonContainer';
 import Dropdown from './Dropdown';
 
-
-
 class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
       stats: [],
-      selectedCards: [],
+      selectedCards: []
     };
     this.district = '';
   }
@@ -31,10 +29,6 @@ class App extends Component {
   filterStats = (userInput) => {
     const matchedStats = this.district.findAllMatches(userInput);
     this.setState({stats: matchedStats});
-  }
-
-  componentDidMount() {
-    this.getStats(kinderData);
   }
 
   selectCard = (card) => {
@@ -61,8 +55,12 @@ class App extends Component {
       );
       this.setState({
         comparison
-      })
+      });
     }
+  }
+
+  componentDidMount() {
+    this.getStats(kinderData);
   }
 
   render() {
@@ -85,7 +83,6 @@ class App extends Component {
           selectedCards={this.state.selectedCards} 
         />
       </div>
-
     );
   }
 }

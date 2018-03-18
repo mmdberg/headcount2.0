@@ -1,6 +1,6 @@
 import React from 'react';
-import { shallow, mount } from 'enzyme';
-import mockCardData from '../../data/mock_card_data'
+import { shallow } from 'enzyme';
+import mockCardData from '../../data/mock_card_data';
 import Card from '../../Card';
 
 
@@ -23,7 +23,7 @@ describe('Card', () => {
     expect(wrapper.find('.higher-achievement').length).toEqual(14);
   });
 
-  it('should not add class higher-achievement when statType is not percent', () => {
+  it('should not add class higher-achievement when statType is number', () => {
     wrapper = shallow(
       <Card
         stats={mockCardData}
@@ -32,7 +32,7 @@ describe('Card', () => {
 
     wrapper.instance().yearValues(mockCardData);
     expect(wrapper.find('.higher-achievement').length).toEqual(0);
-  })
+  });
 
   it('should call selectCard on click', () => {
     wrapper = shallow(
