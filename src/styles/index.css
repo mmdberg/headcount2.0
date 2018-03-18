@@ -4,11 +4,11 @@
 }
 
 body {
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
   box-sizing: border-box;
+  min-height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
   background-image: url('./Chalkboard.jpg');
   background-repeat: no-repeat;
   background-size: 100% 120%;
