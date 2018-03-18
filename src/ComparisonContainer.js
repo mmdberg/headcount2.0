@@ -12,14 +12,33 @@ const ComparisonContainer =
       newDistrictValues = Object.values(comparison);
     }
     const comparisonCards = selectedCards.map((district) => {
+
       return (
         <Card location={district.location}
           stats={district.stats}
+          statType={district.statType}
           key={district.location}
           selectCard={selectCard}
           className="card clicked"
         />);
     });
+
+    const cleanPercent = (stat) => {
+      console.log(comparisonCards[0].props.statType)
+      if (comparisonCards[0].props.statType === 'Percent'){
+        console.log(stat)
+        return parseInt(stat * 100)
+      } else if (comparisonCards[0].props.statType === 'Number')
+        return stat
+    }
+
+    const cleanComparison = (stat) => {
+      if (stat && stat != 'Infinity') {
+        return parseInt(newDistrictValues[2] * 100) + '%' 
+      } else {
+        return 'not comparable to'
+      }
+    }
     
     return (
       <div className="comparison-container">
@@ -32,14 +51,14 @@ const ComparisonContainer =
           <header className="header-right">
             <h4 className="district-name-right">{newDistricts[1]}</h4>
           </header>
-          <p className="district-percent-left">{(newDistrictValues[0] * 100).toFixed(0)}%</p>
-          <p className="district-percent-right">{(newDistrictValues[1] * 100).toFixed(0)}%</p>
+          <p className="district-percent-left">{cleanPercent(newDistrictValues[0])}%</p>
+          <p className="district-percent-right">{cleanPercent(newDistrictValues[1])}%</p>
           <div className="comparison-header">
             <p className="district-percent-text">*Average across all years</p>
             <h2 className="comparison-title">Comparision</h2>
           </div>
           <p className="comparison-text">The average of {newDistricts[0]} is &nbsp;
-            <span className="district-comparison">{(newDistrictValues[2] * 100).toFixed(0)}%</span> of the average of &nbsp;
+            <span className="district-comparison">{cleanComparison(newDistrictValues[2])}</span> of the average of &nbsp;
             {newDistricts[1]}.</p>
         </div>
         }
