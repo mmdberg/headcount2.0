@@ -5,6 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Card
+    statType="Percent"
     stats={
         Object {
             "2004": 0.24,
@@ -34,89 +35,235 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <h2 />,
-        Array [
-          <p>
-            2004
-            : 
-            24
-            %
-</p>,
-          <p>
-            2005
-            : 
-            27
-            %
-</p>,
-          <p>
-            2006
-            : 
-            33
-            %
-</p>,
-          <p>
-            2007
-            : 
-            39
-            %
-</p>,
-          <p
-            className="higher-achievement"
+        <header>
+          <h2
+                    className="district-title"
+          />
+</header>,
+        <ul
+          title="A checkmark indicates a value greater than 50%."
 >
-            2008
-            : 
-            53
-            %
-</p>,
-          <p
-            className="higher-achievement"
->
-            2009
-            : 
-            59
-            %
-</p>,
-          <p
-            className="higher-achievement"
->
-            2010
-            : 
-            64
-            %
-</p>,
-          <p
-            className="higher-achievement"
->
-            2011
-            : 
-            67
-            %
-</p>,
-          <p
-            className="higher-achievement"
->
-            2012
-            : 
-            69
-            %
-</p>,
-          <p
-            className="higher-achievement"
->
-            2013
-            : 
-            70
-            %
-</p>,
-          <p
-            className="higher-achievement"
->
-            2014
-            : 
-            74
-            %
-</p>,
-        ],
+          <li
+                    className="cardStats"
+          >
+                    <img
+                              alt="checkmark"
+                              className="check"
+                              src="none.gif"
+                    />
+                    <p
+                              className="year"
+                    >
+                              2004
+                              : 
+                    </p>
+                    <p
+                              className="percent"
+                    >
+                              24%
+                    </p>
+          </li>
+          <li
+                    className="cardStats"
+          >
+                    <img
+                              alt="checkmark"
+                              className="check"
+                              src="none.gif"
+                    />
+                    <p
+                              className="year"
+                    >
+                              2005
+                              : 
+                    </p>
+                    <p
+                              className="percent"
+                    >
+                              28%
+                    </p>
+          </li>
+          <li
+                    className="cardStats"
+          >
+                    <img
+                              alt="checkmark"
+                              className="check"
+                              src="none.gif"
+                    />
+                    <p
+                              className="year"
+                    >
+                              2006
+                              : 
+                    </p>
+                    <p
+                              className="percent"
+                    >
+                              34%
+                    </p>
+          </li>
+          <li
+                    className="cardStats"
+          >
+                    <img
+                              alt="checkmark"
+                              className="check"
+                              src="none.gif"
+                    />
+                    <p
+                              className="year"
+                    >
+                              2007
+                              : 
+                    </p>
+                    <p
+                              className="percent"
+                    >
+                              40%
+                    </p>
+          </li>
+          <li
+                    className="cardStats"
+          >
+                    <img
+                              alt="checkmark"
+                              className="check"
+                              src="check.png"
+                    />
+                    <p
+                              className="year higher-achievement"
+                    >
+                              2008
+                              : 
+                    </p>
+                    <p
+                              className="year higher-achievement"
+                    >
+                              54%
+                    </p>
+          </li>
+          <li
+                    className="cardStats"
+          >
+                    <img
+                              alt="checkmark"
+                              className="check"
+                              src="check.png"
+                    />
+                    <p
+                              className="year higher-achievement"
+                    >
+                              2009
+                              : 
+                    </p>
+                    <p
+                              className="year higher-achievement"
+                    >
+                              60%
+                    </p>
+          </li>
+          <li
+                    className="cardStats"
+          >
+                    <img
+                              alt="checkmark"
+                              className="check"
+                              src="check.png"
+                    />
+                    <p
+                              className="year higher-achievement"
+                    >
+                              2010
+                              : 
+                    </p>
+                    <p
+                              className="year higher-achievement"
+                    >
+                              64%
+                    </p>
+          </li>
+          <li
+                    className="cardStats"
+          >
+                    <img
+                              alt="checkmark"
+                              className="check"
+                              src="check.png"
+                    />
+                    <p
+                              className="year higher-achievement"
+                    >
+                              2011
+                              : 
+                    </p>
+                    <p
+                              className="year higher-achievement"
+                    >
+                              67%
+                    </p>
+          </li>
+          <li
+                    className="cardStats"
+          >
+                    <img
+                              alt="checkmark"
+                              className="check"
+                              src="check.png"
+                    />
+                    <p
+                              className="year higher-achievement"
+                    >
+                              2012
+                              : 
+                    </p>
+                    <p
+                              className="year higher-achievement"
+                    >
+                              70%
+                    </p>
+          </li>
+          <li
+                    className="cardStats"
+          >
+                    <img
+                              alt="checkmark"
+                              className="check"
+                              src="check.png"
+                    />
+                    <p
+                              className="year higher-achievement"
+                    >
+                              2013
+                              : 
+                    </p>
+                    <p
+                              className="year higher-achievement"
+                    >
+                              70%
+                    </p>
+          </li>
+          <li
+                    className="cardStats"
+          >
+                    <img
+                              alt="checkmark"
+                              className="check"
+                              src="check.png"
+                    />
+                    <p
+                              className="year higher-achievement"
+                    >
+                              2014
+                              : 
+                    </p>
+                    <p
+                              className="year higher-achievement"
+                    >
+                              74%
+                    </p>
+          </li>
+</ul>,
       ],
       "className": undefined,
       "onClick": [Function],
@@ -128,249 +275,1061 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": <h2
+            className="district-title"
+/>,
         },
         "ref": null,
-        "rendered": null,
-        "type": "h2",
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": undefined,
+            "className": "district-title",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": "h2",
+        },
+        "type": "header",
       },
       Object {
         "instance": null,
-        "key": "2004",
+        "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "2004",
-            ": ",
-            24,
-            "%",
+            <li
+              className="cardStats"
+>
+              <img
+                            alt="checkmark"
+                            className="check"
+                            src="none.gif"
+              />
+              <p
+                            className="year"
+              >
+                            2004
+                            : 
+              </p>
+              <p
+                            className="percent"
+              >
+                            24%
+              </p>
+</li>,
+            <li
+              className="cardStats"
+>
+              <img
+                            alt="checkmark"
+                            className="check"
+                            src="none.gif"
+              />
+              <p
+                            className="year"
+              >
+                            2005
+                            : 
+              </p>
+              <p
+                            className="percent"
+              >
+                            28%
+              </p>
+</li>,
+            <li
+              className="cardStats"
+>
+              <img
+                            alt="checkmark"
+                            className="check"
+                            src="none.gif"
+              />
+              <p
+                            className="year"
+              >
+                            2006
+                            : 
+              </p>
+              <p
+                            className="percent"
+              >
+                            34%
+              </p>
+</li>,
+            <li
+              className="cardStats"
+>
+              <img
+                            alt="checkmark"
+                            className="check"
+                            src="none.gif"
+              />
+              <p
+                            className="year"
+              >
+                            2007
+                            : 
+              </p>
+              <p
+                            className="percent"
+              >
+                            40%
+              </p>
+</li>,
+            <li
+              className="cardStats"
+>
+              <img
+                            alt="checkmark"
+                            className="check"
+                            src="check.png"
+              />
+              <p
+                            className="year higher-achievement"
+              >
+                            2008
+                            : 
+              </p>
+              <p
+                            className="year higher-achievement"
+              >
+                            54%
+              </p>
+</li>,
+            <li
+              className="cardStats"
+>
+              <img
+                            alt="checkmark"
+                            className="check"
+                            src="check.png"
+              />
+              <p
+                            className="year higher-achievement"
+              >
+                            2009
+                            : 
+              </p>
+              <p
+                            className="year higher-achievement"
+              >
+                            60%
+              </p>
+</li>,
+            <li
+              className="cardStats"
+>
+              <img
+                            alt="checkmark"
+                            className="check"
+                            src="check.png"
+              />
+              <p
+                            className="year higher-achievement"
+              >
+                            2010
+                            : 
+              </p>
+              <p
+                            className="year higher-achievement"
+              >
+                            64%
+              </p>
+</li>,
+            <li
+              className="cardStats"
+>
+              <img
+                            alt="checkmark"
+                            className="check"
+                            src="check.png"
+              />
+              <p
+                            className="year higher-achievement"
+              >
+                            2011
+                            : 
+              </p>
+              <p
+                            className="year higher-achievement"
+              >
+                            67%
+              </p>
+</li>,
+            <li
+              className="cardStats"
+>
+              <img
+                            alt="checkmark"
+                            className="check"
+                            src="check.png"
+              />
+              <p
+                            className="year higher-achievement"
+              >
+                            2012
+                            : 
+              </p>
+              <p
+                            className="year higher-achievement"
+              >
+                            70%
+              </p>
+</li>,
+            <li
+              className="cardStats"
+>
+              <img
+                            alt="checkmark"
+                            className="check"
+                            src="check.png"
+              />
+              <p
+                            className="year higher-achievement"
+              >
+                            2013
+                            : 
+              </p>
+              <p
+                            className="year higher-achievement"
+              >
+                            70%
+              </p>
+</li>,
+            <li
+              className="cardStats"
+>
+              <img
+                            alt="checkmark"
+                            className="check"
+                            src="check.png"
+              />
+              <p
+                            className="year higher-achievement"
+              >
+                            2014
+                            : 
+              </p>
+              <p
+                            className="year higher-achievement"
+              >
+                            74%
+              </p>
+</li>,
           ],
+          "title": "A checkmark indicates a value greater than 50%.",
         },
         "ref": null,
         "rendered": Array [
-          "2004",
-          ": ",
-          24,
-          "%",
+          Object {
+            "instance": null,
+            "key": "2004",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="checkmark"
+                  className="check"
+                  src="none.gif"
+/>,
+                <p
+                  className="year"
+>
+                  2004
+                  : 
+</p>,
+                <p
+                  className="percent"
+>
+                  24%
+</p>,
+              ],
+              "className": "cardStats",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "checkmark",
+                  "className": "check",
+                  "src": "none.gif",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2004",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2004",
+                  ": ",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "24%",
+                  "className": "percent",
+                },
+                "ref": null,
+                "rendered": "24%",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2005",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="checkmark"
+                  className="check"
+                  src="none.gif"
+/>,
+                <p
+                  className="year"
+>
+                  2005
+                  : 
+</p>,
+                <p
+                  className="percent"
+>
+                  28%
+</p>,
+              ],
+              "className": "cardStats",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "checkmark",
+                  "className": "check",
+                  "src": "none.gif",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2005",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2005",
+                  ": ",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "28%",
+                  "className": "percent",
+                },
+                "ref": null,
+                "rendered": "28%",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2006",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="checkmark"
+                  className="check"
+                  src="none.gif"
+/>,
+                <p
+                  className="year"
+>
+                  2006
+                  : 
+</p>,
+                <p
+                  className="percent"
+>
+                  34%
+</p>,
+              ],
+              "className": "cardStats",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "checkmark",
+                  "className": "check",
+                  "src": "none.gif",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2006",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2006",
+                  ": ",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "34%",
+                  "className": "percent",
+                },
+                "ref": null,
+                "rendered": "34%",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2007",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="checkmark"
+                  className="check"
+                  src="none.gif"
+/>,
+                <p
+                  className="year"
+>
+                  2007
+                  : 
+</p>,
+                <p
+                  className="percent"
+>
+                  40%
+</p>,
+              ],
+              "className": "cardStats",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "checkmark",
+                  "className": "check",
+                  "src": "none.gif",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2007",
+                    ": ",
+                  ],
+                  "className": "year",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2007",
+                  ": ",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "40%",
+                  "className": "percent",
+                },
+                "ref": null,
+                "rendered": "40%",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2008",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="checkmark"
+                  className="check"
+                  src="check.png"
+/>,
+                <p
+                  className="year higher-achievement"
+>
+                  2008
+                  : 
+</p>,
+                <p
+                  className="year higher-achievement"
+>
+                  54%
+</p>,
+              ],
+              "className": "cardStats",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "checkmark",
+                  "className": "check",
+                  "src": "check.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2008",
+                    ": ",
+                  ],
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2008",
+                  ": ",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "54%",
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": "54%",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2009",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="checkmark"
+                  className="check"
+                  src="check.png"
+/>,
+                <p
+                  className="year higher-achievement"
+>
+                  2009
+                  : 
+</p>,
+                <p
+                  className="year higher-achievement"
+>
+                  60%
+</p>,
+              ],
+              "className": "cardStats",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "checkmark",
+                  "className": "check",
+                  "src": "check.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2009",
+                    ": ",
+                  ],
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2009",
+                  ": ",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "60%",
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": "60%",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2010",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="checkmark"
+                  className="check"
+                  src="check.png"
+/>,
+                <p
+                  className="year higher-achievement"
+>
+                  2010
+                  : 
+</p>,
+                <p
+                  className="year higher-achievement"
+>
+                  64%
+</p>,
+              ],
+              "className": "cardStats",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "checkmark",
+                  "className": "check",
+                  "src": "check.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2010",
+                    ": ",
+                  ],
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2010",
+                  ": ",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "64%",
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": "64%",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2011",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="checkmark"
+                  className="check"
+                  src="check.png"
+/>,
+                <p
+                  className="year higher-achievement"
+>
+                  2011
+                  : 
+</p>,
+                <p
+                  className="year higher-achievement"
+>
+                  67%
+</p>,
+              ],
+              "className": "cardStats",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "checkmark",
+                  "className": "check",
+                  "src": "check.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2011",
+                    ": ",
+                  ],
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2011",
+                  ": ",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "67%",
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": "67%",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2012",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="checkmark"
+                  className="check"
+                  src="check.png"
+/>,
+                <p
+                  className="year higher-achievement"
+>
+                  2012
+                  : 
+</p>,
+                <p
+                  className="year higher-achievement"
+>
+                  70%
+</p>,
+              ],
+              "className": "cardStats",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "checkmark",
+                  "className": "check",
+                  "src": "check.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2012",
+                    ": ",
+                  ],
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2012",
+                  ": ",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "70%",
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": "70%",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2013",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="checkmark"
+                  className="check"
+                  src="check.png"
+/>,
+                <p
+                  className="year higher-achievement"
+>
+                  2013
+                  : 
+</p>,
+                <p
+                  className="year higher-achievement"
+>
+                  70%
+</p>,
+              ],
+              "className": "cardStats",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "checkmark",
+                  "className": "check",
+                  "src": "check.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2013",
+                    ": ",
+                  ],
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2013",
+                  ": ",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "70%",
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": "70%",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
+          Object {
+            "instance": null,
+            "key": "2014",
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <img
+                  alt="checkmark"
+                  className="check"
+                  src="check.png"
+/>,
+                <p
+                  className="year higher-achievement"
+>
+                  2014
+                  : 
+</p>,
+                <p
+                  className="year higher-achievement"
+>
+                  74%
+</p>,
+              ],
+              "className": "cardStats",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "checkmark",
+                  "className": "check",
+                  "src": "check.png",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "img",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    "2014",
+                    ": ",
+                  ],
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": Array [
+                  "2014",
+                  ": ",
+                ],
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "74%",
+                  "className": "year higher-achievement",
+                },
+                "ref": null,
+                "rendered": "74%",
+                "type": "p",
+              },
+            ],
+            "type": "li",
+          },
         ],
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": "2005",
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "2005",
-            ": ",
-            27,
-            "%",
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          "2005",
-          ": ",
-          27,
-          "%",
-        ],
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": "2006",
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "2006",
-            ": ",
-            33,
-            "%",
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          "2006",
-          ": ",
-          33,
-          "%",
-        ],
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": "2007",
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "2007",
-            ": ",
-            39,
-            "%",
-          ],
-        },
-        "ref": null,
-        "rendered": Array [
-          "2007",
-          ": ",
-          39,
-          "%",
-        ],
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": "2008",
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "2008",
-            ": ",
-            53,
-            "%",
-          ],
-          "className": "higher-achievement",
-        },
-        "ref": null,
-        "rendered": Array [
-          "2008",
-          ": ",
-          53,
-          "%",
-        ],
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": "2009",
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "2009",
-            ": ",
-            59,
-            "%",
-          ],
-          "className": "higher-achievement",
-        },
-        "ref": null,
-        "rendered": Array [
-          "2009",
-          ": ",
-          59,
-          "%",
-        ],
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": "2010",
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "2010",
-            ": ",
-            64,
-            "%",
-          ],
-          "className": "higher-achievement",
-        },
-        "ref": null,
-        "rendered": Array [
-          "2010",
-          ": ",
-          64,
-          "%",
-        ],
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": "2011",
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "2011",
-            ": ",
-            67,
-            "%",
-          ],
-          "className": "higher-achievement",
-        },
-        "ref": null,
-        "rendered": Array [
-          "2011",
-          ": ",
-          67,
-          "%",
-        ],
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": "2012",
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "2012",
-            ": ",
-            69,
-            "%",
-          ],
-          "className": "higher-achievement",
-        },
-        "ref": null,
-        "rendered": Array [
-          "2012",
-          ": ",
-          69,
-          "%",
-        ],
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": "2013",
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "2013",
-            ": ",
-            70,
-            "%",
-          ],
-          "className": "higher-achievement",
-        },
-        "ref": null,
-        "rendered": Array [
-          "2013",
-          ": ",
-          70,
-          "%",
-        ],
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": "2014",
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            "2014",
-            ": ",
-            74,
-            "%",
-          ],
-          "className": "higher-achievement",
-        },
-        "ref": null,
-        "rendered": Array [
-          "2014",
-          ": ",
-          74,
-          "%",
-        ],
-        "type": "p",
+        "type": "ul",
       },
     ],
     "type": "div",
@@ -382,89 +1341,235 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <h2 />,
-          Array [
-            <p>
-              2004
-              : 
-              24
-              %
-</p>,
-            <p>
-              2005
-              : 
-              27
-              %
-</p>,
-            <p>
-              2006
-              : 
-              33
-              %
-</p>,
-            <p>
-              2007
-              : 
-              39
-              %
-</p>,
-            <p
-              className="higher-achievement"
+          <header>
+            <h2
+                        className="district-title"
+            />
+</header>,
+          <ul
+            title="A checkmark indicates a value greater than 50%."
 >
-              2008
-              : 
-              53
-              %
-</p>,
-            <p
-              className="higher-achievement"
->
-              2009
-              : 
-              59
-              %
-</p>,
-            <p
-              className="higher-achievement"
->
-              2010
-              : 
-              64
-              %
-</p>,
-            <p
-              className="higher-achievement"
->
-              2011
-              : 
-              67
-              %
-</p>,
-            <p
-              className="higher-achievement"
->
-              2012
-              : 
-              69
-              %
-</p>,
-            <p
-              className="higher-achievement"
->
-              2013
-              : 
-              70
-              %
-</p>,
-            <p
-              className="higher-achievement"
->
-              2014
-              : 
-              74
-              %
-</p>,
-          ],
+            <li
+                        className="cardStats"
+            >
+                        <img
+                                    alt="checkmark"
+                                    className="check"
+                                    src="none.gif"
+                        />
+                        <p
+                                    className="year"
+                        >
+                                    2004
+                                    : 
+                        </p>
+                        <p
+                                    className="percent"
+                        >
+                                    24%
+                        </p>
+            </li>
+            <li
+                        className="cardStats"
+            >
+                        <img
+                                    alt="checkmark"
+                                    className="check"
+                                    src="none.gif"
+                        />
+                        <p
+                                    className="year"
+                        >
+                                    2005
+                                    : 
+                        </p>
+                        <p
+                                    className="percent"
+                        >
+                                    28%
+                        </p>
+            </li>
+            <li
+                        className="cardStats"
+            >
+                        <img
+                                    alt="checkmark"
+                                    className="check"
+                                    src="none.gif"
+                        />
+                        <p
+                                    className="year"
+                        >
+                                    2006
+                                    : 
+                        </p>
+                        <p
+                                    className="percent"
+                        >
+                                    34%
+                        </p>
+            </li>
+            <li
+                        className="cardStats"
+            >
+                        <img
+                                    alt="checkmark"
+                                    className="check"
+                                    src="none.gif"
+                        />
+                        <p
+                                    className="year"
+                        >
+                                    2007
+                                    : 
+                        </p>
+                        <p
+                                    className="percent"
+                        >
+                                    40%
+                        </p>
+            </li>
+            <li
+                        className="cardStats"
+            >
+                        <img
+                                    alt="checkmark"
+                                    className="check"
+                                    src="check.png"
+                        />
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    2008
+                                    : 
+                        </p>
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    54%
+                        </p>
+            </li>
+            <li
+                        className="cardStats"
+            >
+                        <img
+                                    alt="checkmark"
+                                    className="check"
+                                    src="check.png"
+                        />
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    2009
+                                    : 
+                        </p>
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    60%
+                        </p>
+            </li>
+            <li
+                        className="cardStats"
+            >
+                        <img
+                                    alt="checkmark"
+                                    className="check"
+                                    src="check.png"
+                        />
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    2010
+                                    : 
+                        </p>
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    64%
+                        </p>
+            </li>
+            <li
+                        className="cardStats"
+            >
+                        <img
+                                    alt="checkmark"
+                                    className="check"
+                                    src="check.png"
+                        />
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    2011
+                                    : 
+                        </p>
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    67%
+                        </p>
+            </li>
+            <li
+                        className="cardStats"
+            >
+                        <img
+                                    alt="checkmark"
+                                    className="check"
+                                    src="check.png"
+                        />
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    2012
+                                    : 
+                        </p>
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    70%
+                        </p>
+            </li>
+            <li
+                        className="cardStats"
+            >
+                        <img
+                                    alt="checkmark"
+                                    className="check"
+                                    src="check.png"
+                        />
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    2013
+                                    : 
+                        </p>
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    70%
+                        </p>
+            </li>
+            <li
+                        className="cardStats"
+            >
+                        <img
+                                    alt="checkmark"
+                                    className="check"
+                                    src="check.png"
+                        />
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    2014
+                                    : 
+                        </p>
+                        <p
+                                    className="year higher-achievement"
+                        >
+                                    74%
+                        </p>
+            </li>
+</ul>,
         ],
         "className": undefined,
         "onClick": [Function],
@@ -476,249 +1581,1061 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": <h2
+              className="district-title"
+/>,
           },
           "ref": null,
-          "rendered": null,
-          "type": "h2",
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": undefined,
+              "className": "district-title",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": "h2",
+          },
+          "type": "header",
         },
         Object {
           "instance": null,
-          "key": "2004",
+          "key": undefined,
           "nodeType": "host",
           "props": Object {
             "children": Array [
-              "2004",
-              ": ",
-              24,
-              "%",
+              <li
+                className="cardStats"
+>
+                <img
+                                alt="checkmark"
+                                className="check"
+                                src="none.gif"
+                />
+                <p
+                                className="year"
+                >
+                                2004
+                                : 
+                </p>
+                <p
+                                className="percent"
+                >
+                                24%
+                </p>
+</li>,
+              <li
+                className="cardStats"
+>
+                <img
+                                alt="checkmark"
+                                className="check"
+                                src="none.gif"
+                />
+                <p
+                                className="year"
+                >
+                                2005
+                                : 
+                </p>
+                <p
+                                className="percent"
+                >
+                                28%
+                </p>
+</li>,
+              <li
+                className="cardStats"
+>
+                <img
+                                alt="checkmark"
+                                className="check"
+                                src="none.gif"
+                />
+                <p
+                                className="year"
+                >
+                                2006
+                                : 
+                </p>
+                <p
+                                className="percent"
+                >
+                                34%
+                </p>
+</li>,
+              <li
+                className="cardStats"
+>
+                <img
+                                alt="checkmark"
+                                className="check"
+                                src="none.gif"
+                />
+                <p
+                                className="year"
+                >
+                                2007
+                                : 
+                </p>
+                <p
+                                className="percent"
+                >
+                                40%
+                </p>
+</li>,
+              <li
+                className="cardStats"
+>
+                <img
+                                alt="checkmark"
+                                className="check"
+                                src="check.png"
+                />
+                <p
+                                className="year higher-achievement"
+                >
+                                2008
+                                : 
+                </p>
+                <p
+                                className="year higher-achievement"
+                >
+                                54%
+                </p>
+</li>,
+              <li
+                className="cardStats"
+>
+                <img
+                                alt="checkmark"
+                                className="check"
+                                src="check.png"
+                />
+                <p
+                                className="year higher-achievement"
+                >
+                                2009
+                                : 
+                </p>
+                <p
+                                className="year higher-achievement"
+                >
+                                60%
+                </p>
+</li>,
+              <li
+                className="cardStats"
+>
+                <img
+                                alt="checkmark"
+                                className="check"
+                                src="check.png"
+                />
+                <p
+                                className="year higher-achievement"
+                >
+                                2010
+                                : 
+                </p>
+                <p
+                                className="year higher-achievement"
+                >
+                                64%
+                </p>
+</li>,
+              <li
+                className="cardStats"
+>
+                <img
+                                alt="checkmark"
+                                className="check"
+                                src="check.png"
+                />
+                <p
+                                className="year higher-achievement"
+                >
+                                2011
+                                : 
+                </p>
+                <p
+                                className="year higher-achievement"
+                >
+                                67%
+                </p>
+</li>,
+              <li
+                className="cardStats"
+>
+                <img
+                                alt="checkmark"
+                                className="check"
+                                src="check.png"
+                />
+                <p
+                                className="year higher-achievement"
+                >
+                                2012
+                                : 
+                </p>
+                <p
+                                className="year higher-achievement"
+                >
+                                70%
+                </p>
+</li>,
+              <li
+                className="cardStats"
+>
+                <img
+                                alt="checkmark"
+                                className="check"
+                                src="check.png"
+                />
+                <p
+                                className="year higher-achievement"
+                >
+                                2013
+                                : 
+                </p>
+                <p
+                                className="year higher-achievement"
+                >
+                                70%
+                </p>
+</li>,
+              <li
+                className="cardStats"
+>
+                <img
+                                alt="checkmark"
+                                className="check"
+                                src="check.png"
+                />
+                <p
+                                className="year higher-achievement"
+                >
+                                2014
+                                : 
+                </p>
+                <p
+                                className="year higher-achievement"
+                >
+                                74%
+                </p>
+</li>,
             ],
+            "title": "A checkmark indicates a value greater than 50%.",
           },
           "ref": null,
           "rendered": Array [
-            "2004",
-            ": ",
-            24,
-            "%",
+            Object {
+              "instance": null,
+              "key": "2004",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="checkmark"
+                    className="check"
+                    src="none.gif"
+/>,
+                  <p
+                    className="year"
+>
+                    2004
+                    : 
+</p>,
+                  <p
+                    className="percent"
+>
+                    24%
+</p>,
+                ],
+                "className": "cardStats",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "checkmark",
+                    "className": "check",
+                    "src": "none.gif",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2004",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2004",
+                    ": ",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "24%",
+                    "className": "percent",
+                  },
+                  "ref": null,
+                  "rendered": "24%",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2005",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="checkmark"
+                    className="check"
+                    src="none.gif"
+/>,
+                  <p
+                    className="year"
+>
+                    2005
+                    : 
+</p>,
+                  <p
+                    className="percent"
+>
+                    28%
+</p>,
+                ],
+                "className": "cardStats",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "checkmark",
+                    "className": "check",
+                    "src": "none.gif",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2005",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2005",
+                    ": ",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "28%",
+                    "className": "percent",
+                  },
+                  "ref": null,
+                  "rendered": "28%",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2006",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="checkmark"
+                    className="check"
+                    src="none.gif"
+/>,
+                  <p
+                    className="year"
+>
+                    2006
+                    : 
+</p>,
+                  <p
+                    className="percent"
+>
+                    34%
+</p>,
+                ],
+                "className": "cardStats",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "checkmark",
+                    "className": "check",
+                    "src": "none.gif",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2006",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2006",
+                    ": ",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "34%",
+                    "className": "percent",
+                  },
+                  "ref": null,
+                  "rendered": "34%",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2007",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="checkmark"
+                    className="check"
+                    src="none.gif"
+/>,
+                  <p
+                    className="year"
+>
+                    2007
+                    : 
+</p>,
+                  <p
+                    className="percent"
+>
+                    40%
+</p>,
+                ],
+                "className": "cardStats",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "checkmark",
+                    "className": "check",
+                    "src": "none.gif",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2007",
+                      ": ",
+                    ],
+                    "className": "year",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2007",
+                    ": ",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "40%",
+                    "className": "percent",
+                  },
+                  "ref": null,
+                  "rendered": "40%",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2008",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="checkmark"
+                    className="check"
+                    src="check.png"
+/>,
+                  <p
+                    className="year higher-achievement"
+>
+                    2008
+                    : 
+</p>,
+                  <p
+                    className="year higher-achievement"
+>
+                    54%
+</p>,
+                ],
+                "className": "cardStats",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "checkmark",
+                    "className": "check",
+                    "src": "check.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2008",
+                      ": ",
+                    ],
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2008",
+                    ": ",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "54%",
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": "54%",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2009",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="checkmark"
+                    className="check"
+                    src="check.png"
+/>,
+                  <p
+                    className="year higher-achievement"
+>
+                    2009
+                    : 
+</p>,
+                  <p
+                    className="year higher-achievement"
+>
+                    60%
+</p>,
+                ],
+                "className": "cardStats",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "checkmark",
+                    "className": "check",
+                    "src": "check.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2009",
+                      ": ",
+                    ],
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2009",
+                    ": ",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "60%",
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": "60%",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2010",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="checkmark"
+                    className="check"
+                    src="check.png"
+/>,
+                  <p
+                    className="year higher-achievement"
+>
+                    2010
+                    : 
+</p>,
+                  <p
+                    className="year higher-achievement"
+>
+                    64%
+</p>,
+                ],
+                "className": "cardStats",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "checkmark",
+                    "className": "check",
+                    "src": "check.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2010",
+                      ": ",
+                    ],
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2010",
+                    ": ",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "64%",
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": "64%",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2011",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="checkmark"
+                    className="check"
+                    src="check.png"
+/>,
+                  <p
+                    className="year higher-achievement"
+>
+                    2011
+                    : 
+</p>,
+                  <p
+                    className="year higher-achievement"
+>
+                    67%
+</p>,
+                ],
+                "className": "cardStats",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "checkmark",
+                    "className": "check",
+                    "src": "check.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2011",
+                      ": ",
+                    ],
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2011",
+                    ": ",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "67%",
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": "67%",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2012",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="checkmark"
+                    className="check"
+                    src="check.png"
+/>,
+                  <p
+                    className="year higher-achievement"
+>
+                    2012
+                    : 
+</p>,
+                  <p
+                    className="year higher-achievement"
+>
+                    70%
+</p>,
+                ],
+                "className": "cardStats",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "checkmark",
+                    "className": "check",
+                    "src": "check.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2012",
+                      ": ",
+                    ],
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2012",
+                    ": ",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "70%",
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": "70%",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2013",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="checkmark"
+                    className="check"
+                    src="check.png"
+/>,
+                  <p
+                    className="year higher-achievement"
+>
+                    2013
+                    : 
+</p>,
+                  <p
+                    className="year higher-achievement"
+>
+                    70%
+</p>,
+                ],
+                "className": "cardStats",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "checkmark",
+                    "className": "check",
+                    "src": "check.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2013",
+                      ": ",
+                    ],
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2013",
+                    ": ",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "70%",
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": "70%",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
+            Object {
+              "instance": null,
+              "key": "2014",
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <img
+                    alt="checkmark"
+                    className="check"
+                    src="check.png"
+/>,
+                  <p
+                    className="year higher-achievement"
+>
+                    2014
+                    : 
+</p>,
+                  <p
+                    className="year higher-achievement"
+>
+                    74%
+</p>,
+                ],
+                "className": "cardStats",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "checkmark",
+                    "className": "check",
+                    "src": "check.png",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": "img",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      "2014",
+                      ": ",
+                    ],
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    "2014",
+                    ": ",
+                  ],
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "74%",
+                    "className": "year higher-achievement",
+                  },
+                  "ref": null,
+                  "rendered": "74%",
+                  "type": "p",
+                },
+              ],
+              "type": "li",
+            },
           ],
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": "2005",
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "2005",
-              ": ",
-              27,
-              "%",
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            "2005",
-            ": ",
-            27,
-            "%",
-          ],
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": "2006",
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "2006",
-              ": ",
-              33,
-              "%",
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            "2006",
-            ": ",
-            33,
-            "%",
-          ],
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": "2007",
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "2007",
-              ": ",
-              39,
-              "%",
-            ],
-          },
-          "ref": null,
-          "rendered": Array [
-            "2007",
-            ": ",
-            39,
-            "%",
-          ],
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": "2008",
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "2008",
-              ": ",
-              53,
-              "%",
-            ],
-            "className": "higher-achievement",
-          },
-          "ref": null,
-          "rendered": Array [
-            "2008",
-            ": ",
-            53,
-            "%",
-          ],
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": "2009",
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "2009",
-              ": ",
-              59,
-              "%",
-            ],
-            "className": "higher-achievement",
-          },
-          "ref": null,
-          "rendered": Array [
-            "2009",
-            ": ",
-            59,
-            "%",
-          ],
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": "2010",
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "2010",
-              ": ",
-              64,
-              "%",
-            ],
-            "className": "higher-achievement",
-          },
-          "ref": null,
-          "rendered": Array [
-            "2010",
-            ": ",
-            64,
-            "%",
-          ],
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": "2011",
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "2011",
-              ": ",
-              67,
-              "%",
-            ],
-            "className": "higher-achievement",
-          },
-          "ref": null,
-          "rendered": Array [
-            "2011",
-            ": ",
-            67,
-            "%",
-          ],
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": "2012",
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "2012",
-              ": ",
-              69,
-              "%",
-            ],
-            "className": "higher-achievement",
-          },
-          "ref": null,
-          "rendered": Array [
-            "2012",
-            ": ",
-            69,
-            "%",
-          ],
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": "2013",
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "2013",
-              ": ",
-              70,
-              "%",
-            ],
-            "className": "higher-achievement",
-          },
-          "ref": null,
-          "rendered": Array [
-            "2013",
-            ": ",
-            70,
-            "%",
-          ],
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": "2014",
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "2014",
-              ": ",
-              74,
-              "%",
-            ],
-            "className": "higher-achievement",
-          },
-          "ref": null,
-          "rendered": Array [
-            "2014",
-            ": ",
-            74,
-            "%",
-          ],
-          "type": "p",
+          "type": "ul",
         },
       ],
       "type": "div",

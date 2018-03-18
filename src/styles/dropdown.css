@@ -1,7 +1,8 @@
-h3 {
+.dropdown-container h3 {
   display: inline-block;
   font-size: 20px;
   margin-right: 20px;
+  text-align: center
 }
 
 select {
@@ -11,6 +12,7 @@ select {
   margin: auto;
   font-size: 16px;
   color: #3A4F3B;
+}
 
 .dropdown-container {
   margin: 20px auto;

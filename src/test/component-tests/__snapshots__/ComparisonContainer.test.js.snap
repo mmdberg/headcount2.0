@@ -5,11 +5,28 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ComparisonContainer
+    comparison={
+        Object {
+            "ACADEMY 20": 0.407,
+            "ADAMS-ARAPAHOE 28J": 0.657,
+            "compared": 1.614,
+          }
+    }
     selectedCards={
         Array [
             Object {
-              "2004": 0.24,
-              "2005": 0.278,
+              "statType": "Percent",
+              "stats": Object {
+                "2004": 0.174,
+                "2005": 0.202,
+              },
+            },
+            Object {
+              "statType": "Percent",
+              "stats": Object {
+                "2004": 0.474,
+                "2005": 0.602,
+              },
             },
           ]
     }
@@ -31,10 +48,91 @@ ShallowWrapper {
           className="card clicked"
           location={undefined}
           selectCard={undefined}
-          stats={undefined}
+          statType="Percent"
+          stats={
+                    Object {
+                              "2004": 0.174,
+                              "2005": 0.202,
+                            }
+          }
 />,
-        false,
-        undefined,
+        <div
+          className="comparison-card"
+>
+          <header
+                    className="header-left"
+          >
+                    <h4
+                              className="district-name-left"
+                    >
+                              ACADEMY 20
+                    </h4>
+          </header>
+          <header
+                    className="header-right"
+          >
+                    <h4
+                              className="district-name-right"
+                    >
+                              ADAMS-ARAPAHOE 28J
+                    </h4>
+          </header>
+          <p
+                    className="district-percent-left"
+          >
+                    41%
+          </p>
+          <p
+                    className="district-percent-right"
+          >
+                    66%
+          </p>
+          <div
+                    className="comparison-header"
+          >
+                    <p
+                              className="district-percent-text"
+                    >
+                              *Average across all years
+                    </p>
+                    <h2
+                              className="comparison-title"
+                    >
+                              Comparision
+                    </h2>
+          </div>
+          <p
+                    className="comparison-text"
+          >
+                    The average of 
+                    ACADEMY 20
+                     is
+                    <span
+                              className="district-comparison"
+                    >
+                              <span>
+                                         
+                                        161%
+                                         of 
+                              </span>
+                    </span>
+                    the average of  
+                    ADAMS-ARAPAHOE 28J
+                    .
+          </p>
+</div>,
+        <Card
+          className="card clicked"
+          location={undefined}
+          selectCard={undefined}
+          statType="Percent"
+          stats={
+                    Object {
+                              "2004": 0.474,
+                              "2005": 0.602,
+                            }
+          }
+/>,
       ],
       "className": "comparison-container",
     },
@@ -48,14 +146,304 @@ ShallowWrapper {
           "className": "card clicked",
           "location": undefined,
           "selectCard": undefined,
-          "stats": undefined,
+          "statType": "Percent",
+          "stats": Object {
+            "2004": 0.174,
+            "2005": 0.202,
+          },
         },
         "ref": null,
         "rendered": null,
         "type": [Function],
       },
-      false,
-      undefined,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <header
+              className="header-left"
+>
+              <h4
+                            className="district-name-left"
+              >
+                            ACADEMY 20
+              </h4>
+</header>,
+            <header
+              className="header-right"
+>
+              <h4
+                            className="district-name-right"
+              >
+                            ADAMS-ARAPAHOE 28J
+              </h4>
+</header>,
+            <p
+              className="district-percent-left"
+>
+              41%
+</p>,
+            <p
+              className="district-percent-right"
+>
+              66%
+</p>,
+            <div
+              className="comparison-header"
+>
+              <p
+                            className="district-percent-text"
+              >
+                            *Average across all years
+              </p>
+              <h2
+                            className="comparison-title"
+              >
+                            Comparision
+              </h2>
+</div>,
+            <p
+              className="comparison-text"
+>
+              The average of 
+              ACADEMY 20
+               is
+              <span
+                            className="district-comparison"
+              >
+                            <span>
+                                           
+                                          161%
+                                           of 
+                            </span>
+              </span>
+              the average of  
+              ADAMS-ARAPAHOE 28J
+              .
+</p>,
+          ],
+          "className": "comparison-card",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h4
+                className="district-name-left"
+>
+                ACADEMY 20
+</h4>,
+              "className": "header-left",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "ACADEMY 20",
+                "className": "district-name-left",
+              },
+              "ref": null,
+              "rendered": "ACADEMY 20",
+              "type": "h4",
+            },
+            "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <h4
+                className="district-name-right"
+>
+                ADAMS-ARAPAHOE 28J
+</h4>,
+              "className": "header-right",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "ADAMS-ARAPAHOE 28J",
+                "className": "district-name-right",
+              },
+              "ref": null,
+              "rendered": "ADAMS-ARAPAHOE 28J",
+              "type": "h4",
+            },
+            "type": "header",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "41%",
+              "className": "district-percent-left",
+            },
+            "ref": null,
+            "rendered": "41%",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "66%",
+              "className": "district-percent-right",
+            },
+            "ref": null,
+            "rendered": "66%",
+            "type": "p",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <p
+                  className="district-percent-text"
+>
+                  *Average across all years
+</p>,
+                <h2
+                  className="comparison-title"
+>
+                  Comparision
+</h2>,
+              ],
+              "className": "comparison-header",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "*Average across all years",
+                  "className": "district-percent-text",
+                },
+                "ref": null,
+                "rendered": "*Average across all years",
+                "type": "p",
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Comparision",
+                  "className": "comparison-title",
+                },
+                "ref": null,
+                "rendered": "Comparision",
+                "type": "h2",
+              },
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "The average of ",
+                "ACADEMY 20",
+                " is",
+                <span
+                  className="district-comparison"
+>
+                  <span>
+                                     
+                                    161%
+                                     of 
+                  </span>
+</span>,
+                "the average of  ",
+                "ADAMS-ARAPAHOE 28J",
+                ".",
+              ],
+              "className": "comparison-text",
+            },
+            "ref": null,
+            "rendered": Array [
+              "The average of ",
+              "ACADEMY 20",
+              " is",
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <span>
+                     
+                    161%
+                     of 
+</span>,
+                  "className": "district-comparison",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      " ",
+                      "161%",
+                      " of ",
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    " ",
+                    "161%",
+                    " of ",
+                  ],
+                  "type": "span",
+                },
+                "type": "span",
+              },
+              "the average of  ",
+              "ADAMS-ARAPAHOE 28J",
+              ".",
+            ],
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "card clicked",
+          "location": undefined,
+          "selectCard": undefined,
+          "statType": "Percent",
+          "stats": Object {
+            "2004": 0.474,
+            "2005": 0.602,
+          },
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -70,10 +458,91 @@ ShallowWrapper {
             className="card clicked"
             location={undefined}
             selectCard={undefined}
-            stats={undefined}
+            statType="Percent"
+            stats={
+                        Object {
+                                    "2004": 0.174,
+                                    "2005": 0.202,
+                                  }
+            }
 />,
-          false,
-          undefined,
+          <div
+            className="comparison-card"
+>
+            <header
+                        className="header-left"
+            >
+                        <h4
+                                    className="district-name-left"
+                        >
+                                    ACADEMY 20
+                        </h4>
+            </header>
+            <header
+                        className="header-right"
+            >
+                        <h4
+                                    className="district-name-right"
+                        >
+                                    ADAMS-ARAPAHOE 28J
+                        </h4>
+            </header>
+            <p
+                        className="district-percent-left"
+            >
+                        41%
+            </p>
+            <p
+                        className="district-percent-right"
+            >
+                        66%
+            </p>
+            <div
+                        className="comparison-header"
+            >
+                        <p
+                                    className="district-percent-text"
+                        >
+                                    *Average across all years
+                        </p>
+                        <h2
+                                    className="comparison-title"
+                        >
+                                    Comparision
+                        </h2>
+            </div>
+            <p
+                        className="comparison-text"
+            >
+                        The average of 
+                        ACADEMY 20
+                         is
+                        <span
+                                    className="district-comparison"
+                        >
+                                    <span>
+                                                 
+                                                161%
+                                                 of 
+                                    </span>
+                        </span>
+                        the average of  
+                        ADAMS-ARAPAHOE 28J
+                        .
+            </p>
+</div>,
+          <Card
+            className="card clicked"
+            location={undefined}
+            selectCard={undefined}
+            statType="Percent"
+            stats={
+                        Object {
+                                    "2004": 0.474,
+                                    "2005": 0.602,
+                                  }
+            }
+/>,
         ],
         "className": "comparison-container",
       },
@@ -87,14 +556,304 @@ ShallowWrapper {
             "className": "card clicked",
             "location": undefined,
             "selectCard": undefined,
-            "stats": undefined,
+            "statType": "Percent",
+            "stats": Object {
+              "2004": 0.174,
+              "2005": 0.202,
+            },
           },
           "ref": null,
           "rendered": null,
           "type": [Function],
         },
-        false,
-        undefined,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <header
+                className="header-left"
+>
+                <h4
+                                className="district-name-left"
+                >
+                                ACADEMY 20
+                </h4>
+</header>,
+              <header
+                className="header-right"
+>
+                <h4
+                                className="district-name-right"
+                >
+                                ADAMS-ARAPAHOE 28J
+                </h4>
+</header>,
+              <p
+                className="district-percent-left"
+>
+                41%
+</p>,
+              <p
+                className="district-percent-right"
+>
+                66%
+</p>,
+              <div
+                className="comparison-header"
+>
+                <p
+                                className="district-percent-text"
+                >
+                                *Average across all years
+                </p>
+                <h2
+                                className="comparison-title"
+                >
+                                Comparision
+                </h2>
+</div>,
+              <p
+                className="comparison-text"
+>
+                The average of 
+                ACADEMY 20
+                 is
+                <span
+                                className="district-comparison"
+                >
+                                <span>
+                                                 
+                                                161%
+                                                 of 
+                                </span>
+                </span>
+                the average of  
+                ADAMS-ARAPAHOE 28J
+                .
+</p>,
+            ],
+            "className": "comparison-card",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h4
+                  className="district-name-left"
+>
+                  ACADEMY 20
+</h4>,
+                "className": "header-left",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "ACADEMY 20",
+                  "className": "district-name-left",
+                },
+                "ref": null,
+                "rendered": "ACADEMY 20",
+                "type": "h4",
+              },
+              "type": "header",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <h4
+                  className="district-name-right"
+>
+                  ADAMS-ARAPAHOE 28J
+</h4>,
+                "className": "header-right",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "ADAMS-ARAPAHOE 28J",
+                  "className": "district-name-right",
+                },
+                "ref": null,
+                "rendered": "ADAMS-ARAPAHOE 28J",
+                "type": "h4",
+              },
+              "type": "header",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "41%",
+                "className": "district-percent-left",
+              },
+              "ref": null,
+              "rendered": "41%",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": "66%",
+                "className": "district-percent-right",
+              },
+              "ref": null,
+              "rendered": "66%",
+              "type": "p",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <p
+                    className="district-percent-text"
+>
+                    *Average across all years
+</p>,
+                  <h2
+                    className="comparison-title"
+>
+                    Comparision
+</h2>,
+                ],
+                "className": "comparison-header",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "*Average across all years",
+                    "className": "district-percent-text",
+                  },
+                  "ref": null,
+                  "rendered": "*Average across all years",
+                  "type": "p",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Comparision",
+                    "className": "comparison-title",
+                  },
+                  "ref": null,
+                  "rendered": "Comparision",
+                  "type": "h2",
+                },
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "The average of ",
+                  "ACADEMY 20",
+                  " is",
+                  <span
+                    className="district-comparison"
+>
+                    <span>
+                                         
+                                        161%
+                                         of 
+                    </span>
+</span>,
+                  "the average of  ",
+                  "ADAMS-ARAPAHOE 28J",
+                  ".",
+                ],
+                "className": "comparison-text",
+              },
+              "ref": null,
+              "rendered": Array [
+                "The average of ",
+                "ACADEMY 20",
+                " is",
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <span>
+                       
+                      161%
+                       of 
+</span>,
+                    "className": "district-comparison",
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": Array [
+                        " ",
+                        "161%",
+                        " of ",
+                      ],
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      " ",
+                      "161%",
+                      " of ",
+                    ],
+                    "type": "span",
+                  },
+                  "type": "span",
+                },
+                "the average of  ",
+                "ADAMS-ARAPAHOE 28J",
+                ".",
+              ],
+              "type": "p",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "card clicked",
+            "location": undefined,
+            "selectCard": undefined,
+            "statType": "Percent",
+            "stats": Object {
+              "2004": 0.474,
+              "2005": 0.602,
+            },
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
       ],
       "type": "div",
     },

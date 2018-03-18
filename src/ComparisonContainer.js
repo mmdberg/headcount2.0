@@ -1,15 +1,13 @@
 import React from 'react';
 import Card from './Card';
 import PropTypes from 'prop-types';
-import './styles/comparisonContainer.css'
+import './styles/comparisonContainer.css';
 
 const ComparisonContainer = 
   ({selectedCards, comparison, selectCard}) => {
-    let newDistricts = [];
-    let newDistrictValues = [];
     if (comparison) {
-      newDistricts = Object.keys(comparison);
-      newDistrictValues = Object.values(comparison);
+      var newDistricts = Object.keys(comparison);
+      var newDistrictValues = Object.values(comparison);
     }
     const comparisonCards = selectedCards.map((district) => {
 
@@ -24,21 +22,21 @@ const ComparisonContainer =
     });
 
     const cleanPercent = (stat) => {
-      console.log(comparisonCards[0].props.statType)
       if (comparisonCards[0].props.statType === 'Percent'){
-        console.log(stat)
-        return parseInt(stat * 100)
-      } else if (comparisonCards[0].props.statType === 'Number')
-        return stat
-    }
+        return (stat * 100).toFixed(0) + '%';
+      } else {
+        return stat.toFixed(0);
+      }
+    };
 
     const cleanComparison = (stat) => {
-      if (stat && stat != 'Infinity') {
-        return parseInt(newDistrictValues[2] * 100) + '%' 
+      if (stat > 0 && stat !== Infinity) {
+        let cleanStat = (stat * 100).toFixed(0) + '%';
+        return <span> {cleanStat} of </span>; 
       } else {
-        return 'not comparable to'
+        return ' not comparable to ';
       }
-    }
+    };
     
     return (
       <div className="comparison-container">
@@ -51,26 +49,34 @@ const ComparisonContainer =
           <header className="header-right">
             <h4 className="district-name-right">{newDistricts[1]}</h4>
           </header>
-          <p className="district-percent-left">{cleanPercent(newDistrictValues[0])}%</p>
-          <p className="district-percent-right">{cleanPercent(newDistrictValues[1])}%</p>
+          <p className="district-percent-left">
+            {cleanPercent(newDistrictValues[0])}
+          </p>
+          <p className="district-percent-right">
+            {cleanPercent(newDistrictValues[1])}
+          </p>
           <div className="comparison-header">
             <p className="district-percent-text">*Average across all years</p>
             <h2 className="comparison-title">Comparision</h2>
           </div>
-          <p className="comparison-text">The average of {newDistricts[0]} is &nbsp;
-            <span className="district-comparison">{cleanComparison(newDistrictValues[2])}</span> of the average of &nbsp;
-            {newDistricts[1]}.</p>
+          <p className="comparison-text">
+            The average of {newDistricts[0]} is
+            <span className='district-comparison'> 
+              {cleanComparison(newDistrictValues[2])}</span>
+            the average of &nbsp;
+            {newDistricts[1]}.
+          </p>
         </div>
         }
         {comparisonCards[1]}
-    </div>
-  )
-}
+      </div>
+    );
+  };
 
 ComparisonContainer.propTypes = {
   comparison: PropTypes.object,
   selectCard: PropTypes.func,
   selectedCards: PropTypes.array
-}
+};
 
-export default ComparisonContainer 
+export default ComparisonContainer;

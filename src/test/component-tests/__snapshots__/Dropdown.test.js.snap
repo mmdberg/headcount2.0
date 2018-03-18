@@ -1,0 +1,389 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown should match the snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Dropdown />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h3>
+          Choose a category to compare districts:
+</h3>,
+        <select
+          onChange={[Function]}
+>
+          <option>
+                    Kindergarteners in Full Day Programs
+          </option>
+          <option>
+                    High School Graduation Rates
+          </option>
+          <option>
+                    Median Household Income
+          </option>
+          <option>
+                    Special Education
+          </option>
+          <option>
+                    Title I Students
+          </option>
+          <option>
+                    Remediation In Higher Education
+          </option>
+          <option>
+                    Online Pupil Enrollment
+          </option>
+          <option>
+                    Pupil Enrollment
+          </option>
+</select>,
+      ],
+      "className": "dropdown-container",
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Choose a category to compare districts:",
+        },
+        "ref": null,
+        "rendered": "Choose a category to compare districts:",
+        "type": "h3",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <option>
+              Kindergarteners in Full Day Programs
+</option>,
+            <option>
+              High School Graduation Rates
+</option>,
+            <option>
+              Median Household Income
+</option>,
+            <option>
+              Special Education
+</option>,
+            <option>
+              Title I Students
+</option>,
+            <option>
+              Remediation In Higher Education
+</option>,
+            <option>
+              Online Pupil Enrollment
+</option>,
+            <option>
+              Pupil Enrollment
+</option>,
+          ],
+          "onChange": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": "0",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Kindergarteners in Full Day Programs",
+            },
+            "ref": null,
+            "rendered": "Kindergarteners in Full Day Programs",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "1",
+            "nodeType": "host",
+            "props": Object {
+              "children": "High School Graduation Rates",
+            },
+            "ref": null,
+            "rendered": "High School Graduation Rates",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "2",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Median Household Income",
+            },
+            "ref": null,
+            "rendered": "Median Household Income",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "3",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Special Education",
+            },
+            "ref": null,
+            "rendered": "Special Education",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "4",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Title I Students",
+            },
+            "ref": null,
+            "rendered": "Title I Students",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "5",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Remediation In Higher Education",
+            },
+            "ref": null,
+            "rendered": "Remediation In Higher Education",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "6",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Online Pupil Enrollment",
+            },
+            "ref": null,
+            "rendered": "Online Pupil Enrollment",
+            "type": "option",
+          },
+          Object {
+            "instance": null,
+            "key": "7",
+            "nodeType": "host",
+            "props": Object {
+              "children": "Pupil Enrollment",
+            },
+            "ref": null,
+            "rendered": "Pupil Enrollment",
+            "type": "option",
+          },
+        ],
+        "type": "select",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3>
+            Choose a category to compare districts:
+</h3>,
+          <select
+            onChange={[Function]}
+>
+            <option>
+                        Kindergarteners in Full Day Programs
+            </option>
+            <option>
+                        High School Graduation Rates
+            </option>
+            <option>
+                        Median Household Income
+            </option>
+            <option>
+                        Special Education
+            </option>
+            <option>
+                        Title I Students
+            </option>
+            <option>
+                        Remediation In Higher Education
+            </option>
+            <option>
+                        Online Pupil Enrollment
+            </option>
+            <option>
+                        Pupil Enrollment
+            </option>
+</select>,
+        ],
+        "className": "dropdown-container",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Choose a category to compare districts:",
+          },
+          "ref": null,
+          "rendered": "Choose a category to compare districts:",
+          "type": "h3",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <option>
+                Kindergarteners in Full Day Programs
+</option>,
+              <option>
+                High School Graduation Rates
+</option>,
+              <option>
+                Median Household Income
+</option>,
+              <option>
+                Special Education
+</option>,
+              <option>
+                Title I Students
+</option>,
+              <option>
+                Remediation In Higher Education
+</option>,
+              <option>
+                Online Pupil Enrollment
+</option>,
+              <option>
+                Pupil Enrollment
+</option>,
+            ],
+            "onChange": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": "0",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Kindergarteners in Full Day Programs",
+              },
+              "ref": null,
+              "rendered": "Kindergarteners in Full Day Programs",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "1",
+              "nodeType": "host",
+              "props": Object {
+                "children": "High School Graduation Rates",
+              },
+              "ref": null,
+              "rendered": "High School Graduation Rates",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "2",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Median Household Income",
+              },
+              "ref": null,
+              "rendered": "Median Household Income",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "3",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Special Education",
+              },
+              "ref": null,
+              "rendered": "Special Education",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "4",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Title I Students",
+              },
+              "ref": null,
+              "rendered": "Title I Students",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "5",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Remediation In Higher Education",
+              },
+              "ref": null,
+              "rendered": "Remediation In Higher Education",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "6",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Online Pupil Enrollment",
+              },
+              "ref": null,
+              "rendered": "Online Pupil Enrollment",
+              "type": "option",
+            },
+            Object {
+              "instance": null,
+              "key": "7",
+              "nodeType": "host",
+              "props": Object {
+                "children": "Pupil Enrollment",
+              },
+              "ref": null,
+              "rendered": "Pupil Enrollment",
+              "type": "option",
+            },
+          ],
+          "type": "select",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

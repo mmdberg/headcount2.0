@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-modules.exports = {
+modules.exports = 
   [
   {
     "Location": "Colorado",
@@ -25343,4 +25343,4 @@ modules.exports = {
     "Data": 0.004
   }
 ]
-}
+

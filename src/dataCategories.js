@@ -3,7 +3,9 @@ import highSchool from './data/high_school_graduation_rates.js';
 import specialEd from './data/special_education.js';
 import titleI from './data/title_i_students.js';
 import medianIncome from './data/median_household_income.js';
-import remediation from './data/remediation_in_higher_education';
+import remediation from './data/remediation_in_higher_education.js';
+import online from './data/online_pupil_enrollment.js';
+import pupil from './data/pupil_enrollment.js';
 
 export const dataList = [
   { type: 'Kindergarteners in Full Day Programs'}, 
@@ -11,36 +13,38 @@ export const dataList = [
   { type: 'Median Household Income'},
   { type: 'Special Education'},
   { type: 'Title I Students'},
-  { type: 'Remediation In Higher Education'}
-]
+  { type: 'Remediation In Higher Education'},
+  { type: 'Online Pupil Enrollment'},
+  { type: 'Pupil Enrollment'}
+];
 
 export const getProgram = (program) => {
 
-  switch(program) {
-    case 'Kindergarteners in Full Day Programs':
-      return kinderData
-      break;
+  switch (program) {
+  case 'Kindergarteners in Full Day Programs':
+    return kinderData;
 
-    case 'High School Graduation Rates':
-      return highSchool
-      break;
+  case 'High School Graduation Rates':
+    return highSchool;
 
-    case 'Median Household Income':
-      return medianIncome
-      break;
+  case 'Median Household Income':
+    return medianIncome;
 
-    case 'Special Education':
-      return specialEd
-      break;
+  case 'Special Education':
+    return specialEd;
 
-    case 'Title I Students':
-      return titleI
-      break;
+  case 'Title I Students':
+    return titleI;
 
-    case 'Remediation In Higher Education':
-      return remediation
-      break;
+  case 'Remediation In Higher Education':
+    return remediation;
 
-    default: console.log('error');
+  case 'Online Pupil Enrollment':
+    return online;
+
+  case 'Pupil Enrollment':
+    return pupil;
+
+  default: return kinderData;
   }
-}
+};
