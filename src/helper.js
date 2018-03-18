@@ -4,7 +4,6 @@ export default class DistrictRepository {
   }
 
   summarizeStats(stats) {
-    console.log('stats', stats)
     return stats.reduce((obj, enrollment) => {
       if (!obj[enrollment.Location]){
         obj[enrollment.Location] = { location: '', stats: {}} 
