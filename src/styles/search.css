@@ -14,3 +14,7 @@ input {
   background-repeat: no-repeat;
   background-position: 15px;
 }
+
+h2 {
+  text-align: center;
+}
