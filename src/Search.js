@@ -6,8 +6,6 @@ import PropTypes from 'prop-types';
 class Search extends Component {
 
   handleChange = (event) => {
-    console.log(this.props)
-    console.log(event.target.value)
     this.props.filterStats(event.target.value);
   }
 
