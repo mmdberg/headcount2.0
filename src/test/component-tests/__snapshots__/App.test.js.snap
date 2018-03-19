@@ -25,7 +25,7 @@ ShallowWrapper {
           getStats={[Function]}
 />,
         <Search
-          filterData={[Function]}
+          filterStats={[Function]}
 />,
         false,
         <Unknown
@@ -3144,7 +3144,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "filterData": [Function],
+          "filterStats": [Function],
         },
         "ref": null,
         "rendered": null,
@@ -6259,7 +6259,7 @@ ShallowWrapper {
             getStats={[Function]}
 />,
           <Search
-            filterData={[Function]}
+            filterStats={[Function]}
 />,
           false,
           <Unknown
@@ -9378,7 +9378,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "filterData": [Function],
+            "filterStats": [Function],
           },
           "ref": null,
           "rendered": null,
