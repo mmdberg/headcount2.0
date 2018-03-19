@@ -4,7 +4,7 @@ select {
   width: 300px;
   margin: auto;
   font-size: 16px;
-  color: rgb(58, 79, 59, 1);
+  color: rgba(58, 79, 59, 1);
 }
 
 .dropdown-container {
