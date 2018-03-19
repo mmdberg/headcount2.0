@@ -1,20 +1,41 @@
-.dropdown-container h3 {
-  display: inline-block;
-  font-size: 20px;
-  margin-right: 20px;
-  text-align: center
-}
-
 select {
   outline: none;
   height: 35px;
   width: 300px;
   margin: auto;
   font-size: 16px;
-  color: #3A4F3B;
+  color: rgb(58, 79, 59, 1);
 }
 
 .dropdown-container {
+  padding: 0 40px;
   margin: 20px auto;
   text-align: center;
+}
+
+.dropdown-container h3 {
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 20px;
+  text-align: center
+}  
+
+@media screen and (max-width: 718px){
+
+  .dropdown-container {
+    padding: 0 40px;
+  }
+
+  .dropdown-container h3 {
+    margin-top: 0;
+  }
+
+}
+  
+@media screen and (max-width: 420px){
+
+  .dropdown-container {
+    padding: 0;
+  }
+  
 }
